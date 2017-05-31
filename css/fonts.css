@@ -1,0 +1,489 @@
+@font-face {
+	font-family: 'ITCOfficinaSerifBold';
+	src: url('../fonts/officinaserif-bold-webfont.woff2') format('woff2'),
+	url('../fonts/officinaserif-bold-webfont.woff') format('woff'),
+	url('../fonts/officinaserif-bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ITCOfficinaSerifBookRegular';
+	src: url('../fonts/officinaserif-book-webfont.eot');
+	src: url('../fonts/officinaserif-book-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/officinaserif-book-webfont.woff') format('woff'),
+		 url('../fonts/officinaserif-book-webfont.ttf') format('truetype'),
+		 url('../fonts/officinaserif-book-webfont.svg#ITCOfficinaSerifBookRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'robotobold';
+	src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+	url('../fonts/roboto-bold-webfont.woff') format('woff'),
+	url('../fonts/roboto-bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'robotoregular';
+	src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+	url('../fonts/roboto-regular-webfont.woff') format('woff'),
+	url('../fonts/roboto-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ITCOfficinaSerifBookRegular';
+  src: url("../fonts/officinaserif-book-webfont.eot");
+  src: url("../fonts/officinaserif-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/officinaserif-book-webfont.woff") format("woff"), url("../fonts/officinaserif-book-webfont.svg") format("svg"), url("../fonts/officinaserif-book-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ITCOfficinaSerifBold';
+  src: url("../fonts/officinaserif-bold-webfont.eot");
+  src: url("../fonts/officinaserif-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/officinaserif-bold-webfont.woff") format("woff"), url("../fonts/officinaserif-bold-webfont.svg") format("svg"), url("../fonts/officinaserif-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TrebuchetMS';
+  src: url("../fonts/TrebuchetMS.eot");
+  src: url("../fonts/TrebuchetMS.eot?#iefix") format("embedded-opentype"), url("../fonts/TrebuchetMS.woff") format("woff"), url("../fonts/TrebuchetMS.svg") format("svg"), url("../fonts/TrebuchetMS.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TrebuchetMSBold';
+  src: url("../fonts/TrebuchetMS-Bold.eot");
+  src: url("../fonts/TrebuchetMS-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/TrebuchetMS-Bold.woff") format("woff"), url("../fonts/TrebuchetMS-Bold.svg") format("svg"), url("../fonts/TrebuchetMS-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VivoIcons';
+  src: url("../fonts/VivoIcons.eot");
+  src: url("../fonts/VivoIcons.eot?#iefix") format("embedded-opentype"), url("../fonts/VivoIcons.woff") format("woff"), url("../fonts/VivoIcons.svg") format("svg"), url("../fonts/VivoIcons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@media (max-width: 767px) {
+  .atom-tablet-adaptative {
+    font-size: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .atom-tablet-adaptative {
+    font-size: 90%;
+  }
+}
+@media (min-width: 992px) {
+  .atom-tablet-adaptative {
+    font-size: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  .atom-tablet-adaptative {
+    font-size: 100%;
+  }
+}
+
+.atom-gradient-purple, .organism-navbar .navbar .navbar-header {
+  background-color: #7619a5;
+  background: -moz-linear-gradient(left, #611988 0%, #611988 25%, #bd7cd1 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #611988), color-stop(25%, #611988), color-stop(100%, #bd7cd1));
+  background: -webkit-linear-gradient(left, #611988 0%, #611988 25%, #bd7cd1 100%);
+  background: -o-linear-gradient(left, #611988 0%, #611988 25%, #bd7cd1 100%);
+  background: -ms-linear-gradient(left, #611988 0%, #611988 25%, #bd7cd1 100%);
+  background: linear-gradient(to right, #611988 0%, #611988 25%, #bd7cd1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#611988', endColorstr='#bd7cd1', GradientType=1 );
+}
+
+.atom-gradient-grey {
+  background: rgba(246, 246, 246, 0);
+  background: -moz-linear-gradient(top, rgba(246, 246, 246, 0) 0%, rgba(246, 246, 246, 0.5) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(246, 246, 246, 0)), color-stop(100%, rgba(246, 246, 246, 0.5)));
+  background: -webkit-linear-gradient(top, rgba(246, 246, 246, 0) 0%, rgba(246, 246, 246, 0.5) 100%);
+  background: -o-linear-gradient(top, rgba(246, 246, 246, 0) 0%, rgba(246, 246, 246, 0.5) 100%);
+  background: -ms-linear-gradient(top, rgba(246, 246, 246, 0) 0%, rgba(246, 246, 246, 0.5) 100%);
+  background: linear-gradient(to bottom, rgba(246, 246, 246, 0) 0%, rgba(246, 246, 246, 0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#f6f6f6', GradientType=0 );
+}
+
+.atom-gradient-purple1 {
+  background: #681992;
+  background: -moz-linear-gradient(left, #681992 0%, #7319a0 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #681992), color-stop(100%, #7319a0));
+  background: -webkit-linear-gradient(left, #681992 0%, #7319a0 100%);
+  background: -o-linear-gradient(left, #681992 0%, #7319a0 100%);
+  background: -ms-linear-gradient(left, #681992 0%, #7319a0 100%);
+  background: linear-gradient(to right, #681992 0%, #7319a0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#681992', endColorstr='#7319a0', GradientType=1 );
+}
+
+.atom-gradient-purple2 {
+  background: #7f29ad;
+  background: -moz-linear-gradient(left, #7f29ad 0%, #8b3eb4 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #7f29ad), color-stop(100%, #8b3eb4));
+  background: -webkit-linear-gradient(left, #7f29ad 0%, #8b3eb4 100%);
+  background: -o-linear-gradient(left, #7f29ad 0%, #8b3eb4 100%);
+  background: -ms-linear-gradient(left, #7f29ad 0%, #8b3eb4 100%);
+  background: linear-gradient(to right, #7f29ad 0%, #8b3eb4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f29ad', endColorstr='#8b3eb4', GradientType=1 );
+}
+
+.atom-gradient-purple3 {
+  background: #9c56bf;
+  background: -moz-linear-gradient(left, #9c56bf 0%, #b472cc 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #9c56bf), color-stop(100%, #b472cc));
+  background: -webkit-linear-gradient(left, #9c56bf 0%, #b472cc 100%);
+  background: -o-linear-gradient(left, #9c56bf 0%, #b472cc 100%);
+  background: -ms-linear-gradient(left, #9c56bf 0%, #b472cc 100%);
+  background: linear-gradient(to right, #9c56bf 0%, #b472cc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c56bf', endColorstr='#b472cc', GradientType=1 );
+}
+
+.atom-gradient-white-fade {
+  background: #fff;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(50%, white), color-stop(100%, white));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+.atom-icon:after, .atom-link:after, .molecule-checkbox .atom-checkbox:checked + .atom-label:after {
+  content: "i";
+  font-family: VivoIcons;
+}
+.atom-icon.icon-account_copy:after, .icon-account_copy.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-account_copy.atom-label:after {
+  content: "\EA01";
+}
+.atom-icon.icon-note_text:after, .icon-note_text.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-note_text.atom-label:after {
+  content: "\EA02";
+}
+.atom-icon.icon-agreement:after, .icon-agreement.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-agreement.atom-label:after {
+  content: "\EA03";
+}
+.atom-icon.icon-avatar:after, .icon-avatar.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-avatar.atom-label:after {
+  content: "\EA04";
+}
+.atom-icon.icon-ballon_txt:after, .icon-ballon_txt.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-ballon_txt.atom-label:after {
+  content: "\EA05";
+}
+.atom-icon.icon-calendar:after, .icon-calendar.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-calendar.atom-label:after {
+  content: "\EA06";
+}
+.atom-icon.icon-cellphone:after, .icon-cellphone.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-cellphone.atom-label:after {
+  content: "\EA07";
+}
+.atom-icon.icon-cellphone_credits:after, .icon-cellphone_credits.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-cellphone_credits.atom-label:after {
+  content: "\EA08";
+}
+.atom-icon.icon-cellphone_dollar_sign:after, .icon-cellphone_dollar_sign.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-cellphone_dollar_sign.atom-label:after {
+  content: "\EA09";
+}
+.atom-icon.icon-cellphone_loss:after, .icon-cellphone_loss.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-cellphone_loss.atom-label:after {
+  content: "\EA0A";
+}
+.atom-icon.icon-cellphone_plus:after, .icon-cellphone_plus.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-cellphone_plus.atom-label:after {
+  content: "\EA0B";
+}
+.atom-icon.icon-cellphone_susp:after, .icon-cellphone_susp.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-cellphone_susp.atom-label:after {
+  content: "\EA0C";
+}
+.atom-icon.icon-checked:after, .icon-checked.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .atom-label:after {
+  content: "\EA0D";
+}
+.atom-icon.icon-convenience:after, .icon-convenience.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-convenience.atom-label:after {
+  content: "\EA0E";
+}
+.atom-icon.icon-customer:after, .icon-customer.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-customer.atom-label:after {
+  content: "\EA0F";
+}
+.atom-icon.icon-customerServices:after, .icon-customerServices.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-customerServices.atom-label:after {
+  content: "\EA10";
+}
+.atom-icon.icon-data:after, .icon-data.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-data.atom-label:after {
+  content: "\EA11";
+}
+.atom-icon.icon-data_transfer:after, .icon-data_transfer.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-data_transfer.atom-label:after {
+  content: "\EA12";
+}
+.atom-icon.icon-date:after, .icon-date.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-date.atom-label:after {
+  content: "\EA13";
+}
+.atom-icon.icon-denied:after, .icon-denied.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-denied.atom-label:after {
+  content: "\EA14";
+}
+.atom-icon.icon-digital_account:after, .icon-digital_account.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-digital_account.atom-label:after {
+  content: "\EA15";
+}
+.atom-icon.icon-duplicate:after, .icon-duplicate.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-duplicate.atom-label:after {
+  content: "\EA16";
+}
+.atom-icon.icon-email:after, .icon-email.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-email.atom-label:after {
+  content: "\EA17";
+}
+.atom-icon.icon-leaning:after, .icon-leaning.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-leaning.atom-label:after {
+  content: "\EA18";
+}
+.atom-icon.icon-modal-close:after, .icon-modal-close.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-modal-close.atom-label:after {
+  content: "\EA19";
+}
+.atom-icon.icon-myAccount:after, .icon-myAccount.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-myAccount.atom-label:after {
+  content: "\EA1A";
+}
+.atom-icon.icon-myData:after, .icon-myData.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-myData.atom-label:after {
+  content: "\EA1B";
+}
+.atom-icon.icon-myUsage:after, .icon-myUsage.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-myUsage.atom-label:after {
+  content: "\EA1C";
+}
+.atom-icon.icon-navbar_clock:after, .icon-navbar_clock.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-navbar_clock.atom-label:after {
+  content: "\EA1D";
+}
+.atom-icon.icon-navbar_exit:after, .icon-navbar_exit.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-navbar_exit.atom-label:after {
+  content: "\EA1E";
+}
+.atom-icon.icon-navbar_star:after, .icon-navbar_star.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-navbar_star.atom-label:after {
+  content: "\EA1F";
+}
+.atom-icon.icon-paper_text:after, .icon-paper_text.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-paper_text.atom-label:after {
+  content: "\EA20";
+}
+.atom-icon.icon-pay_now:after, .icon-pay_now.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-pay_now.atom-label:after {
+  content: "\EA21";
+}
+.atom-icon.icon-pencil_modify:after, .icon-pencil_modify.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-pencil_modify.atom-label:after {
+  content: "\EA22";
+}
+.atom-icon.icon-pin:after, .icon-pin.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-pin.atom-label:after {
+  content: "\EA23";
+}
+.atom-icon.icon-practical:after, .icon-practical.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-practical.atom-label:after {
+  content: "\EA24";
+}
+.atom-icon.icon-print:after, .icon-print.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-print.atom-label:after {
+  content: "\EA25";
+}
+.atom-icon.icon-protocol:after, .icon-protocol.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-protocol.atom-label:after {
+  content: "\EA26";
+}
+.atom-icon.icon-question_mark:after, .icon-question_mark.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-question_mark.atom-label:after {
+  content: "\EA27";
+}
+.atom-icon.icon-recharge:after, .icon-recharge.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-recharge.atom-label:after {
+  content: "\EA28";
+}
+.atom-icon.icon-recording:after, .icon-recording.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-recording.atom-label:after {
+  content: "\EA29";
+}
+.atom-icon.icon-review:after, .icon-review.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-review.atom-label:after {
+  content: "\EA2A";
+}
+.atom-icon.icon-security:after, .icon-security.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-security.atom-label:after {
+  content: "\EA2B";
+}
+.atom-icon.icon-send_email:after, .icon-send_email.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-send_email.atom-label:after {
+  content: "\EA2C";
+}
+.atom-icon.icon-sms:after, .icon-sms.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-sms.atom-label:after {
+  content: "\EA2D";
+}
+.atom-icon.icon-success_green:after, .icon-success_green.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-success_green.atom-label:after {
+  content: "\EA2E";
+}
+.atom-icon.icon-sustainability:after, .icon-sustainability.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-sustainability.atom-label:after {
+  content: "\EA2F";
+}
+.atom-icon.icon-swipe_card:after, .icon-swipe_card.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-swipe_card.atom-label:after {
+  content: "\EA30";
+}
+.atom-icon.icon-update:after, .icon-update.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-update.atom-label:after {
+  content: "\EA31";
+}
+.atom-icon.icon-voz:after, .icon-voz.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-voz.atom-label:after {
+  content: "\EA32";
+}
+.atom-icon.icon-arrow_right:after, .atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-arrow_right.atom-label:after, .molecule-checkbox .atom-checkbox:checked + .atom-label.atom-link:after {
+  content: "\EA3A";
+}
+.atom-icon.icon-arrow_down:after, .icon-arrow_down.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-arrow_down.atom-label:after {
+  content: "\EA3B";
+}
+.atom-icon.icon-arrow_left:after, .icon-arrow_left.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-arrow_left.atom-label:after {
+  content: "\EA3C";
+}
+.atom-icon.icon-flight:after, .icon-flight.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-flight.atom-label:after {
+  content: "\EA3D";
+}
+.atom-icon.icon-wifi:after, .icon-wifi.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-wifi.atom-label:after {
+  content: "\EA3E";
+}
+.atom-icon.icon-status:after, .icon-status.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-status.atom-label:after {
+  content: "\EA3F";
+}
+.atom-icon.icon-home:after, .icon-home.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-home.atom-label:after {
+  content: "\EA4A";
+}
+.atom-icon.icon-vivo:after, .icon-vivo.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-vivo.atom-label:after {
+  content: "\EA4B";
+}
+.atom-icon.icon-files:after, .icon-files.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-files.atom-label:after {
+  content: "\EA4C";
+}
+.atom-icon.icon-question:after, .icon-question.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-question.atom-label:after {
+  content: "\EA4D";
+}
+.atom-icon.icon-tv:after, .icon-tv.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-tv.atom-label:after {
+  content: "\EA4E";
+}
+.atom-icon.icon-movel:after, .icon-movel.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-movel.atom-label:after {
+  content: "\EA4F";
+}
+.atom-icon.icon-internet:after, .icon-internet.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-internet.atom-label:after {
+  content: "\EA5A";
+}
+.atom-icon.icon-fixo:after, .icon-fixo.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-fixo.atom-label:after {
+  content: "\EA5B";
+}
+.atom-icon.icon-combo:after, .icon-combo.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-combo.atom-label:after {
+  content: "\EA5C";
+}
+.atom-icon.icon-status-checked:after, .icon-status-checked.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-status-checked.atom-label:after {
+  content: "\EA5D";
+}
+.atom-icon.icon-roaming:after, .icon-roaming.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-roaming.atom-label:after {
+  content: "\EA5E";
+}
+.atom-icon.icon-plus:after, .icon-plus.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-plus.atom-label:after {
+  content: "\EA5F";
+}
+.atom-icon.icon-gift:after, .icon-gift.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-gift.atom-label:after {
+  content: "\EA6A";
+}
+.atom-icon.icon-share:after, .icon-share.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-share.atom-label:after {
+  content: "\EA6B";
+}
+.atom-icon.icon-fds:after, .icon-fds.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-fds.atom-label:after {
+  content: "\EA6C";
+}
+.atom-icon.icon-facebook:after, .icon-facebook.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-facebook.atom-label:after {
+  content: "\EA6D";
+}
+.atom-icon.icon-pc:after, .icon-pc.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-pc.atom-label:after {
+  content: "\EA6E";
+}
+.atom-icon.icon-multiplus:after, .icon-multiplus.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-multiplus.atom-label:after {
+  content: "\EA33";
+}
+.atom-icon.icon-vivo-gift:after, .icon-vivo-gift.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-vivo-gift.atom-label:after {
+  content: "\EA34";
+}
+.atom-icon.icon-teather:after, .icon-teather.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-teather.atom-label:after {
+  content: "\EA35";
+}
+.atom-icon.icon-cinema:after, .icon-cinema.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-cinema.atom-label:after {
+  content: "\EA36";
+}
+.atom-icon.icon-peoples:after, .icon-peoples.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-peoples.atom-label:after {
+  content: "\EA37";
+}
+.atom-icon.icon-view-contract:after, .icon-view-contract.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-view-contract.atom-label:after {
+  content: "\EA39";
+}
+.atom-icon.icon-cart:after, .icon-cart.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-cart.atom-label:after {
+  content: "\EA40";
+}
+.atom-icon.icon-chip:after, .icon-chip.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-chip.atom-label:after {
+  content: "\EA41";
+}
+.atom-icon.icon-4g:after, .icon-4g.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-4g.atom-label:after {
+  content: "\EA42";
+}
+.atom-icon.icon-map:after, .icon-map.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-map.atom-label:after {
+  content: "\EA43";
+}
+.atom-icon.icon-denied-vivo:after, .icon-denied-vivo.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-denied-vivo.atom-label:after {
+  content: "\EA44";
+}
+.atom-icon.icon-blocked:after, .icon-blocked.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-blocked.atom-label:after {
+  content: "\EA45";
+}
+.atom-icon.icon-conf-email:after, .icon-conf-email.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-conf-email.atom-label:after {
+  content: "\EA46";
+}
+.atom-icon.icon-checked-file:after, .icon-checked-file.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-checked-file.atom-label:after {
+  content: "\EA47";
+}
+.atom-icon.icon-country:after, .icon-country.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-country.atom-label:after {
+  content: "\EA48";
+}
+.atom-icon.icon-menu-header:after, .icon-menu-header.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-menu-header.atom-label:after {
+  content: "\EA49";
+}
+.atom-icon.icon-download:after, .icon-download.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-download.atom-label:after {
+  content: "\EA50";
+}
+.atom-icon.icon-bag:after, .icon-bag.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-bag.atom-label:after {
+  content: "\EA51";
+}
+.atom-icon.icon-people:after, .icon-people.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-people.atom-label:after {
+  content: "\EA52";
+}
+.atom-icon.icon-smile:after, .icon-smile.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-smile.atom-label:after {
+  content: "\EA53";
+}
+.atom-icon.icon-dotworld:after, .icon-dotworld.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-dotworld.atom-label:after {
+  content: "\EA54";
+}
+.atom-icon.icon-play:after, .icon-play.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-play.atom-label:after {
+  content: "\EA55";
+}
+.atom-icon.icon-modal-alert:after, .icon-modal-alert.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-modal-alert.atom-label:after {
+  content: "\EA56";
+}
+.atom-icon.icon-pause:after, .icon-pause.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-pause.atom-label:after {
+  content: "\EA57";
+}
+.atom-icon.icon-descontos:after, .icon-descontos.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-descontos.atom-label:after {
+  content: "\EA58";
+}
+.atom-icon.icon-premium:after, .icon-premium.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-premium.atom-label:after {
+  content: "\EA59";
+}
+.atom-icon.icon-cortesia:after, .icon-cortesia.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-cortesia.atom-label:after {
+  content: "\EA60";
+}
+.atom-icon.icon-ingresso:after, .icon-ingresso.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-ingresso.atom-label:after {
+  content: "\EA61";
+}
+.atom-icon.icon-advantage_a:after, .icon-advantage_a.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-advantage_a.atom-label:after {
+  content: "\EA62";
+}
+.atom-icon.icon-advantage_b:after, .icon-advantage_b.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-advantage_b.atom-label:after {
+  content: "\EA63";
+}
+.atom-icon.icon-advantage_c:after, .icon-advantage_c.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-advantage_c.atom-label:after {
+  content: "\EA64";
+}
+.atom-icon.icon-advantage_d:after, .icon-advantage_d.atom-link:after, .molecule-checkbox .atom-checkbox:checked + .icon-advantage_d.atom-label:after {
+  content: " ";
+  background-image: url(../img/internet4g.png);
+  width: 25px;
+  height: 35px;
+  display: inline-block;
+}
+
+.larger   { font-size: large !important; }
+.x-large  { font-size: x-large; }

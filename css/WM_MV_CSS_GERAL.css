@@ -1,0 +1,2514 @@
+body {margin:0px; color:#888; font-family:robotoregular; font-size:13px; background:#f6f6f6}
+
+body h1, h2, h3, h4, h5 {margin:0px; padding:0px; display:block; font-family:ITCOfficinaSerifBold!important; color:#660099}
+body label{margin:0px; padding:0px; display:block; color:#660099}
+body p {margin:0px; padding:0px; display:block}
+body  a{border:none;text-decoration:none!important;}
+
+body  label{display:block}
+body select:focus{outline:none;}
+body span:focus{outline:none;}
+body textarea:focus{outline:none;}
+body button:focus{outline:none;}
+body input:focus{outline:none;}
+body input{display:block; border: none}
+body input:disabled{background:#f8f8f8;}
+
+body :before{line-height:1px}
+body :after{line-height:1px}
+
+/* Input Disable */
+input[type="text"]:disabled {background: #EAEAEA!important;color:#888!important;opacity:1!important;}
+
+.telaErro p a{text-decoration:underline!important;}
+
+.frameMobile{width: 100%; margin-top: 41px; margin-left: -2px;}
+.divFrameMobile{overflow-x: hidden;}
+
+.clearboth{clear:both;}
+.strong300{font-weight:300;}
+.strong500{font-weight:500;}
+.strong600{font-weight:600;}
+.italic{font-style:italic;}
+.uppercase{text-transform:uppercase;}
+.color{color:#660099}
+.justify{text-align: justify}
+.valor_retorno{font-size: 13px!important;}
+.valor_regulameno{font-size: 11px!important; white-space: pre-line; margin:0px}
+/*.content_modal_promocao{top:8%!important;}*/
+
+/*estrutura geral*/
+.content{position: absolute; width:100%; min-height:100%}
+/*conteudo*/
+.colcenter{ display:block;   padding:15px;  margin-top:55px;}
+.colcenter_home{display:block; padding:5px;  margin-top:50px; }
+
+.linkUnderlinedGray{font-size: 13px!important; color: #888!important; text-decoration: underline!important;}
+
+.gradiente_roxo{ background:#660099 /*linear-gradient(#a85fd1, #5b1181)*/;}
+.gradiente_gray{ background: #888}
+.gradiente_verde{ background: #78c125}
+
+/*header*/
+.header{float: left; width: 100%; padding:20px 0px; position:fixed; z-index:9;}
+.header h1{float: left; width: 100%; text-align:center; font-size:25px; color:#fff; line-height:1px}
+#ic_menu_esq{ position: absolute; font-size:20px; color:#fff; width:auto; left: 0px;line-height: 1px;padding: 20px 0 20px 15px;top: 0px;}
+#ic_menu_right{ position: absolute;  float: right; font-size:20px; color:#fff; width:auto; right: 0px;line-height: 1px;padding: 20px 15px 20px 0;top: 0px;}
+
+.footer{display:block; padding:15px 0px; clear:both; bottom: 0; width: 100%;position:relative; padding-bottom: 0px;height:35px;background:#ffffff;}
+.footer .icon-21:before {font-size:70px; color:#002b5b; height:40px}
+.footer .icon-22:before {color:#650099; font-size:30px; float: left; margin-right:5px}
+.footer_assinatura {float:right; margin-top: -17px; width:170px; margin-right:10px;}
+.footer_friso{position: absolute;height: 2px;    width: 100%;top: -3px;left: 0;
+background: #310a81; /* Old browsers */
+background: -moz-linear-gradient(left,  #310a81 0%, #a774cd 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #310a81 0%,#a774cd 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #310a81 0%,#a774cd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#310a81', endColorstr='#a774cd',GradientType=1 ); /* IE6-9 */
+}
+
+ #spacer{width: 100%; height: 50px; float:left; display:inline-block}
+.telefonica{float: left; width:auto; margin-left:10px}
+.juntos{float:right; width:auto; margin-right:10px}
+.juntos h5{float:right; color:#000; line-height: 3px; font-size:12px; font-weight:700}
+
+.bloc_home{display:block; float: left; width:49.3%; margin-bottom:5px; background:#EEE; height: 130px;}
+.bloc_home .content_block{display:block;  padding:20px 10px; text-align:center; height: 130px;}
+.bloc_home .content_block .ic{margin:20px; display:inline-block;  color:#660099; font-size:30px; line-height:1px; margin-bottom:25px}
+.bloc_home .content_block .info{display:block;  color:#660099; font-weight:500}
+.bloc_home .content_block .info span{ display:block; font-size:13px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.bloc_home .content_block .info h2{ display:block; font-size:18px; color:#660099;}
+.bloc_empty{height: 130px;}
+.bloc_content_ajax{padding: 12px 10px!important;}
+.dt_atualizacao_home{margin-bottom:20px;}
+.consumo_msg{width: 90%; float: right;}
+
+.span_detalhes{font-size: 11px!important; color:gray!important;}
+
+/*ajuste para recarga*/
+.full_width{width:100%; height:100px!important;}
+.full_width .content_block{ padding:15px 10px}
+.full_width .ic{float:left; padding:15px 0px}
+.full_width .info{float:right; width:auto; text-align:right; margin-top:10px}
+.full_width_span{margin-top: 10px!important;}
+
+/*consumo home*/
+.content_consumo_home{display:block; height: 250px; float: left; width:100%; margin-bottom:5px; padding-bottom:5px;}
+.consumo_home{display:block; padding:10px 0px; }
+.consumo_home h2{font-size:18px; margin: 0px 0px 7px 10px}
+.consumo_home .seta_consumo {color:#660099; float: left; width:100%; text-align:center; font-size:25px;}
+.consumo_home .bloco_info {display:none; float: left; width:100%;  margin:15px 0px; }
+.consumo_home .bloco_info p{padding: 0px 0px 5px 10px }
+.consumo_home .active_seta .icon-29:before{content:"\e620"}
+.consumo_home .content_consumo label{ margin: 5px 0px 0px 6px; width:auto}
+
+
+
+.bloc_50_right{float:right !important}	
+
+.hidden{ overflow-x: hidden; position: fixed; width:100%; height:100%}
+
+/*menu esquerdo*/
+.menulateralesquerdo{position: absolute; width:100%;  z-index:100; display:none}
+.menulateraldireito{position: absolute; width:100%;  z-index:100; display:none}
+.sombraopacity{position: absolute; width:100%; height:100%; background:#000; opacity:0.3;}
+.loading{position: absolute; width:100%; height:100%; background:#000; opacity:0.3; text-align: center;}
+.center_loading{display: inline-block; height: 100%; vertical-align: middle;}
+.image_loading{display: inline-block; vertical-align: middle;}
+/*.cotent_right{right:-270px!important; left:auto!important}*/
+.content_menu{position: absolute; z-index:9; top:0px; left:-270px;  width:270px; height:100%;background:#fff;overflow-x:hidden;overflow-y:auto;}
+.content_menu .header_menu{margin-bottom:15px; text-align:right; float: left; width:100%; font-size:15px; padding:12px 0px; border-bottom: solid 1px #c1c1c1;color: FFF; background-color: #660099;}
+.content_menu .header_menu span{float:left; width:auto; font-size:12px; margin-top:10px}
+.content_menu .header_menu p{font-size:13px}
+
+.content_menu_right{position: absolute; z-index:9; top:0px; right:0; width:270px; height:100%;background:#fff; margin-right:-270px;overflow-x:hidden;overflow-y:auto;}
+.content_menu_right .header_menu{margin-bottom:15px; text-align:right; float: left; width:100%; font-size:15px; padding:12px 0px; border-bottom: solid 1px #c1c1c1;color: FFF; background-color: #660099;}
+.content_menu_right .header_menu span{float:left; width:auto; font-size:12px; margin-top:10px}
+.content_menu_right .header_menu p{font-size:13px}
+
+.menuNome {margin-right:10px; font-weight:bold;}
+.menuTelefone {margin-right:10px;}
+
+.content_menu .item_menu{margin-bottom:5px; clear: both; display:block; height:15px;  padding:10px;}
+.content_menu .item_menu span{float: left; color:#888888}
+.content_menu .item_menu .icon{float: left; font-size:20px; margin: 7px 10px 0px 0px; color:#660099}
+.content_menu .item_menu .seta{float: right; font-size:10px; margin: 10px 0px 0px 0px;  color:#660099}
+.content_menu .item_menu .iconeLinkExterno{float: right; font-size:10px; margin: 10px 0px 0px 0px;  color:#888888}
+
+.headerright {text-align:left!important; }
+.headerright span{float:right!important; }
+.content_menu_right p{padding:0px 0px 10px 0px;}
+
+
+/*menu direito*/
+.fonelogado{clear: both; display:block; float:left; width:92%;  padding:10px; background:#f8f8f8; border-bottom: solid 1px #dadada;}
+.fonelogado .icon-09, .fonelogado .icon-telefone{font-size:20px; float: left; width:auto; color:#660099; margin:8px 5px 0px 0px}
+.fonelogado .nrlogado{color:#660099; float: left; width:85%;}
+.fonelogado .planoslogado{color:#660099; float: right; width:88%; margin-top:3px}
+
+
+/*lista menu direito*/
+.listamais {float:left; width:100%; padding:15px 0px; border-bottom: solid 1px #dadada}
+.listamais_secundario{float:left; width:100%; padding:15px 0px; border-top: solid 1px #dadada}
+.listamais ul, .listamais_secundario ul{display:none; width:96%; list-style:none; padding:0px 10px; margin:10px 0px 0px 0px}
+.listamais ul li, .listamais_secundario ul li{display:block; padding:10px; border-top: solid 1px #ddd}
+.title_listamais, .title_listamais_secundario{display:block; padding:0px 10px; color:#660099; }
+.title_listamais .icon-24, .title_listamais_secundario .icon-24{float:right; font-size:11px; color:#660099;margin-top:8px }
+.acitve_llistamais .icon-24::before {content: "\e617";}
+.acitve_llistamais .icon-03::before {content: "\e603";}
+
+
+
+/*sair*/
+.logout{float:right; margin:20px 0px; color:#660099}
+.logout .icon-40{font-size:25px; margin:8px 0px 0px 10px; float:right; }
+
+/*listas internas*/
+.listamaisdeagrade{background:#fff; float:left; width:100%; padding:10px 0px 10px 0px; border-bottom: solid 1px #dadada; margin-bottom:10px; display:block}
+.listamaisdeagrade .title_listamais, .listamaisdeagrade .title_listamais_secundario{font-family:robotobold; }
+.listamaisdeagrade ul{display:none; width:auto; list-style:none; padding:0px 10px; margin:10px 0px 0px 0px}
+.listamaisdeagrade ul li{float: left; width:100%;display:block; padding:10px 0px; border-top: solid 1px #ddd}
+.listamaisdeagrade ul li h3{float: left; width:auto;display:block; font-family:robotoregular!important; font-size:16px}
+.listamaisdeagrade ul li h4{float: right; width:auto;display:block; font-family:robotoregular!important; font-size:16px}
+.listamaisdeagrade ul li p{color:#660099; display:block}
+.listamaisdeagrade ul li p span{float:left; color:#888;font-size:13px; margin-top:2px}
+.listamaisdeagrade ul li p label{float:right; font-size:13px}
+.title_listamais span, .title_listamais_secundario span{float:right; margin-right:10px;}
+.title_listamais i, .title_listamais_secundario i{float:right; margin-top:8px}
+
+/*titulo interno*/
+.title_int{color:#660099; float: left; width:100%; border-bottom: solid 1px; padding-bottom:10px; margin-bottom:15px}
+.title_int h2{float:left; font-size:18px}
+.title_int a{color:#660099; font-size:13px; float: right; margin-top:15px}
+.title_int i{float:left; color:#660099; font-size:25px; margin:10px 10px 0px 0px; }
+
+/*outras*/
+.paddingb0{padding: 10px 0px 0px 0px!important}
+.abertura{padding:0px 0px 10px 0px; clear:both}
+.bt_cancelar {float: right; padding: 10px 25px; text-align:center; width:auto;  background:#660099; color:#fff; font-size:16px; font-family:robotobold; border-radius: 3px}
+.bt_confirmar {float: right; margin-top:5px; padding: 5px 20px; text-align:center; width:auto; margin-left:10px;  background:#660099; color:#fff; font-size:16px; font-family:robotobold; border-radius: 3px}
+.bt_confirmar i{float:right; margin: 12px 0px 0px 10px}
+.bt_confirm_large {float: right; margin-top:5px; padding: 8px 20px; text-align:center; width:88%; margin-left:10px;  background:#660099; color:#fff; font-size:16px; font-family:robotobold; border-radius: 3px}
+.bt_confirm_large i{float:right; margin: 12px 0px 0px 10px}
+.txtrecomenda{color:#888!important; padding:10px 0px; }
+.h3recomenda{margin-top:10px; font-family:ITCOfficinaSerifBold!important; }
+
+
+
+/*segunda via de boleto*/
+.box_via{float: left; display: block; border: solid 1px #b4b4b4; width:100%; background:#fff; margin-bottom:10px}
+.box_via  .dados_via{ padding:10px;display: block; float:left; width:auto}
+.box_via  .dados_via p{display:block}
+.box_via  .dados_via p label{float:left; color: #660099; margin-right:5px}
+.box_via  .ic_via{width:70px;height:92px; padding:0px;display: block; float:right; border-left: solid 1px #b4b4b4; text-align:center}
+.box_via  .ic_via a{display:block; font-size:20px; color: #660099; float: left; width:100%; padding:16px 0px}
+.box_via  .ic_via_alternativo2 a{display:block; font-size:20px; color: #660099; float: left; width:100%; padding:22px 0px}
+.box_via  .ic_via a:before{margin-top:4px; display:inline-block}
+.box_via  .ic_via .border_bottom{border-bottom: solid 1px #b4b4b4; padding:20px 0px }
+.box_via  .ic_via_alternativo2 .border_bottom{border-bottom: solid 1px #b4b4b4; padding:25px 0px }
+.box_alert_fatura {background-image:url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_ALERT'); background-repeat:no-repeat; padding:0 8px !important; background-size: 16px !important; margin-right: 5px !important}
+.box_via  .ic_via_alternativo2{width:70px;height:110px; padding:0px;display: block; float:right; border-left: solid 1px #b4b4b4; text-align:center}
+/*segunda via de boleto alternativo*/
+.box_via_alternativo{float: left; display: block; border: solid 1px #b4b4b4; width:100%; background:#fff; margin-bottom:10px}
+.box_via_alternativo  .dados_via_alternativo{padding:10px;display: block; float:left; width:auto}
+.box_via_alternativo  .dados_via_alternativo p{display:block}
+.box_via_alternativo  .dados_via_alternativo p label{float:left; color: #660099; margin-right:5px}
+.box_via_alternativo  .ic_via_alternativo_contestada{width:70px;height:167px; padding:0px;display: block; float:right; border-left: solid 1px #b4b4b4; text-align:center}
+.box_via_alternativo  .ic_via_alternativo{width:70px;height:150px; padding:0px;display: block; float:right; border-left: solid 1px #b4b4b4; text-align:center}
+.box_via_alternativo  .ic_via_alternativo a{display:block; font-size:20px; color: #660099; float: left; width:100%; padding:16px 0px}
+.box_via_alternativo  .ic_via_alternativo_contestada a{display:block; font-size:20px; color: #660099; float: left; width:100%; padding:21px 0px}
+.box_via_alternativo  .ic_via_alternativo a:before{margin-top:4px; display:inline-block}
+.box_via_alternativo  .ic_via_alternativo .border_bottom_alternativo{border-bottom: solid 1px #b4b4b4; padding:20px 0px }
+.box_via_alternativo  .ic_via_alternativo_contestada .border_bottom_alternativo{border-bottom: solid 1px #b4b4b4; padding:23px 0px }
+.border_bottom_alternativo{height:10px;}
+.informePagamentoCentralizado{width:197px;}
+.box_minhas_contas_TV a{padding-top: 28px !important;padding-bottom: 28px !important;}
+.box_minhas_contas_TV{height: 129px !important;}
+.bt_informarPagamento{font-size: 13px;margin-left: 0px;padding: 5px 10px;}
+.bt_informarPagamento i{margin: 10px 0px 0px 10px;}
+.obsContestada{font-size: 12px;width: 268px; margin-top: 5px;}
+
+/*torpedo*/
+.line_form{display:block; float: left; width:100%; margin-bottom:15px}
+.line_form_50{width:50%}
+.line_form span{display:block; float: right; font-size:13px; margin-top:5px}
+.line_form .esqueceu{display:block; float: left; font-size:13px; margin-top:5px; color:#888; text-decoration:underline}
+.line_form label{margin-bottom:5px; font-family:robotobold; font-size:13px}
+.campo_ddd{float: left;  padding:10px; border: solid 1px #c1c1c1; width:55px; border-radius:3px; color:#888; }
+.campo_fone{float: left;  padding:10px; border: solid 1px #c1c1c1; width:110px; text-align:center; color:#888; margin-left:10px; border-radius:3px}
+.campo_full{float: left;  padding:10px; border: solid 1px #c1c1c1; width:99%; color:#888; border-radius:3px}
+.campo_torpedo{float: left;  padding:10px; border: solid 1px #c1c1c1; width:100%; height:130px; color:#888;  border-radius:3px; resize:none}
+.radio{position:relative; float: left; width:20px; height:20px; border: solid 1px #C1C1C1; border-radius: 5px; background:#fff}
+.radio .marca_radio{position: absolute; width:10px; height:10px;  border-radius: 5px; background:#888; margin:5px; display:none}
+.radio input[type="radio"]{opacity:0}
+.active_radio .marca_radio{display:block}
+
+.line_radio{float: left; width:auto; margin-right:15px}
+.line_radio span{font-size:13px; margin-left:5px}
+
+/*select*/
+.select{position: relative; display:block; float: left; width:100%;  border: solid 1px #c1c1c1; background:#fff; border-radius:3px}
+.select span{margin:0px;display:block; float: left; width:92%; padding:10px; font-size:13px; color:#888}
+.select i{position:absolute;  font-size:15px; margin-top:8px; right:10px}
+.select ul {display: none; list-style:none; padding:10px; margin:0px}
+.select ul li{float:left; display: block; width:100%;  padding:10px 0px; margin:0px;  border-top:solid 1px #E3E2E2}
+.select ul li a{display: block; float:left; padding:5px 0px; width:100%;  color:#888 }
+
+
+/*ativador*/
+.ativa{display:block; float: left; width:100%; margin:10px 0px; padding-bottom:10px; border-bottom: solid 1px #ddd}
+.ativa h3{display:block; float: left; width:auto;font-size:16px}
+.ativa span{display:block; float: right; width:auto; margin-top:2px}
+.ativa .ativador{display:block; float: right; width:40px; height:20px; background:#ddd; margin-left:10px; background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_ATIVADOR') top left no-repeat; background-size:100%}
+.ativa .desativador{background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_ATIVADOR') bottom left no-repeat; background-size:100%}
+
+/*grid 3 colunas*/
+.grid_3_colls{display:block; float: left; width:100%; margin:20px 0px}
+.grid_3_colls ul{display:block; float: left; width:100%; padding:0px; margin:0px; list-style:none}
+.grid_3_colls ul li{display:block;float:left; width:100% }
+.grid_3_colls ul li div{display:block;padding:10px; height:15px}
+.grid_3_colls ul li:nth-child(even){background:#fff}
+.grid_3_colls ul li label{display:block;float: left; width:33.3%; font-family:robotobold}
+.grid_3_colls ul li span{display:block;float: left; width:33.3%}
+
+/*consumo de internt*/
+.box_consumo{display:block; clear:both; position: relative}
+.box_consumo .emsuso{position: absolute; width:50px; height:50px; right:-2px; background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_EM_USO') no-repeat; background-size:100%}
+.box_consumo  h2{font-family:robotobold; font-size:13px}
+.box_consumo  .box_plano{float:left; width:100%; border: solid 1px #b4b4b4; border-radius:8px; margin:10px 0px; background:#fff}
+.box_consumo  .box_plano label{padding: 10px; font-family:robotobold; width:80%}
+.box_consumo  .box_plano p{padding:  0px 0px 10px 10px; font-family:robotoregular; clear:both; font-size:13px}
+.content_consumo{padding: 10px;display:block; clear:both}
+.barra_consumo{float: left; width: 82%; border-radius: 3px; border: solid 1px #660099; height:30px; margin: 30px 0px 50px 0px; background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_COLOR_STATUS') left repeat-y; background-size:100%}
+.box_plano .content_consumo label  {width:15%; padding:36px 0px 0px 0px;  text-align:center; float: left; margin: 0px 0px 0px 5px;}
+.content_consumo label  {width:14%; padding:29px 0px 0px 0px;  text-align:center; float: left}
+.consumo_atualizacao{padding: 5px 0px 0px 0px;}
+.consumo_atualizacao_multivivo{padding: 0px 0px 5px 0px;}
+.label_subtitle_multivivo{font-family: robotoregular; color: inherit!important;}
+
+.barra_consumo_funcionario{margin:20px 0px 20px 0px!important; width: 100%!important;}
+.barra_consumo_funcionario_funcionalidade{margin:0px 0px 20px 0px!important; width: 100%!important;}
+
+.barra_consumo.mobile_home .consumo_left{position: relative; text-align:center; color:#fff; float: left; width: 80%; height:15px; padding:7.5px 0px; }
+.barra_consumo.mobile_home .consumo_left span{ background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_FIO_CONSUMO') bottom center no-repeat; font-size:12px; top:-39px; color:#660099;left:0px; position: absolute; width:100%; text-align:center; padding:0px 0px 6px 0px}
+.barra_consumo.mobile_home .consumo_right{ background:#fff; position: relative; text-align:center; float: right; width: 20%; height:15px; padding:7.5px 0px }
+.barra_consumo.mobile_home .consumo_right span{background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_FIO_CONSUMO') top center no-repeat; color:#660099; bottom:-39px; left:0px; position: absolute; width:100%; text-align:center; padding:6px 0px 0px 0px; font-size:12px}
+.barra_consumo_reduzido{bottom:-54px !important;}
+
+.barra_consumo .consumo_left{position: relative; text-align:center; color:#fff; float: left; width: 80%; height:15px; padding:7.5px 0px; }
+.barra_consumo .consumo_left span{ background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_FIO_CONSUMO') bottom center no-repeat; font-size:12px; top:-39px; color:#660099;left:0px; position: absolute; width:100%; text-align:center; padding:0px 0px 6px 0px}
+.barra_consumo .consumo_right{ background:#fff; position: relative; text-align:center; float: right; width: 20%; height:15px; padding:7.5px 0px }
+.barra_consumo .consumo_right span{background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_FIO_CONSUMO') top center no-repeat; color:#660099; bottom:-39px; left:0px; position: absolute; width:100%; text-align:center; padding:6px 0px 0px 0px; font-size:12px}
+
+/*pacotes adicionais*/
+.box_adicionais{display:block; clear:both; margin: 20px 0px 0px 0px; float: left; width:100%}
+.box_adicionais h2{font-size:16px}
+.box_adicionais .box_acontent_adicionais{text-align:center; float:left; width:100%; border: solid 1px #b4b4b4; border-radius:8px; margin:10px 0px; background:#fff}
+.box_adicionais .box_acontent_adicionais .icon i{float:left; font-size:30px; margin:30px 15px 15px 15px; color:#660099}
+.box_adicionais .box_acontent_adicionais span{float:left; width:74%; text-align:center; font-family:ITCOfficinaSerifBold; font-size:16px; padding:15px 0px 15px 0px}
+.line_bt_center{float: left; width:100%; text-align:center; margin:10px 0px 25px 0px}
+.bt_center {float: none; padding: 10px 20px; display:inline-bblock; text-align:center; width:auto; margin-left:0px;  background:#78c125; color:#fff; font-size:16px; font-family:robotobold; border-radius: 3px}
+.bt_center b{display:inline-block; margin: 12px 0px 0px 10px; font-size:16px; color:#fff}
+.box_adicionais_multi_vivo{font-family: robotoregular!important; font-size: 13px!important;}
+
+/*modal padr?o*/
+.modal{display:none; position: fixed; left:0px; top:0px; width:100%; height:100%; z-index:999}
+.modal .content_modal{position: absolute; width:90%; top: 8%!important; left: 5% }
+.modal .content_modal .float_content{color: #888;font-family: robotoregular;display:block; padding: 20px 10px; background:#fff; border-radius:5px; text-align:center}
+.modal .content_modal .float_content p{padding:10px 20px 20px 20px; font-size:16px}
+.modal .content_modal .bt_modal{display:inline-block; padding: 10px 25px;  font-size:16px; background:#660099;  color:#fff; border-radius:3px; font-family:robotobold; text-decoration: none}
+
+/*login*/
+.content_login{display:block; padding: 10px;}
+.content_login label{color:#888}
+.content_login .icones_login{float: left; margin: 50px 0px; text-align:center; width:100%}
+.content_login .icones_login i{display:inline-block; color:#660099; font-size:25px; margin: 0 0.8%}
+.content_login h2{font-family:robotobold!important; margin-bottom:20px; font-size:18px}
+.margin_line_login{margin: 20px 0px}
+.bt_login { padding: 10px 20px; text-align:center; width:auto; background:#660099; color:#fff; font-size:16px; font-family:robotobold; border-radius: 3px}
+.bt_login i{display:inline-block ; margin: 10px 0px 0px 10px;}
+
+.bt_cadastro { padding: 10px 20px; text-align:center; width:auto; background:#78c125; color:#fff; font-size:16px; font-family:robotobold; border-radius: 3px}
+.bt_cadastro i{display:inline-block ; margin: 10px 0px 0px 10px;}
+
+.content_cadastro{ float:left; width:100%; margin-top:30px; text-align:center; display:block; border: solid 1px #ddd; border-radius:5px; padding-bottom:20px}
+.content_cadastro .bloco_title{display:inline-block; background:#f8f8f8; margin-top:-13px}
+.content_cadastro .bloco_title h2{margin:0px; padding:0px 10px}
+.content_cadastro p{margin:0px; padding:20px 30px 20px 30px; font-size:14px}
+
+/*erros*/
+.erro{display: block; text-align:center; padding: 140px 30px}
+.erro i{color:#660099; font-size:60px}
+.erro h2{display: block; text-align:center; padding-top:20px}
+.erro_campo{border: solid 1px #FF0000 !important;}
+
+/*voltar ao topo*/
+.ic_top{position: absolute; bottom: 0px; right:20px; width:30px; height:30px; font-size:30px; color:#660099; display:none}
+.ic_top i{background:#fff; line-height:1px; border-radius:100px}
+
+/*carregando*/
+.carregando{background:#fff; position: relative;  width:150px; height: 150px;  margin: 15% auto 0%; display:block}
+.carregando .icon-32{font-size:150px; color:#f8f8f8; position: absolute; z-index:9; line-height:1px; top:75px}
+.carregando .carregando_barra{width:98%; left:1%; height: 0%; position: absolute; bottom:0; background:#660099 }
+#boxtotal{display:block; float:left; width:100%; text-align:center}
+
+.campo_form_50{float: left;padding: 10px;border: solid 1px #c1c1c1;width: 99%;color: #888;border-radius: 3px;}
+.col_left_form_50{float: left; width: 49%; margin-bottom: 15px;}
+.col_right_form_50{float: right; width: 49%}
+
+.star_valoriza{float: left; width:100%; text-align:center; margin:70px 0px 90px 0px}
+.star_valoriza i{display:inline-block; font-size:70px; line-height:1px; color: rgb(102, 0, 153);}
+.release_valoriza{border-top:0px; text-align:justify; padding:5px 0px 20px 0px; float:left; font-size:14px; clear:both;  display:block; border-bottom: solid 1px; font-weight:500;color: rgb(102, 0, 153);margin-bottom: 10px;}
+.release_valoriza i {float: left; font-size:55px; margin: 30px 10px 10px 10px}
+.release_valoriza p {float: left; width:100%}
+.saldo_valoriza{border-bottom: solid 1px; padding-bottom:20px; margin:5px 0px; float:left; width:100%; display:block; text-align:center; color: rgb(102, 0, 153);}
+.saldo_valoriza h3{font-size:35px}
+.saldo_valoriza span{font-size:15px}
+.release_valoriza_link{text-align: center;}
+
+.ajax_erro_valor_retorno{margin-top: 34px!important}
+.ajax_span_ver_mais{padding-top: 1px!important;white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.ajax_span_ver_mais_full_width{padding-top: 1px!important;padding-bottom: 10px!important;white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.ajax_valor_retorno{margin-top: 16px!important}
+.ajax_valor_retorno_full_width{margin-top: 5px!important}
+.ajax_txt_descricao{font-size: 14px!important}
+.ajax_info_ie{margin-left: 10px!important; margin-top: -25px!important;}
+.ajax_info{margin-left: 10px!important}
+.ajax_info_full_width{margin-left: 10px!important; margin-top:8px;}
+.ajax_icon{font-size: 20px!important; margin-bottom: -17px!important; margin-left: -80px!important; margin-top: 16px!important}
+.ajax_content_block{padding: 20px 10px!important}
+.ajax_content_block_full_width{padding: 0px 10px!important}
+
+/*Meus Cr?ditos (Adicional)*/
+.saldoTotal{background: #fff; float: left; width: 100%; padding: 10px 0px 10px 0px; border-bottom: solid 1px #dadada; margin-bottom: 10px; display: block;}
+.saldoTotal h3{float: left; width: auto; display: block; font-family: robotoregular!important; font-size: 16px; padding-left: 10px;}
+.saldoTotal h4{float: right;  width: auto; display: block; font-family: robotoregular!important; font-size: 16px; padding-right: 10px;}
+.BtnMeusCreditos{width: 100%;position: static;bottom: 70px;}
+
+#btnRecarregueAgora{margin-bottom: 10px;margin-left: 0px;text-align: center;float: left;margin-left: 10px;font-size: 14px;width: 85px;}
+#btnHistRecargas{margin-bottom: 10px;margin-right: 0px;text-align: left;margin-top: 5px;font-size: 14px;width: 85px;}
+.btn_confirma_pacote_sevico{float: left;margin-left: 25%;margin-bottom: 15px;}
+.btn_confirma_pacote_historico{font-size: 14px;width: 34%;margin-right: 15px;}
+
+.telaErro{font-size: large;position: absolute;height: 100%;top: 0;width: 100%;left: 0;}
+.telaErro p{margin: 0px;padding: 0px 20px;display: block;font-family: ITCOfficinaSerifBold;color: #660099;text-align: center;position: relative;top: 40%;}
+
+.tagdisponivel{position: absolute; width: 50px; height: 50px; right: -1px; background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_TAG_DISPONIVEL') no-repeat; background-size: 100%; margin: -1px;}
+.ic_info_pgto {width: 70px; padding: 0px; display: block; float: right; border-left: solid 1px #b4b4b4; text-align: center;}
+.ic_info_pgto a {display: block; font-size: 20px; color: #660099; float: left; width: 100%; padding: 38px 0px 27px;}
+.ic_pag{width: 80px;height: 75px;padding: 0px;display: block;float: right; border-left: solid 1px #b4b4b4; text-align: center;}
+.btn_info_pag{display: block;font-size: 12px;color: white;padding-bottom: 20px;padding-top: 19px;background: #660099;margin: 2px;border-radius: 2px}
+
+/*1132894 - Banner Swiper*/	
+.banner_swiper{display:block; float: left; width:100%; margin-bottom:5px; padding-bottom:5px; border-bottom: solid 1px #ddd;}
+.banner_swiper .swiper-pagination{bottom: 10px !important;}
+.banner_swiper .swiper-pagination-bullet{width: 12px !important;height: 12px !important;}
+.banner_swiper .swiper-pagination-bullet.swiper-pagination-bullet {background: #FFFFFF !important;border: solid 1px #FFFFFF !important;}
+.banner_swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {background: #660099 !important; border: solid 1px #FFFFFF !important;}
+.banner_swiper img{width: 100%; height: auto;}
+/*Data Input Calendar*/
+.bt-calendario-00 {width: 21px; height: 26px; display: block; cursor: pointer; overflow: hidden; text-indent: -9999px; background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_CALENDAR_DATE') -577px -21px !important; margin:2px 0 0 0; float: left; margin:3px 0 0 5px;}	
+.fA05 {width:107px; height:27px; background-image:url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_INPUT_DATE'); background-repeat:no-repeat; background-position:left; border:0px; line-height:27px!important; padding:0 4px!important; margin:2px 0 0 0 !important;}
+
+/*Multivivo Cotas*/
+.content_multivivo{background-color: #e7e7e7}
+.roxo_dark{background:rgb(102,0,153);}
+.color_roxo_padrao{color:#660099!important}
+.branco{background:white;border:solid 1px #d7d7d7;width: 14px!important; height: 14px!important;}
+.roxo_claro{background:rgb(147,17,214)}
+.pink{background:rgb(232,57,126)}
+.rosa_claro{background:rgb(255,77,203)}
+.laranja{background:rgb(255,153,0)}
+.amarelo{background:rgb(255,198,1)}
+.verde_escuro{background:rgb(153,204,51)}
+.verde_claro{background:rgb(156,218,34)}
+.marinho{background:rgb(0,102,204)}
+.turquesa{background:rgb(35,141,206)}
+.cinza{background:rgb(174,174,174);}
+.vermelho{background:rgb(255,0,0);}
+.font_roxo{color: #660099}
+.cinza_escuro{background-color: #616161}
+.atualizado{width:100%;font-size:10px;color: #7c7c7c;text-align: right;padding: 5px 0}
+.titulo_avulso{float:left;width:100%;font-family:ITCOfficinaSerifBold;color:#333;text-align: center;font-size: 15px;}
+.texto_avulso{float:left;width:99%;font-family:ITCOfficinaSerifBold;color:#660099;text-align: center;font-size:11px;padding:10px 0}
+.wrap_conteudo_multivivo{float:left;width: 90%;border-radius: 5px;background-color: #fff;padding: 0 5%;margin: 0}
+.header_multivivo{float:left;width: 100%;position: relative}
+.header_multivivo h2{float:left;color:#660099;font-family:ITCOfficinaSerifBold;font-weight: normal;font-size: 17px;margin: 4px 0}
+.header_multivivo .status{float:right;margin:6px 0;}
+.header_multivivo .status i{float:left;font-size: 17px;margin-top: 8px;margin-right: 5px}
+.header_multivivo .status span{float:left;font-size: 14px;font-family:ITCOfficinaSerifBold}
+.icon_btn_niveis{float: right;margin: 15px 0 0 0px;color:#660099;font-size: 15px;}
+.icon_menor{font-size: 13px !important;}
+.header_simples{padding-top:16px !important;padding-bottom:15px !important;}
+.header_duplo{padding-top:6px !important;margin-bottom: 0px;padding-bottom:4px !important;}
+.header_duplo .status{margin: 15px 0;}
+.header_duplo  .icon_btn_niveis{margin:23px 0 0 10px;}
+.status_ativo{color:#79c226;}
+.status_gerencie{color:#660099;}
+.status_gerencie i{margin-top: 10% !important;}
+.titulo_gerencie{max-width: 70% !important;}
+.icon-configurar_sem_dist{margin-right: 5px!important; float: left!important; font-size: 17px!important;}
+.header_gerencie_sem_dist{margin: 6px 0!important;}
+.status_contratado{color:#0068b1}
+.status_contratado{color:#0068b1}
+.status_contratado i{margin-top: 9%}
+.wrap_slideud .slideud_niveis{float: left;width: 100%;overflow: hidden;}
+.wrap_slideud .slideud_niveis  .btn_primeiro_nivel, .slideud_niveis  .btn_segundo_nivel {position: relative;}
+.wrap_slideud .slideud_niveis .btn_slideud{float:left;display:block;width: 100%;text-decoration: none; color:#888}
+.wrap_slideud .slideud_niveis .conteudo_slideup{display:none;float:left;width: 100%;}
+.itens_slider_plus{float:left;width:100%;border-radius: 5px;overflow:hidden;margin: 5px 0;background-color: #fff;}
+.itens_slider_plus .btn_primeiro_nivel {position: relative;}
+.itens_slider_plus .btn_primeiro_nivel .header_multivivo {padding: 0 5% ;padding-top:18px;padding-bottom:18px;width: 90%}
+.itens_slider_plus .primeiro_nivel .conteudo_slideup .sub_descricao{text-align: left;margin-left:35px;margin-right: 27px}
+.itens_slider_plus .border_top_anuncios{float:left;width:90%;margin:0 35px;border-top: solid 1px #d7d7d7;padding: 30px 0 }
+.itens_slider_plus .box_anuncios{width:97%;}
+.itens_slider_plus .detalhes_cosumo{font-family: trebuchet_msregular;color:#303030;font-size: 11px;margin-top: 5px;margin-left: 2px}
+.itens_slider_plus .detalhes_cosumo .detalhe_cosumido{float:left;}
+.itens_slider_plus .detalhes_cosumo .detalhe_disponivel{float:right;}
+.itens_slider_plus .periodo_contabilizacao{margin-left: 0}
+.slider_plus_mobile .primeiro_nivel .conteudo_slideup .content_barra_de_consumo{width: 90%;padding: 0 5%}
+.tarja_alert{width: 100%;background-color: #FF0000;margin: 0  0 10px 0}
+.tarja_alert span{display:block;padding: 5px 0;color:#FFF;font-size: 14px;font-family: robotoregular;margin-left: 15px}
+.content_barra_de_consumo{position:relative;float:left;width: 100%;position: relative;margin-bottom: 5px;}
+.content_barra_de_consumo .qtd_limite{float:left;font-size: 12px;font-weight: bold}
+.content_barra_de_consumo .qtd_disponivel{float:right;font-size: 12px;font-weight: bold}
+.content_barra_de_consumo .barra_de_consumo{position:relative;clear:both;width: 100%;height:10px;overflow: hidden;margin: 0;padding: 0;border: solid 1px #d7d7d7;border-radius: 3px;background-color: white}
+.content_barra_de_consumo .barra_de_consumo .quantidade_consumida{float:left;height: 100%;left: 0;top: 0;}
+.content_barra_de_consumo .barra_de_consumo .quantidade_restante{position:absolute;background-color: #ccd4d8;height: 100%;right: 0;top: 0;}
+.content_barra_de_consumo .desc_consumido{float:left;;text-align: left;margin: 10px 0}
+.content_barra_de_consumo .desc_consumido h3{font-size: 10px;font-family: robotoregular;color:#4e4e4e;}
+.content_barra_de_consumo .desc_consumido span{font-size: 11px;font-family: robotoregular;color:#4e4e4e;}
+.content_barra_de_consumo .desc_disponivel{float:right;text-align: right;margin: 10px 0}
+.content_barra_de_consumo .desc_disponivel h3{font-size: 10px;font-family: robotoregular;color:#4e4e4e;}
+.content_barra_de_consumo .desc_disponivel span{font-size: 11px;font-family: robotoregular;color:#4e4e4e;}
+.consumo_colorido{background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_COLOR_STATUS') left repeat-y;background-size: 100%}
+.descricao{clear:both;display:block;font-size: 10px;font-family: robotoregular;color:#4e4e4e;margin: 3px 0}
+.pacotes_adicionais .conteudo_slideup h2{float:left;width:100%;font-family: robotoregular;color:#999;font-size: 12px;margin-left: 5%;margin-bottom: 5px}
+.float_left{float: left !important}
+.icon-add_pacotes{margin-left: 0;font-size: 32px;margin-right: 5px}
+.btn_contratar{clear:both;display: block;text-align: center;background-color: #660099;margin: 5% 0;padding: 5% 0;font-family:ITCOfficinaSerifBold;color:#FFF;letter-spacing: 1px}
+.plano_consumo_franquia .header_multivivo i{float: left;margin-left: 0;font-size: 25px;margin-right: 10px;margin-top: 20px}
+.plano_consumo_franquia .titulo_avulso{float:left;width:100%;font-family: robotoregular; font-weight: normal;color:#660099;text-align: left;font-size: 13px;}
+.plano_consumo_franquia .desc_consumo {margin-top: 10px}
+.plano_consumo_franquia .desc_consumo .item_desc{font-size: 12px}
+.plano_consumo_franquia .desc_info {float: left;width: 100%;margin-top: 5px;margin-bottom: 10px}
+.desc_consumo{display:block;float: left;width: 100%;margin: 5px 0}
+.desc_consumo .cp_cor{float: left;width: 15px;height: 15px;margin-right: 5px;border-radius: 3px}
+.desc_consumo .item_desc{float: left;width: initial;font-size: 12px;font-family: robotoregular;color:#333;}
+.wrap_scroll{float:left;width: 100%;padding-top: 20px; overflow-x:auto; white-space:nowrap;}
+.desc_periodos{float: left; maring-top: 5px}
+.barra_excedente{width: 4% !important;float: left !important; clear: none !important;border-radius: 0px 3px 3px 0px !important;}
+.grafico_principal_excedente {width: 94.5% !important;float: left !important;clear: none !important;border-radius: 3px 0 0 3px !important;}
+.spanExcedente {position: absolute;top: -15px;height: 26px;border-right: solid 2px #999;z-index: 8;right: 4.5%;padding-right: 5px;}
+.quantidade_consumida.excedente{background: red; width: 100%;}
+#desc_excedente .cp_cor{background: red;}
+
+/* Multivivo Modificado*/
+.border_top{border-top: solid 1px #d7d7d7;border-radius: 0}
+.conteudo_slideup  .border_top{width: 90%;margin: 0 5%}
+.itens_slider_plus .segundo_nivel {width:100%;font-family: trebuchet_msregular;}
+.itens_slider_plus .segundo_nivel h2{float: left;color: #660099;font-family:robotoregular !important;font-weight: bold;font-size: 12px;margin: 4px 0;}
+.itens_slider_plus .segundo_nivel .contratado_por{display: block;float:left;margin: 4px 25px 4px 0;font-family:robotoregular;font-weight: normal;font-size: 12px;}
+.itens_slider_plus .segundo_nivel .contratado_por span{color:#660099;}
+.itens_slider_plus .segundo_nivel .content_barra_de_consumo span{font-family: robotoregular;}
+.segundo_nivel .content_barra_de_consumo .desc_consumido span{font-size: 11px;margin-bottom: 20px;text-transform:none; }
+.segundo_nivel .content_barra_de_consumo .desc_disponivel span{font-size: 11px;margin-bottom: 20px;text-transform:none;}   
+.itens_slider_plus .titulo_avulso{width:95%;font-family: robotoregular !important;font-size: 12px;margin-bottom:15px;padding: 0 2.5%;color: #888;}
+.header_segundo_nivel{padding: 0;;}
+.header_segundo_nivel i{padding:6px 0;}
+.tarja_alert{width: 100%;background-color: #FF0000;margin: 10px  0 10px 0}
+.tarja_alert span{display:block;padding: 5px 0;color:#FFF;font-size: 14px;font-family: robotoregular;margin-left: 15px}
+.contratar_pacote{width: 100%;margin: 0;padding: 0}
+.contratar_pacote h2{font-size: 14px}
+.segundo_nivel_header_simples  .header_segundo_nivel h2{margin: 12px 0}
+.slider_plus_mobile .primeiro_nivel .conteudo_slideup .content_barra_de_consumo{width: 90%;padding: 0 5%}
+.descricao{clear:both;display:block;font-size: 10px;font-family: robotoregular;color:#4e4e4e;margin: 3px 0}
+.pacotes_adicionais .conteudo_slideup h2{float:left;width:100%;font-family: robotoregular;color:#999;font-size: 12px;margin-left: 5%;margin-bottom: 5px}
+.float_left{float: left !important}
+.icon-add_pacotes{margin-left: 0;font-size: 32px;margin-right: 5px}
+.btn_contratar{clear:both;display: block;text-align: center;background-color: #660099;margin: 5% 0;padding: 5% 0;font-family:ITCOfficinaSerifBold;color:#FFF;letter-spacing: 1px}
+.desc_consumo{display:block;float: left;width: 100%;margin: 5px 0}
+.desc_consumo .cp_cor{float: left;width: 15px;height: 15px;margin-right: 5px;border-radius: 3px}
+.desc_consumo .item_desc{float: left;width: 90%;font-size: 12px;font-family: robotoregular;color:#333;}
+.dist_usuario .slider_plus_mobile{border-top: solid 1px #d7d7d7;border-radius: 0;margin: 0 }
+.dist_usuario .itens_slider_plus .btn_primeiro_nivel .header_multivivo {width: 100%;padding: 13px 0;margin-bottom: 0}
+.dist_usuario .itens_slider_plus .btn_primeiro_nivel .conteudo_slideup .content_barra_de_consumo{width: 100%;padding: 6.4% 0}
+.dist_usuario .header_multivivo{padding: 6.4% 0;}
+.dist_usuario .header_multivivo .desc_consumo {margin:0;width: 85%;line-height: 15px}
+.dist_usuario .header_multivivo .desc_consumo .cp_cor{margin: 7px 5px 7px 0;}
+.dist_usuario .header_multivivo .icon_btn_niveis{margin: 15px 0 0 5px;}
+.dist_usuario .slider_plus_mobile .primeiro_nivel .conteudo_slideup .content_barra_de_consumo {border-top: solid 1px #d7d7d7;padding-top: 20px;}
+.dist_usuario .conteudo_slideup .content_barra_de_consumo{margin-bottom: 10px}
+.wrap_scroll{float:left;width: 100%;padding-top: 20px; overflow-x:auto; white-space:nowrap;}
+.content_historico{width: inherit;height: 210px;border-bottom: solid 1px #d7d7d7;margin: auto;margin-bottom: 50px;}
+.content_historico .espaco{display:inline-block;width:5px;height: 45px;}
+.content_historico .wrap_barra_consumo{position:relative;display:inline-block;width: 50px;height: 100%;bottom: 0;  }
+.content_historico .wrap_barra_consumo .mes{position:absolute;width: 50px;float:left;bottom: -20px;text-align: center;font-size: 11px;font-weight: bold;color: #333;text-transform: uppercase;}
+.content_historico .wrap_barra_consumo .barra{position: relative;width: 98%; height: 210px;margin: auto;font-weight: bold;}
+.content_historico .wrap_barra_consumo .barra .cmp_usado{position:absolute;width: 100%;bottom: 0;}
+.content_historico .wrap_barra_consumo .barra .cmp_usado span{position:absolute; display:block;width: 100%;text-align: center;top: -20px;color: #333;font-size:12px}
+.content_vivo_bis {font-family: robotoregular;}
+.content_vivo_bis .wrap_barra_consumo .barra .cmp_usado{position: relative !important;border-radius: 0;}
+.content_vivo_bis .wrap_barra_consumo .barra .cmp_usado span{color:#FFF;top: 43%;z-index: 1;}
+.content_vivo_bis .wrap_barra_consumo .barra .div_dados{position:relative;width: 100%;color:#333;}
+.content_vivo_bis .wrap_barra_consumo .barra .div_dados span{position:absolute;width: 100%;text-align: center; bottom: 0;left:0}
+.vivo_bis .desc_consumo{float:left; width: auto;margin-right: 20px;margin-bottom: 30px}
+.historico_de_consumo .conteudo_slideup .wrap_scroll{width: 90%;margin: 0 5%}
+.vivo_bis .desc_consumo span{width: auto}
+.velocidade_reduzida_home{width: 100% !important}
+.saiba_mais_multivivo{text-align: right; margin-bottom:10px}
+.roxo_claro_nao_consumido{background:#B06ECF}
+.valuesGBMB{display: inline-block;margin-left: 7px;font-size: 12px;color: #333;}
+.valuesGBMB strong{float: right}
+/*fim modificado*/
+/*select*/
+.wrap_select{float: left;width: 90%;margin: 0 5%;margin-top: 20px;margin-bottom: 30px}
+.wrap_select .select{width: 96.9%;height: 13px;cursor: pointer;border: none;border-bottom: solid 1px #d7d7d7;border-radius: 0}
+.wrap_select .select span{padding: 0}
+
+.sel_box{position: relative; float: left; width: 100%;}
+.select{display: block;}
+.toc_odd{position: absolute; display: none;top: 10px;width:95%;padding-top: 12px !important; padding-left: 0;z-index: 2;overflow-x: hidden;overflow-y: auto;max-height: 100px;border-bottom: solid 1px #d7d7d7}
+.toc_odd li{border-left: none!important;border-right: none!important}
+.select .sel_box{height: auto}
+.sel_box .select_style .icone_canto{width:25px;position:absolute;right: 0;top: 7px;font-size: 15px}
+.sel_box .select_style span{line-height: 13px}
+.select_style{border: 1px solid #dbdbdb; background: #ffffff; padding: 10px 5px 10px 0;}
+.select .ul_select_style{margin: 0; padding: 0;}
+.ul_select_style li{list-style: none; border-bottom: 1px solid #dbdbdb;background: #ffffff; padding:0;margin: 0; width: 100%;padding: 3% 0;padding-left: 10px}
+.ul_select_style li a{text-decoration: none; color: #888;}
+.select_cor_disp{float: left; margin-right: 25px;}
+.select_cor_disp .ul_select_style{width: 148px; background: #ffffff;}
+
+.select_cor_disp .sel_box .select_style{padding: 3px 0px; height: 23px;}
+.select_cor_disp .sel_box .select_style .select_item{margin: 0px 3px; border: 1px solid #c7c7c7;}
+/* fim select*/
+.balao_linha_cancelada{background-color: #888 !important;display: inline-block;width: 100%;border-radius: 6px;margin: 5px 0 5px 0;}
+.desc_linha_cancelada{padding-top: 0px;color: white !important;text-align: center !important; margin-bottom:0px !important}
+.abertura_multivivo{padding-bottom: 0px !important}
+.header_segundo_nivel{padding: 0;}
+.desc_consumido.dist_internet span{font-size: 11px;margin-bottom: 20px;text-transform: none;}
+.desc_disponivel.dist_internet span{font-size: 11px;margin-bottom: 20px;text-transform: none;}
+.texto_incentivo{padding: 0px; font-size:12px}
+.texto_incentivo_cinza{padding: 0px 0px 10px 0px; color:#888;}
+.header_incentivo_pacotes{padding-bottom: 0px !important}
+.content_historico_sem_consumo{height: 210px;border-bottom: solid 1px #d7d7d7; text-align:center; overflow-x: hidden}
+
+/*Fim Multivivo Cotas*/
+
+/*Troca de Plano*/
+.aberturaLarge {font-size: 17px !important;margin-bottom: 22px;font-weight: bold;}
+.footerLeft {float:right !important;}
+.topicItem {line-height: 2.5; margin-bottom: 15px;}
+p.observacao {font-style: italic;font-size: 10px !important;}
+/*Fim Troca de Plano*/
+
+/*Debito Automatico Movel*/
+.logoTitle {padding: 30px 38% 0px;}
+.aberturaLargeCenter {font-size: 16px;text-align: center;font-weight: bold;}
+.informacaoDebito {text-align: center;margin-left: 13%;margin-right: 13%;}
+.imageBank {float: left;margin-left: 3%;}
+.nameBank {padding:13px 80px 0px;}
+.dadosConta {line-height: 2.0;margin-bottom: 21px;}
+.logoDebito {color: #660099;float: left;width: 100%;padding-bottom: 10px;}
+/*Fim Debito Automatico Movel*/
+
+/*Inicio Meu Consumo Internet-Fixo - PROJETO FERNANDA*/
+.erro_consumo{text-align:center; margin-top:20px; font-size:14px}
+.erro_consumo_diario{text-align:center; margin-top:70px; font-size:14px}
+.officina_serif{font-family: ITCOfficinaSerifBold!important;}
+.col_gray{background: #eeeeee;}
+.imgfull{width: 100%;height: auto !important;border: none;float: left;}
+.margin_bottom_5{margin-bottom: 5px;}
+.font_19{font-size: 19px!important;}
+.font_22{font-size: 22px!important;}
+.absolute{position: absolute;}
+.fixed{position: fixed;}
+.ct_icon{top: 14px;background: #ebebeb;left: 0;padding: 20px 10px 12px;border-radius: 0 20px 20px 0px;border-right: 1px solid #cdcdcd;border-top: 1px solid #cdcdcd;border-bottom: 1px solid #cdcdcd}
+.consumo_mensal .content_barra_de_consumo .barra_de_consumo{position:relative;clear:both;width: 100%;height:10px;overflow: hidden;margin: 0;padding: 0;border: solid 1px #d7d7d7;border-radius: 3px;background-color: white}
+.spacer_home{float: left;height: 45px;clear: both;}
+.consumo_diario{position: relative;padding: 15px 11px;}
+.title_consumo{margin-top: 10px;border: 0;}
+.title_consumo h2{margin-left: 40px;}
+.pagination_home .swiper-pagination-bullet{width: 14px;height: 14px;background: #ffffff;box-sizing: border-box;}
+.pagination_home .swiper-pagination-bullet-active{background: #660099;border: 1px solid #ffffff;}
+
+.section_consumo{background: #ebebeb;border: 1px solid #cccccc;width: 100%;float: left;padding: 10px 0;box-sizing: border-box;}
+.section_consumo .wrap_scroll{padding-top: 0;margin: auto;float: none;width: calc(100% - 20px);padding-top: 0;width: 90%;margin: 0 5%;}
+.section_consumo .wrap_barra_consumo{width: 60px;}
+.section_consumo .wrap_barra_consumo .barra{width: 100%;}
+.section_consumo .espaco{width: 8px;}
+.section_consumo .wrap_barra_consumo .barra .cmp_usado span{height: 15px;bottom: 0;top: 0;margin: auto;font-weight: bold;font-size: 13px;}
+.section_consumo .roxo_claro{background: #cfb3dc;}
+.section_consumo .roxo_claro span{color: #68009b!important;}
+.section_consumo .wrap_barra_consumo .mes{width: 100%;font-size: 13px;}
+.section_consumo .wrap_barra_consumo .barra .div_dados span{font-weight: bold;color: #000000;bottom: 10px;}
+.section_consumo .desc_consumo .cp_cor{width: 19px;height: 19px;}
+.section_consumo .content_vivo_bis{width: 100%;margin-bottom: 41px;margin-bottom: 41px;width: auto;float: left;}
+.section_consumo .desc_consumo .item_desc{font-size: 13px;text-transform: uppercase;font-weight: bold;}
+.section_consumo .desc_consumo{margin: 0;padding: 5px 23px;box-sizing: border-box;}
+
+.section_consumo .wrap_select{display: flex;border-bottom: 1px dotted #609;margin: 0;width: 100%;padding: 8px 20px 18px;box-sizing: border-box;}
+.section_consumo .sel_box{width: 90%;margin: auto;float: none;}
+.section_consumo p{width: 100%;float: left;margin-top: 25px;font-size: 12px;border-top: 1px dotted rgb(102, 0, 153);padding: 13px 10px 4px;box-sizing: border-box;}
+.section_consumo .select{border: 1px solid #cccccc;padding: 6.5px 0;width: 100%;border-radius: 3px;}
+.section_consumo .sel_box .select_style span{font-size: 12px;padding: 0 10px;box-sizing: border-box;}
+.section_consumo .sel_box .icone_canto{background: #f7f7f7;width: auto;top: 0;margin-top: 0;padding: 13px 4px 5px;border-left: 1px solid #cccccc;color: #609;font-size: 18px;}
+.section_consumo .toc_odd{width: 100%;margin: 0;padding-top: 0!important;margin-top: 18px;border-right: 1px solid #ccc;border-left: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+.section_consumo .ul_select_style li{box-sizing: border-box;}
+.section_consumo .wrap_barra_consumo .barra .cmp_usado{border: 1px solid #cccccc;box-sizing: border-box;}
+
+.section_consumo .content_barra_de_consumo{width: calc(100% - 20px);margin: 0 10px;}
+.section_consumo .content_barra_de_consumo .desc_consumo{padding: 5px 3px;}
+.consumo_mensal .section_consumo .barra_de_consumo{border: 1px solid #a1a1a1;height: 24px;margin-bottom: 25px;box-sizing: border-box;}
+.section_consumo .content_barra_de_consumo .roxo_claro{background: #b170ce;}
+.section_consumo .content_barra_de_consumo h3{font-size: 17px;border-bottom: 1px dotted #660099;padding-bottom: 5px;margin: 24px 0;}
+.section_consumo .content_barra_de_consumo h4{font-family: Trebuchet MS;font-size: 14px;margin-bottom: 12px;text-transform: uppercase;}
+
+.label_sel_box{margin-top: 5px;margin-right: 11px;float: left;color: #609;font-family: ITCOfficinaSerifBold;font-size: 15px;text-transform: capitalize;}
+.font_normal{font-weight: normal!important;}
+.bt_consumo{padding: 10px 0;text-align: center;width: 100%;margin: 20px 0;background: #660099;color: #fff;font-size: 19px;font-family: ITCOfficinaSerifBold;border-radius: 3px;text-transform: capitalize;display: inline-block;box-sizing: border-box;}
+.ct_bottom{clear: both;padding: 0 10px;font-family: Trebuchet MS;}
+.ct_bottom p{font-size: 12px;line-height: 15px;margin: 15px 0;}
+.text_underline_gray{text-decoration: underline !important; color: gray;}
+.no_border_top{border-top: 0!important;}
+.no_padding_top{padding-top: 0!important;}
+.linkRoxo{color: #660099;}
+
+/* Modal que redireciona para o site da vivo */
+.modal_redirect{width: 100%;height: 100%;z-index: 99999;display: none;}
+.bg_redirect{width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.7);}
+.header_redirect{background: #560183;height: 40px;}
+.header_redirect .icon-vivo_vazado{background: #560183;border: 1px solid #4d0971;font-size: 50px;color: #d8c6e3;display: inline-block;margin-top: -40px;padding: 44px 19px 22px;border-radius: 60px;}
+
+.content_redirect{font-family: "Trebuchet MS";top: 16.5%;left: 0;right: 0;z-index: 9;text-align: center;background: #ffffff;width: calc(100% - 68px);margin: auto;box-sizing: border-box;border-radius: 6px;}
+.content_redirect h2{margin-top: 22px;font-family: Trebuchet MS;font-size: 19px;font-weight: normal;}
+.content_redirect p{padding: 0 12px;font-size: 14px;margin-top: 14px;}
+.content_redirect a{font-size: 16px;width: 50%;float: left;margin-top: 22px;padding: 12px 0;border-top: 1px solid #cccccc;border-right: 1px solid #cccccc;box-sizing: border-box; color:#888}
+.content_redirect a:last-child{border-right: 0;color: #560183;}
+
+.header_consumo_mensal{border-bottom: 1px solid #cccccc;background: #ffffff;}
+.header_consumo_mensal p{margin-top: 0;border: 0;padding: 5px;font-family: ITCOfficinaSerifBold;font-size: 12px;text-transform: uppercase;text-align: center;}
+.header_consumo_mensal .active_month{background: #ebebeb;position: relative;}
+.header_consumo_mensal .active_month span{display: inline-block;width: 100%;}
+.header_consumo_mensal .active_month .icon-ok_redondo{position: absolute;bottom: 18%;right: 3%;font-size: 11px;}
+.header_consumo_mensal .swiper-button-disabled{display: none;}
+.header_consumo_mensal .swiper-slide{width: 24% !important;margin-right: 2px;display: flex;align-items: center;height: 40px;}
+.header_consumo_mensal .swiper-slide:first-child{margin-left: 0!important;}
+.header_consumo_mensal .swiper-slide-active{margin-left: 4px;}
+.header_consumo_mensal .swiper-button-next{color: #737373;font-size: 12px;right: 0;padding: 0;top: 52%;width: auto;height: auto;margin: 0;}
+.header_consumo_mensal .swiper-button-prev{color: #737373;font-size: 12px;left: 0;padding: 0;top: 52%;width: auto;height: auto;margin: 0;background: none;}
+.selected_month{color: #660099;}
+
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {opacity: 0.35;cursor: auto;pointer-events: none;}
+.swiper-container {margin: 0 auto;position: relative;overflow: hidden;z-index: 1;}
+.swiper-wrapper {position: relative;width: 100%;height: 100%;z-index: 1;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-transition-property: -webkit-transform;-moz-transition-property: -moz-transform;-o-transition-property: -o-transform;-ms-transition-property: -ms-transform;transition-property: transform;-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;}
+.swiper-slide {-webkit-flex-shrink: 0;-ms-flex: 0 0 auto;flex-shrink: 0;width: 100%;height: 100%;position: relative;}
+
+.swiper-button-prev, .swiper-button-next {position: absolute;top: 50%;width: 27px;height: 44px;margin-top: -22px;z-index: 10;cursor: pointer;-moz-background-size: 27px 44px;-webkit-background-size: 27px 44px;background-size: 27px 44px;background-position: center;background-repeat: no-repeat;}
+
+/* Scrollbar */
+.swiper-scrollbar {border-radius: 10px;position: relative;-ms-touch-action: none;background: rgba(0, 0, 0, 0.1);}
+.swiper-container-horizontal > .swiper-scrollbar {position: absolute;left: 1%;bottom: 3px;z-index: 50;height: 5px;width: 98%;}
+.swiper-container-vertical > .swiper-scrollbar {position: absolute;right: 3px;top: 1%;z-index: 50;width: 5px;height: 98%;}
+
+/* distribuição de cotas */
+
+	/*estrutura geral*/
+	.wrap{float:left; display:block; width:100%;}
+	.hidden{overflow-x: hidden; position: fixed; width:100%; height:100%}
+	
+	.content{position: absolute; width:100%; min-height:100%}
+
+	.fixed_cotas{position: fixed; top: 40px; z-index: 9!important; margin-left: -15px !important; margin-top: 0px !important; border-radius: 0px !important; padding-top: 20px!important; padding-bottom: 20px !important;}
+			
+.font_roxo{color: #660099}
+.font_branco{color: #ffffff}
+.font_preto{color: #000000}
+
+.wrap_conteudo_multivivo{float:left;width: 90%;border-radius: 5px;background-color: #fff;padding: 0 5%;margin: 5px 0}
+
+.header_multivivo{float:left;width: 100%;position: relative}
+.header_multivivo h2{float:left;color:#660099;font-family:ITCOfficinaSerifBold;font-weight: normal;font-size: 17px;margin: 4px 0}
+.header_multivivo .status{float:right;margin:6px 0!important;}
+.header_multivivo .status i{float:left;font-size: 17px;margin-top: 8px;margin-right: 5px}
+.header_multivivo .status span{float:left;font-size: 14px;font-family:ITCOfficinaSerifBold}
+
+.icon_btn_niveis{float: right;margin: 15px 0 0 0px;color:#660099;font-size: 18px;}
+
+/*MODIFICADO*/
+.transparencia{background-color: #fff;opacity: 0.4;filter: alpha(opacity=40);}
+.barra_cinza{background-color: #aaa8a8 !important; opacity:1 !important;}
+
+.content_barra_de_consumo{position:relative;float:left;width: 100%;position: relative;}
+.content_barra_de_consumo .qtd_limite{float:left;text-transform: uppercase;font-size: 12px;font-weight: bold}
+.content_barra_de_consumo .qtd_disponivel{float:right;text-transform: uppercase;font-size: 12px;font-weight: bold}
+.content_barra_de_consumo .barra_de_consumo{position:relative;clear:both;width: 100%;height:10px;overflow: hidden;margin: 0;padding: 0;border: none;border-radius: 3px;background-color: #cccbcb}
+.content_barra_de_consumo .barra_de_consumo.distribuicao{border: solid 1px #d7d7d7 !important; background-color: #fff !important;}
+.content_barra_de_consumo .barra_de_consumo .quantidade_consumida{float:left;height: 100%;left: 0;top: 0;}
+.content_barra_de_consumo .barra_de_consumo .quantidade_restante{position:absolute;background-color: #ccd4d8;height: 100%;right: 0;top: 0;}
+.content_barra_de_consumo .desc_consumido{float:left;;text-align: left;text-transform: uppercase;margin: 10px 0}
+.content_barra_de_consumo .desc_consumido h3{font-size: 10px;font-family: robotoregular;color:#4e4e4e;}
+.content_barra_de_consumo .desc_consumido span{font-size: 28px;font-family: robotoregular;color:#4e4e4e;}
+.content_barra_de_consumo .desc_disponivel{float:right;text-align: right;text-transform: uppercase;margin: 10px 0}
+.content_barra_de_consumo .desc_disponivel h3{font-size: 10px;font-family: robotoregular;color:#4e4e4e;}
+.content_barra_de_consumo .desc_disponivel span{font-size: 28px;font-family: robotoregular;color:#4e4e4e;}
+
+.desc_consumo{display:block;float: left;width: 100%;margin: 5px 0}
+.desc_consumo .cp_cor{float: left;width: 15px;height: 15px;margin-right: 5px;border-radius: 3px}
+.desc_consumo .item_desc{float: left;width: 90%;font-size: 12px;font-family: robotoregular;color:#333;text-transform:capitalize;}
+
+.content_barra_de_consumo{position:relative;float:left;width: 100%;position: relative;margin-bottom: 25px;}
+
+/*select*/
+.distribuicao_plano_top .content_barra_de_consumo{padding-top:30px;}
+.distribuicao_plano_top .content_barra_de_consumo .dist_espaco_cliente{float: left;width: 100%;margin-bottom: 15px}
+.dist_espaco_cliente .desc_consumo{font-size: 10px;width: 33.33%;line-height: 11px;}
+.dist_espaco_cliente .desc_consumo .cp_cor{margin: 3px 5px 3px 0;}
+.dist_espaco_cliente .desc_consumo .item_desc{width: 76.5%;font-size: 11px ;}
+.header_multivivo.header_simples {padding-bottom: 0px !important;}
+.edicao_consumo {padding-bottom: 15px;}
+.edicao_consumo .content_barra_de_consumo .barra_de_consumo {float: left;}
+.edicao_consumo .content_barra_de_consumo{margin-top: 0px}
+.content_barra_de_consumo .qtd_cota{float:left;font-size: 13px;color:#660099;margin-bottom: 10px;}
+.botoes_controle{float: left;width: 100%;margin-top: 10px}
+.botoes_controle .btn_controle_mais{float: right;font-size: 40px;color:#660099;}
+.botoes_controle .btn_controle_menos{float: left;font-size: 40px;color:#660099;}
+
+.autoriza_compra{float: left;width: 100%}
+.autoriza_compra .input{position: relative;float:left;width: 18px;height: 15px}
+.autoriza_compra .input i{position: absolute;top: 8px;color: #ccc;font-size: 18px;width: 16px;}
+.autoriza_compra .input .icon-input_checked{color: #660099}
+.autoriza_compra .input input{position: absolute;left: 0;top: 1px;opacity: 0;width:15px;height:15px;margin: 0}
+.autoriza_compra span{float: left;font-size: 11px;margin-left: 5px;color: #999;font-weight: bold}
+
+.wrap-slider{float: left;width: 100%;height: 10px;position: relative;margin-top:10px;margin-bottom: 5px;}
+.wrap-slider a{border-radius: 20px;width: 25px !important;height: 25px !important;top: -9px !important;}
+.wrap-slider .balao_drag{position: absolute;width: 45px;top: -28px; margin-left: -47.5px; z-index: 8}
+.wrap-slider .balao_drag i{font-size: 55px;position: absolute;z-index: 99;color: #660099;top: -9px;left: -1px;}
+.wrap-slider .balao_drag span{color: #FFF;font-size: 10px;position: absolute;z-index: 999;left: 4px;line-height: 12px;text-align: center;right: 0px; margin: -32px auto 0px; width: 45px;}
+
+.wrap-slider .centro_slider {position: absolute;height: 10px;top: 0;bottom: 0; left: 0px; ;right:0;margin: auto;background:none;border: none;border-radius: 0;}
+.limitador_esq, .limitador_dir  {position: absolute;height: 10px;top: 0;bottom: 0;margin: auto;z-index: 5}
+.limitador_esq{left: 0}
+.limitador_dir {right: 0}
+
+.franquia_disponivel{text-align: center; padding-top: 11px; z-index:8;}
+.franquia_disponivel p{font-size: 12px;}
+.erro_disponivel p{color: red !important; font-weight: bold;}
+
+/*TUTORIAL*/
+ul{list-style: none}
+/*.conteudo_paginacao {position: relative;width: 100%;margin-bottom: 20px}*/
+.conteudo_paginacao {position: absolute;width: 100%;bottom: 30px;}
+.conteudo_paginacao .swiper-pagination{position:static;font-size: 28px;font-weight: bold;color: #FFF;}
+.wrap_tutorial .swiper-wrapper{max-height: 85%}
+.wrap_tutorial{position: absolute;overflow: hidden;float: left;width: 100%;height: 100%;background-color: #aaa;z-index: 99999;background:rgba(0,0,0, 0.9);}
+.swiper-button-next, .wrap_tutorial .swiper-button-prev{background:none !important;font-size:43px;padding: 22px 30px 14px 15px;height: 5px;color: #FFF; top: auto;bottom:0 !important;;}
+
+.wrap_tutorial h1{font-family: 'Trebuchet MS Bold', 'Trebuchet MS';color: #fff;float: left;margin: 25px 30px}
+.wrap_tutorial .icon-fechar{color: #fff;float: right;margin: 41px 30px 25px;font-size: 26px}
+.wrap_tutorial .wrap_conteudo{float:left;width: 82%;margin: 0 9%}
+
+.wrap_conteudo {position: relative;}
+.wrap_conteudo p{float:left;color: #FFF;font-family: 'Trebuchet MS Bold', 'Trebuchet MS';font-size: 13px;}
+.wrap_conteudo .content_barra_de_consumo {width: 100%}
+.wrap_conteudo .content_barra_de_consumo .barra_de_consumo{height: 25px;border-radius: 5px;background-color: #FFFF66}
+.wrap_conteudo .barra_de_consumo{height: 25px;border-radius: 5px;background-color: #FFFF66}
+
+
+.pag1 .wrap_conteudo .content_barra_de_consumo {margin: 5px 0 30px 0}
+.pag1 .wrap_conteudo p{width: 93%;}
+.pag1 .demonstra_esq{position: absolute;top: 8px;left: -6px;z-index: 999}
+.pag1 .demonstra_dir{position: absolute;bottom: -9px;right: 45px;;z-index: 999}
+
+.border_pontilhada_esq{border-right:dotted 1px ;position: absolute;left:0}
+.border_pontilhada_dir{border-left:dotted 1px ;position: absolute;right:0;left: auto !important;background-color: #f0f0f0}
+.pag2 .wrap_conteudo, .pag6 .wrap_conteudo{margin-top: 40px}
+
+.nome_user{float: left;width: 100%;margin-bottom: 46px;}
+.nome_user p{margin: 0 !important;color:#6B6B6B !important;padding:0 5px}
+
+.pag2 .wrap_conteudo {margin-top: 35px}
+.pag2 .wrap_conteudo p{float:left;width:auto;margin-top: 70px}
+.pag2 .content_barra_de_consumo .barra_de_consumo,.pag3 .content_barra_de_consumo .barra_de_consumo, .pag4 .content_barra_de_consumo .barra_de_consumo{background-color: #E4E4E4 !important}
+.pag2 .demonstra_dir{position: absolute;bottom: -106px;left: -13px;;z-index: 999}
+
+.consumido_tuto{position: absolute;top: -5px;left:2px;z-index: 9}
+.disponivel_tuto{position: absolute;top: 45px;left:25px;z-index: 9}
+.slider_tuto{position: absolute;top: 11px;left:45px;z-index: 9}
+.balao_tuto{position: absolute;top:-50px;left:25px}
+.botoes{position: absolute;top: 65px;right:0;}
+
+#wrap_tutorial_conteudo .swiper-button-disabled{opacity: 0}
+
+.pag3 .wrap_conteudo p{margin-top: 25px;}
+.pag3 .content_barra_de_consumo{margin-top: 75px;margin-bottom: 85px}
+.pag3 .demonstra_esq{position: absolute;top: -75px;left: 34px;z-index: 99}
+.pag3 .demonstra_dir{position: absolute;top: 35px;right: -7px;}
+
+.pag4 .wrap_conteudo p{margin-top: 25px;}
+.pag4 .content_barra_de_consumo{margin-top: 75px;margin-bottom: 45px}
+.pag4 .demonstra_esq{position: absolute;top: -75px;left: 7px;z-index: 99}
+.pag4 .demonstra_dir{position: absolute;top: 9px;right: 25px;}
+
+.pag6 .nome_user img{float: left;margin: 3px 5px}
+.pag6  .wrap_conteudo p{float:none;display:block;width: 80%}
+.pag6 .demonstra_dir{position: absolute;top: -10px;left: -9px;}
+.pag6 .nome_user{margin-bottom: 60px;}
+
+.pag7 .wrap_conteudo{margin-top:135px}
+.pag7  .wrap_conteudo p{float:none;display:block;width: 100%}
+.pag7 .demonstra_esq{display: block;margin-left: 30px;}
+.pag7 .btn_tuto{margin-top: 5px}
+
+.pag8 .wrap_conteudo{margin-top:135px}
+.pag8 .wrap_conteudo p{float:right;margin-top:15px;}
+.pag8 .demonstra_esq{position: absolute;right:14%;top: 36px;}
+.pag8 .btn_tuto{position: absolute;top: 129px;right: 8%;}
+
+.pag9 .wrap_conteudo{margin-top:56px}
+.pag9 .wrap_conteudo p{margin-top:15px;width: 100%}
+.pag9 .wrap_conteudo .link_voltar_tuto{display:block;color: #999;text-decoration: underline;width: 100%;text-align: center;}
+.pag9 .demonstra_esq{display: block;margin: 0 auto;width: 41px;}
+
+.pag10 .header_voltar{position:relative;float: left;width:100%;background-color: #4c4c4c;margin-top: 20px;text-align: center}
+.pag10 .header_voltar h1{float:none;margin: 0;padding: 0;font-size: 17px;padding: 15px 0}
+.pag10 .header_voltar i{margin: 0;color: #fff;}
+.pag10 .header_voltar .icon-voltar{position: absolute;top: 26px;left:6%;font-size: 17px}
+.pag10 .header_voltar .icon-interrogacao{position: absolute;top: 26px;right:20px;font-size: 23px; }
+.pag10 .demonstra_esq{position: absolute;right: -9%;top: -48px;}
+.pag10 .wrap_conteudo p {margin-top: 170px;margin-left: 3%;margin-bottom: 50px}
+.pag10 .btn_tuto{width: 150px;margin: auto;display: block;}
+
+/*11/jul/2016*/
+.wrap_conteudo_multivivo.wrap_botoes{width:100%;padding: 0;background: none;}
+.wrap_conteudo_multivivo.wrap_botoes a{width:48%;font-size: 14px;font-family: ITCOfficinaSerifBold !important; margin-bottom: 10px;text-align: center;padding: 15px 0;text-transform: uppercase;color: #fff;border-radius: 3px}
+.float_right{float:right;}
+.float_left{float:left;}
+.bt_salvar{background-color: #660099;letter-spacing: 1px;}
+.wrap_conteudo_multivivo.wrap_botoes .bt_cancelar{background-color: #9b9b9b !important;letter-spacing: 1px;}
+.wrap_conteudo_multivivo.wrap_botoes .volta_compartilhamento{clear:both;display: block;width:250px;margin: 0 auto;color:#660099;text-transform: none;font-size: 12px;}
+.wrap_conteudo_multivivo.wrap_botoes .volta_compartilhamento .icon-voltar_tempo{float:left;font-size: 17px;margin-top: 7px}
+
+.ui-slider { position: relative; text-align: left; }
+.ui-slider .ui-slider-handle { position: absolute; z-index: 6; width: 1.2em; height: 1.2em; cursor: default; }
+.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+
+.ui-slider-horizontal { height: .8em; }
+.ui-slider-horizontal .ui-slider-handle { top: -6px !important; margin-left: -17px!important; }
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+.ui-slider-vertical { width: .8em; height: 100px; }
+.ui-slider-vertical .ui-slider-handle { left: -.3em; margin-left: 0; margin-bottom: -.6em; }
+.ui-slider-vertical .ui-slider-range { left: 0; width: 100%; }
+.ui-slider-vertical .ui-slider-range-min { bottom: 0; }
+.ui-slider-vertical .ui-slider-range-max { top: 0; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {border: 1px solid #fcefa1; background: #fbf9ee url(images/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x; color: #363636; }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #363636; }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #ffffff; background: #fef1ec url(images/ui-bg_inset-soft_95_fef1ec_1x100.png) 50% bottom repeat-x; color: #cd0a0a; }
+.ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #cd0a0a; }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: #cd0a0a; }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary,  .ui-widget-header .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+
+/* ajuste layout promocoes */
+
+.aling_bottom{width:100%; float: left; text-align:center}
+#bt_c_2{display:none}
+#bt_c_3{float:left; margin-left:0px}
+
+/* Inicio box Promocoes */
+.active_promo{margin-top: 10px;display: inline-block;background:#99cc33;color:#fff;border-radius: 5px;padding: 5px 10px;}
+.status_promo_home{float: left;width:auto;background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_SETA_ATIVA_PROMO') left no-repeat;padding: 5px 0 5px 20px;color:#99cc33;font-family: robotobold;font-size:12px;}
+.det_promo_home{float:right;width:auto;margin: 5px  0 17px 0;color: #666;}
+.marginIcon-promocao{margin-bottom: 15px !important;}
+/* Fim box Promocoes */
+
+/* Inicio box saldo de créditos */
+
+.content_saldo_home_ext{float: left; width:100%;}
+.content_saldo_at{float: left;width:100%;border-radius: 8px;border: solid 1px #e6e6e6;margin: 10px 0px;}
+.content_saldo_at .title_saldo_at{background:#660099;border-top-left-radius: 8px;border-top-right-radius: 8px;padding:4px 0px;text-align:center;position: relative;}
+.content_saldo_at .title_saldo_at a{display:block}
+.content_saldo_at .title_saldo_at h2{color:#fff;font-size:18px;display: inline-block;}
+.content_saldo_at .title_saldo_at h2:after{float: right;width: 11px;height: 5px;background: #fff;border-radius: 50px;content: "?";font-family: arial;font-weight: bold;font-size: 8px;margin: 5px 10px 0 6px;color: #660099;line-height: 4px;padding: 4px 0 2px 0px;}
+.content_saldo_at .alert_saldo_bloc{display:block;width:95%;float: left;	padding:5px 2.5%;background-color:#dfdfdf;font-size:11px;font-family: 'robotoregular';color:#000;text-align:center;}
+.content_saldo_at .alert_saldo_bloc a{font-size:12px;font-family: 'robotoregular';color:#000;text-decoration: underline}
+.content_saldo_at .content_saldo_box {float: left;width: 100%;margin: 0px 0px -21px 0;text-align: center;color: #99cc33;font-family: ITCOfficinaSerifStdBold;}
+.content_saldo_at .content_saldo_box  h3{font-size: 68px;line-height: 90px;display: inline-block;letter-spacing: -3px;color: #99cc33;}
+.content_saldo_at .content_saldo_box  h3 span{font-size:32px;line-height:32px;display: inline-block}
+.content_saldo_at .content_saldo_box  h3 p{font-size:32px;float: right;margin-top:-25px;margin-left:-5px;}
+.bt_mais_det {float: right;background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_MAIS_DE_SALDO') top right no-repeat;padding: 9px 30px 2px 0px;font-size: 11px;color: #660099;}
+.bt_rec_now {box-sizing: border-box;float: left;padding: 11px 0 9px 0px;text-align:center;width:100%;background:#660099;color:#fff;font-size:18px;font-family:ITCOfficinaSerifBold;border-radius: 3px}
+.bt_rec_now i{margin: 10px 10px 0px 10px;font-size:20px;display: inline-block;}
+.cifrao{float: left;font-size: 26px;margin-bottom: -32px;margin-top: 14px;}
+.saldoReais{float: left;}
+.saldoCentavos{float: left;margin-top: -14px;margin-left: 0px;font-size: 29px;}
+.underLink{text-decoration: underline !important;}
+.incentivoSaldo{text-align: center;font-size: 14px;margin: 9px 0 9px 0;font-weight: bold;}
+
+
+/* Fim box saldo de créditos */
+
+/*1813147 PRE PAGO*/
+.pre_diario_h2{margin-top: 20px;margin-left: 2px}
+/*box confirmação*/
+.info_saldos {background-color: #f6f6f6;	border: solid 1px #e3e3e3;border-radius: 5px;padding: 6px 0;position: relative;margin-top:15px;}
+.info_saldos .icon-info_rounded{color: #660099;font-size: 25px;position:absolute; width: 33px;height: 30px;top: 51%;	margin-left:10px;}
+.info_saldos p {color: #666;font-size: 14px;margin-left: 45px;display: block;width: 75%}
+.info_saldos .icon-fechar2 {position: absolute;right: 10px;top: 15px;font-size: 20px}
+.wrap_saldos{width: 100%;float: left}
+.wrap_saldos .header_saldos a{color:#666;font-size: 16px;font-family:ITCOfficinaSerifBold;padding: 15px 0;text-align: center;width: 49%;background-color: #ccc}
+.wrap_saldos .saldo_principal{float: left}
+.wrap_saldos .bonus_pacotes{float: right}
+.wrap_saldos .header_saldos .active_saldos{background-color: #660099 !important;color: #fff !important;position: relative;}
+.wrap_saldos .header_saldos .active_saldos:after{content:'';width: 100%;height: 2px;position:absolute;bottom:-3px;background-color: #660099;left: 0;}
+.content_bonus_pacotes{display: none}
+.content_saldos {border-right: solid 2px #f6f6f6;border-left: solid 2px #f6f6f6;}
+.saldo_principal.active_saldos .content_saldos .content_bonus_pacotes{display: block!important;}
+.lista_saldo_bonus {width: 100%;float:left;list-style: none;	padding: 0}
+.lista_saldo_bonus .list_item_header {float: left;margin-bottom: 5px;width: 100%;}
+.lista_saldo_bonus .list_item_header span {color: #660099;font-family: 'robotoregular';font-size: 14px;font-weight: bold;padding: 5px 0}
+.lista_saldo_bonus .list_item_header .tipo_saldo_bonus{margin-left: 10px;width: 43%;}
+.lista_saldo_bonus .list_item_header .valor{margin-right: 10px;text-align: right;}
+.lista_saldo_bonus .list_item .content_list_item {background-color: #fff;color: #666;font-family: 'robotoregular';font-size: 14px;float: left;width: 100%;border-top:solid 2px #eee;padding: 13px 0}
+.lista_saldo_bonus .list_item .content_list_item .content_tipo i{font-size: 23px;float: left;margin-top: 6%;color: #660099;margin-left: 10px}
+.lista_saldo_bonus .list_item .content_list_item .content_tipo {float: left;width:43%;}
+.lista_saldo_bonus .list_item .content_list_item .content_tipo p {float: left;margin-left: 10px;font-size: 13px;margin-right: 10px; padding-right: 2px;}
+.lista_saldo_bonus .list_item .content_list_item .content_validade {float: left;}
+.lista_saldo_bonus .list_item .content_list_item .content_valor {float: right;margin-right: 11px;text-align: center;}
+.lista_saldo_bonus .list_item_total {background-color: #660099;color: #fff;font-family: 'robotoregular';font-size: 13px;float: left;width: 97%;text-align: right;padding: 11px 10px 11px 0;}
+.lista_saldo_bonus .list_item_total span{font-size: 21px;}
+.warp_confirma_historico{background-color: #f1f2f3;padding: 15px 0;margin-bottom: 10px}
+.warp_confirma_historico h2{font-size: 18px;text-align: center}
+.warp_confirma_historico .bt_confira {text-align: center;width: 120px;background: #ff9900;color: #fff;font-size: 16px;font-family: robotobold;border-radius: 3px;margin: 10px auto 0;display: block;padding: 10px 5px 10px 25px;position: relative;}
+.warp_confirma_historico .bt_confira i {margin-left: 0;font-size: 20px;position: absolute;left: 15px;top: 20px;}
+
+/*2ª parte*/
+.lista_saldo_bonus .list_item .content_list_item .content_tipo .aviso_bloq{display: none;}
+.lista_saldo_bonus .list_item .content_list_item .content_tipo .icon-cadeado_aberto1{display: none; line-height:3px !important;}
+.rec_bloqueado .content_tipo .icon-cadeado_aberto1{display: block !important;margin-top:13% !important;line-height:3px !important;}
+.rec_bloqueado .icon-cifra2{display: none!important;line-height:3px !important;}
+.rec_bloqueado .content_list_item{padding:0 !important;}
+.rec_bloqueado .content_tipo {padding:5px 0;}
+.rec_bloqueado .content_tipo p{display:block !important;}
+.rec_bloqueado .content_tipo p span {display:block !important;}
+.rec_bloqueado .content_validade, .rec_bloqueado .content_valor{margin: 13px 0;}
+.rec_bloqueado  .aviso_bloq{display: block!important;clear: both;color: #666;font-size: 11px;font-weight: bold;margin-left: 17px;margin-bottom: 5px;}
+.content_bonus_pacotes .lista_saldo_bonus{margin-bottom: 0}
+.content_bonus_pacotes .list_item_header{padding-top: 5px}
+.content_bonus_pacotes .lista_cinza{background-color: #f1f1f2 !important}
+.content_bonus_pacotes .lista_cinza .content_list_item{background-color: #f1f1f2 !important;border-color: #e6e6e7 !important}
+.content_bonus_pacotes .content_saldos{background-color: #f1f1f2 !important;border-color: #e6e6e7 !important}
+.content_bonus_pacotes .warp_confirma_historico{margin-top: 10px}
+.bloq_color{color: #660099;}
+
+.checkAtivit {margin-top: -2px;margin-right: 14px;margin-left: 14px;	}
+span#promoAtiva{margin-right: 8px;margin-left: 8px;}
+
+span.resizable {white-space: nowrap;display: -webkit-inline-box;}
+
+.ajuda_onnet{text-decoration: none;width: 12px;height: 12px;background: url('ShowPropertyServlet?nodeId=/UCMRepository/PW_REV_IMG_CS_AJUDA') no-repeat;white-space: nowrap;  display: -webkit-inline-box;}
+
+.color_error{background-color: #f1f1f2 !important;border-top: solid 2px #B7B7B7 !important; text-align: center;}
+
+.icon-52:before{line-height:3px !important;}
+.icon-46:before{line-height:3px !important;}
+.icon-credito_inicial:before {line-height:3px !important;}
+
+.cs_ic_seta_esq{background: url('ShowPropertyServlet?nodeId=/UCMRepository/PW_REV_IMG_CS_IC_SETA_ESQ') no-repeat;white-space: nowrap;line-height:3px !important;width: 20px;height: 22px;}
+
+.ic.icon-promocao.marginIcon-promocao {margin-top: 9px;padding-bottom: 7px;}
+span.promocaoAtivada {word-break: break-word !important;white-space: inherit !important;display: -webkit-inline-box !important;bottom: 0px;}
+.ajusteBox {margin: 0;}
+
+.pacote_em_uso_cor {
+	color: #99cc33;
+}
+
+.link_consumo_internet {
+	text-decoration: underline !important; 
+	float:left; 
+	color:#666;
+}
+
+.pacotes_em_uso {
+    margin-left: 10px;
+    margin-top: 0px;
+    vertical-align: middle;
+	display: inline-block;
+	position:relative;
+}
+
+/*FIM 1813147 PRE PAGO*/
+
+/*INICIO - 1813337 - Controle para Todos*/
+.modal_vc_controle *{box-sizing: border-box;}
+.modal_vc_controle{position: fixed; width:100%; z-index:99; top: 40px; left:0px;}
+.modal_vc_controle .content_vc_controle{position: relative; width:100%; padding: 30px 30px 15px 30px; background:#560083; float: left; color:#fff}
+.modal_vc_controle .content_vc_controle .c_fechar{position: absolute; width:20px; height:20px; font-size:20px;  color:#fff; right:10px; top:20px;}
+.modal_vc_controle .content_vc_controle .div_txt{ width:100%; float: left; padding-left:60px}
+.modal_vc_controle .content_vc_controle .div_txt h3{ font-size: 20px; position: relative;  color:#fff}
+.modal_vc_controle .content_vc_controle .div_txt h3 i{ font-size: 45px; top: 22px; position: absolute;  left:-60px }
+.modal_vc_controle .content_vc_controle .div_txt p{font-family: ITCOfficinaSerifBookRegular; font-size:17px; }
+.modal_vc_controle .content_vc_controle .adesao_plano {margin-top:15px; float: left; width:100%; padding-top:15px; border-top: solid 1px #9a67b5 }
+.modal_vc_controle .content_vc_controle .adesao_plano  .price{float: left; width:auto; font-family: ITCOfficinaSerifBold; color:#fff;}
+.modal_vc_controle .content_vc_controle .adesao_plano  .price h3{font-size:25px; float: left; width:auto; font-family: ITCOfficinaSerifBold; color:#fff!important;}
+.modal_vc_controle .content_vc_controle .adesao_plano  .price h3 span{font-size:14px; float: left; width:auto; margin-top:11px; margin-right:3px;}
+.modal_vc_controle .content_vc_controle .adesao_plano  .price h3 p{font-size:12px; float: right; width:auto}
+.modal_vc_controle .content_vc_controle .adesao_plano  .bt_now{margin-top:10px; float: right; padding: 5px 15px; color:#fff; font-size:15.5px; width:auto; border-radius:3px; border: solid 1px #fff; font-family: 'ITCOfficinaSerifBold';}
+/*FIM - 1813337 - Controle para Todos*/
+
+/*1815711 - Extrato Detalhado para clientes Pre-pago e Controle - INICIO*/
+.wrap1815711{float: left;width: 100%;}
+.wrap1815711 .wrap_consumo .loading_extrato{width: 120px;height:120px; max-width: 117px; display: block; margin: 0 auto;position:absolute;top:45%;left:50%;margin-top:-50px;margin-left:-50px;}
+.wrap1815711 .btn_tipo_extrato span{display: inline-block;vertical-align: middle;}
+.wrap1815711 .btn_tipo_extrato .icon-planeta2{font-size:21px;margin-right: 5px;height: 0;}
+.wrap1815711 .btn_tipo_extrato .icon-telefone{font-size:21px;margin-right: 5px;height: 4px;}
+/*botoes topo extrato e bonus*/
+.wrap1815711 .btn_tipo_extrato{font-family:ITCOfficinaSerifBold;color: #660099 !important;font-size: 12px !important; text-align: center;width:49%;padding: 15px 0;background-color: #fff;-webkit-box-shadow: 1px 1px 2px 0px  rgba(181,181,181,0.5)rgba(181,181,181,1);-moz-box-shadow: 1px 1px 2px 0px  rgba(181,181,181,0.5)rgba(181,181,181,1);box-shadow: 1px 1px 2px 0px  rgba(181,181,181,0.5);margin-bottom: 15px;border-radius: 25px;}
+.wrap1815711 .active_extrato {color: #FFF !important;-webkit-box-shadow:none!important;-moz-box-shadow: none !important);box-shadow: none !important;background-color: #660099!important;}
+/*botoes periodo*/
+
+/*new select*/
+.cff0000{color: #ff0000;}
+.c99cc33{color: #99cc33;}
+.bf6f6f6{background-color: #f6f6f6;}
+.wrap_new_select{position:relative;cursor:pointer;font-family:robotoregular;background-color: #FFF}
+.wrap_new_select .select_item{display:block;font-size:12px;line-height:10px;color:#666;border:solid 1px #d1d1d1;padding:8px 5px 8px 10px;}
+.wrap_new_select .icon{position: absolute;top:45%;right: 10px;height: 5px;color:#666;padding-top: 5px;}
+.wrap_new_select .select_list_content{display:none;position: absolute;top:100%;left:0;width: 100%;height: auto;background-color: #FFF;z-index: 99;}
+.wrap_new_select .select_list_content .select_list{display: block;border:solid 1px #d1d1d1;border-top:0;margin:0;padding:5px 0;}
+.wrap_new_select .select_list_content .select_list .item{display: block;padding:3px 0 3px 10px;color: #888;}
+/*estilo adicional*/
+.wrap_new_select .select_item strong{display:block;font-size:16px;margin-top:8px;font-weight:normal;color:#000;}
+.wrap_new_select .select_item_active{background-color:#dedfe0!important;box-shadow:1px 2px 5px 1px rgba(181,181,181,0.5);}
+/*fim --select*/
+
+.wrap1815711 .colcenter{margin-top: 0 !important;padding-top: 0!important;display: inline-block;}
+.wrap1815711 .wrap_new_select{width: 49%;}
+/*fim ---topo extrato e bonus*/
+
+/*tabela*/
+.wrap_tabelas{float: left;width: 90%;padding-top:7px;padding-left: 5%;padding-right: 5%;margin-bottom: 15px;}
+.wrap_tabela_extrato{padding:5px 0;}
+.wrap_tabela_extrato .header_tabela {font-family:robotoregular !important;color: #333;padding:19px 0 19px 10px;background-color: #e5e5e5;border-top-left-radius:5px;border-top-right-radius:5px;}
+.wrap_tabela_extrato .header_tabela h2{font-family:robotoregular !important;color: #333;font-size: 13px;}
+.wrap_tabela_extrato .header_tabela h2 span{font-weight: normal;}
+.wrap_tabela_extrato .tabela_lista{padding: 0;margin:0;background-color: #fff;border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+.wrap_tabela_extrato .content_linhas_tabela .content_header_linha{border-top:solid 1px #efeff0;padding:5px 0 5px 25px;}
+.wrap_tabela_extrato .content_linhas_tabela:first-child a .content_header_linha{border-top: 0;}
+.wrap_tabela_extrato .content_linhas_tabela .header_linha{display: block;position: relative;padding:0 17px 0 15px;color:#333;}
+.wrap_tabela_extrato .content_linhas_tabela .header_linha .horario_linha{font-size: 10px;}
+.wrap_tabela_extrato .content_linhas_tabela .header_linha .linha_telefone{padding-right: 15px;word-wrap:break-word;}
+.wrap_tabela_extrato .content_linhas_tabela .header_linha .linha_telefone,.wrap_tabela_extrato .content_linhas_tabela .header_linha .preco{font-size: 13px;}
+.wrap_tabela_extrato .content_linhas_tabela .header_linha .icon_esq{position:absolute;top:0;bottom:0;left:10px;vertical-align:middle;height:8px;padding-top:4px;width:20px;text-align:center;font-size:17px;margin:auto;color: #989898;}
+.wrap_tabela_extrato .content_linhas_tabela .header_linha .icon_dir{position:absolute;margin:16px 0;top:0;bottom: 0;margin:auto;right:5px;vertical-align:middle;height:8px;padding-top:7px;width:20px;text-align:center;font-size:13px;color: #660099;}
+	/*linha tabela*/
+.wrap_tabela_extrato .content_linhas_tabela .content_linha{display:none;padding:0px 17px 15px 40px;;}
+.wrap_tabela_extrato .content_linhas_tabela .content_linha .tipo_linha{display:inline-block;width: 100%;margin-top: 10px;color: #333;}
+.wrap_tabela_extrato .content_linhas_tabela .content_linha .tipo_linha .floatleft{font-size: 11px;text-align: left;}
+.wrap_tabela_extrato .content_linhas_tabela .content_linha .tipo_linha .floatright{font-size: 11px; text-align: right;}
+.wrap_tabela_extrato .content_linhas_tabela .content_linha .linha_saldo .floatright{font-weight: bold;}
+/*header duplo na tabela*/
+.aviso{display:none}
+.header_aviso{padding:10px 0 10px 10px!important;}
+.header_aviso .aviso{display:block;color: #888;}
+.sem_lacamento .linha_telefone{padding:16px 0 16px 25px;}
+
+/*conteudo botoes footer*/
+.wrap1815711 .content_btn_pacotes{padding: 14px 9px;text-align:center;background-color: #a078b4;clear:both;margin-bottom: 15px;margin-top: 10px}
+.wrap1815711 .content_btn_pacotes .tipo_pacote{font-size:10.98px;display:inline-block;border:solid 1px #d1d1d1;background-color:#FFF;color:#660099;width:22%;text-align:center;padding:6px 0;margin:0 1px;}
+.wrap1815711 .content_btn_pacotes .tipo_pacote.active_pacote{background-color:#660099;color:#FFF}
+
+.wrap1815711 .header_btn_tipo, .wrap1815711 .content_valor_periodo{width: 90%;display: inline-block;padding:0 5%;}
+.wrap_bonus_pacote{display: none;}
+
+/*banner salso pagina consumo*/
+.wrap_banner_saldo{border-radius:5px;background-color: #fff;-webkit-box-shadow: 1px 1px 2px 0px  rgba(181,181,181,0.5)rgba(181,181,181,1);-moz-box-shadow: 1px 1px 2px 0px  rgba(181,181,181,0.5)rgba(181,181,181,1);box-shadow: 1px 1px 2px 0px  rgba(181,181,181,0.5);margin-bottom: 20px;overflow: hidden;}
+.wrap_banner_saldo .header_saldo{height: 80px;background-color: #bd7bd2;overflow:hidden;position: relative;}
+.wrap_banner_saldo .header_saldo .icon-cartao_saldo{display:inline-block;width:100%;text-align:center;margin-top:12px;font-size:35px;color:#660099;vertical-align:middle;padding-top:14px;}
+.wrap_banner_saldo .header_saldo p{display: block;text-align: center;color: #FFF;font-size: 15px;font-family:ITCOfficinaSerifBold;margin-top:3px;}
+
+
+.wrap_banner_saldo .conteudo_saldo{position: relative;width: 100%;padding:20px 0 0;background-color: #fff;z-index: 0;}
+.wrap_banner_saldo .conteudo_saldo .message_saldo_block{margin-left: auto;margin-right: auto;margin-top: 5px;width: 50%;}
+.wrap_banner_saldo .conteudo_saldo p{display: block;text-align: center;color: #666;font-size: 12px;position: relative;z-index: 99}
+.wrap_banner_saldo .conteudo_saldo .desc_saldo{display: block;text-align: center;line-height: 45px;font-family:ITCOfficinaSerifBold; ;color: #bb73d2;font-size: 40px;position: relative;z-index: 99}
+.wrap_banner_saldo .conteudo_saldo .entenda_caso{display:block;position:relative;border-top:solid 1px #f5f5f5;font-size:13px; font-weight: bold;color:#660099;text-align:center;z-index:99;padding:11px 0 12px;margin:20px 0 0;}
+.wrap_banner_saldo .conteudo_saldo .entenda_caso i{position:absolute;bottom:6px;right:3px;z-index:9;font-weight:bold;}
+.wrap_banner_saldo .conteudo_saldo .entenda_caso:after{content:'';position:absolute;width:60px;height:37px;bottom:-13px;right:-23px;background-color:#dfe3e4;ms-transform:rotate(-40deg);-webkit-transform:rotate(-40deg);transform:rotate(-40deg);}
+
+/*classes padroes*/
+.floatleft{float: left !important;}
+.floatright{float: right !important;}
+.clearboth{clear: both;}
+.relative{position: relative;}
+
+/*Aviso saldo recarga bloqueado e erro na consulta*/
+.content_valor_periodo .fundo_consumo_red{background:url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_FUNDO_CONSUMO_RED')no-repeat;width:75px;height:88px;float:left;background-size:100%;}
+.content_valor_periodo .aviso_extrato_consumo{width:65%;float:left;padding:7px 2%;color:#666666;}
+.content_valor_periodo .aviso_extrato_consumo a{color:#660099;text-decoration:underline !important;}
+.content_valor_periodo .close_aviso_extrato{background:url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_CLOSE_AVISO')no-repeat;width:23px;height:23px;position:absolute;top:35%;right:5px;background-size:100%;}
+.wrap_banner_saldo .header_saldo .img_concava_left {position: absolute;width: 60%;height: 100%;bottom: -68px;left: -11px;overflow: hidden;background-color: #FFF;-ms-transform: rotate(8deg);-webkit-transform: rotate(8deg);transform: rotate(8deg);}
+.wrap_banner_saldo .header_saldo .img_concava_right {position: absolute;width: 60%;height: 100%;bottom: -68px;right: -11px;overflow: hidden;background-color: #FFF;-ms-transform: rotate(352deg);-webkit-transform: rotate(352deg);transform: rotate(352deg);}	
+
+/*Mensagem Erro*/
+.wrap_barra_aviso{width: 100%;border-radius: 5px;overflow: hidden;background-color: #FFF;-webkit-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);-moz-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)}
+.wrap_barra_aviso .img_bloq{float: left; width:58px;height:60px;background:url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_FUNDO_ERRO_RED')left no-repeat;background-size: 58px 60px}
+.wrap_barra_bloq .texto{;padding:0;float:left;width: 66%;font-family:robotoregular;font-size:11px;color: #666 !important;font-weight: normal;margin-left:20px;margin-top:5px;}
+.wrap_barra_bloq .texto_alert{display:block;font-family:robotoregular;color: #FF0000;font-weight: bold;margin-bottom: 3px;}
+.btn_voltar{clear:both;display:block;width:95px;padding:10px 0 8px;text-align:center;background-color: #660099;border-bottom: solid 2px #461e5f;color:#FFF;font-family:ITCOfficinaSerifBold;font-size:12px;margin-top: 14px;margin:20px auto 0;margin-bottom: 20px;border-radius: 5px}
+/*Mensagem Erro*/
+/*1815711 - Extrato Detalhado para clientes Pré-pago e Controle - FIM*/
+
+/*1135170 - Score de crédito antecipado*/
+.header1135170{border-bottom: solid 1px #660099;display:inline-block;width:100%;}
+.header1135170 h3{font-family:robotoregular;color: #666;text-align: center;font-size: 13px;margin-bottom: 15px;font-weight: normal}
+/*lista*/
+ .lista_saldo{margin:0 3px;padding:10px 0;}
+.wrap_1135170 .lista_saldo h2{color:#660099;font-family:'ITCOfficinaSerifBold';font-size:18px;}
+.wrap_1135170 .lista_saldo .atualizado_1135170{line-height:24px;font-family:robotoregular;;font-size:9px;color:#333;}
+.wrap_1135170 .lista_saldo .tabela_1135170{clear:both;font-family:robotoregular;;margin:0;padding:0;}
+.wrap_1135170 .lista_saldo .tabela_1135170 li{display:block;height:55px;font-size: 14px;border-bottom: solid 1px #f3f3f3;padding:0 5px;color:#666;background-color: #fff;}
+.wrap_1135170 .lista_saldo .tabela_1135170 li .floatleft{font-size: 13px;text-align: left;line-height: 55px}
+.wrap_1135170 .lista_saldo .tabela_1135170 li .floatright{font-size: 16px;text-align: right;line-height: 55px}
+/*btn consulta*/
+.wrap_1135170 .btn_consulta_credito{display: block;width:85%;color:#FFF;text-align: center;font-family:'ITCOfficinaSerifBold';font-size:14px;border-radius: 3px;background-color: #660099;padding:10px 0;margin:20px auto 25px;}
+.wrap_1135170 .descricao_1135170{font-family:robotoregular;color:#666;font-size: 9px;margin-top: 10px;text-align: center;margin-bottom: 30px}
+.wrap_1135170 .descricao_1135170 a{text-decoration: underline;}
+.sem_tabela h3{margin:30px 0 45px!important;}
+
+.sem_tabela .btn_consulta_credito{margin-top:55px ;}
+/*modal*/
+.modal1135170{position: relative;width: 63%;margin:0 auto;background-color: #FFF;border-radius: 5px;margin-top: 100px;z-index: 999;padding-bottom: 10px}
+.modal1135170 .header_modal{text-align: center;padding: 20px 0 10px;font-size: 13px;font-family:robotoregular;;font-weight: bold}
+.modal1135170 p{font-size: 9px;font-family:robotoregular;color: #666;text-align: center;margin-bottom: 30px}
+.modal1135170 .btn_ok{display:block; margin:0 auto;width:48%;font-size:11px;font-family:ITCOfficinaSerifBold;text-align:center;padding:10px 0;text-transform:uppercase;color:#fff;border-radius:3px;background-color:#660099}
+
+/* AJUSTE */
+.sem_tabela h3 .sem_tabela_ajuste{padding-left: 14px;}
+h3.ajusteH3{margin: 1px auto 21px;}
+span.floatright.atualizado_1135170.ajusteFloatRightData {font-size: 9px;line-height: 29px;}
+p#contentTermo {font-size: 13px;text-align: justify;margin-top: -2px;}
+h3.ajusteH3_2 {padding: 0 0 0 18px;}
+p.ajusteFloatleftTaxa {margin: 0;font-size: 9px;}
+floatleft.ajusteFloatLeftTaxaTitle{line-height: 15px !important; margin-top: 13px !important;}
+/*FIM - 1135170 - CREDITO ANTECIPADDO*/
+
+/*NOVO LAYOUT MEUS SALDOS - INICIO*/
+
+.content_saldo_at .entenda_caso{display:block;position:relative;border-top:solid 1px #dfe3e4;font-size:12px; font-weight: bold;color:#660099;text-align:center;z-index:99;padding:11px 0 12px;margin-top: 108px;}
+.content_saldo_at .entenda_caso i{position:absolute;bottom:7px;right:5px;z-index:9;font-weight:bold;}
+.content_saldo_at .entenda_caso:after{content:'';position:absolute;width:60px;height:37px;bottom:-13px;right:-23px;background-color:#dfe3e4;ms-transform:rotate(-40deg);-webkit-transform:rotate(-40deg);transform:rotate(-40deg);}
+.alert_saldo_bloc .linkRecargaRoxo{color: #660099 !important;}
+.content_saldo_at .content_saldo_box .ajusteSizeLetter{font-size: 46px; color: #bb73d2;}
+.content_saldo_at #ajusteMargin{margin-top: 10px;}
+.content_saldo_at .content_saldo_box .message_saldo_block{margin-left: auto !important;margin-right: auto !important;margin-top: -20px !important;width: 100% !important;}
+.content_saldo_at .content_saldo_box .message_saldo_block p{font-family:robotoregular; display: block !important;text-align: center !important;color: #666 !important;font-size: 12px !important;position: relative !important;z-index: 99 !important;}
+.content_saldo_at #linkExtratoSaldoErro{margin-top: 7%;}
+.content_saldo_at #incetivoSaldoErro{margin-top: 7%;}
+#box_adicionais_Saldo .content_saldo_at .box_acontent_adicionais .ajusteLetra{color: red; font-weight: bold;} 
+
+
+/*barra exclamação*/
+.titulo_pre_diario{font-family:ITCOfficinaSerifBold;font-size:12px;color: #666;text-align: center;margin:20px 0 15px }
+.wrap_barra_exclamacao{position:relative;padding-left:68px;border-radius:5px;overflow:hidden;height:53px;background-color:#FFF;border:solid 1px #f0f0f0;}
+.wrap_barra_exclamacao .img_bloq{width:58px;height:100%;position:absolute;background:url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_FUNDO_EXCLAMACAO') no-repeat!important;background-size:100%!important;left: 0;top: 0;}
+.wrap_barra_exclamacao .texto{width:80%;color:#666!important;font-size: 10px!important;padding:6px 0;}
+.wrap_barra_exclamacao .close_extrato{text-align: center}
+.wrap_barra_exclamacao .close_extrato .icon-fechar22{color:#660099;font-size:7px;width:20px;vertical-align:middle;vertical-align:middle;background-color:#f1f1f1;padding:10px 0px;border-radius:100%;position:absolute;top:0;bottom:0;margin:auto 0;height:0px;right:9px;}
+.wrap_tabela_meus_saldos .conten_tabela_saldo{border-radius:5px;margin-top:15px;padding:0 10px 15px;background-color: #FFF;-webkit-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);
+    -moz-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);
+    box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)}
+.wrap_tabela_meus_saldos .linha_saldos{border-bottom:solid 1px #f8f8f8;padding:16px 0;float:left;width:100%;}
+.wrap_tabela_meus_saldos .linha_saldos .img_saldo{width:14px;height:8px;float:left;margin-right:10px;padding-top:10px;font-size:17px;}
+.wrap_tabela_meus_saldos .linha_saldos .tipo_saldo{float:left;font-family:robotoregular;;font-size:10px;color: #7E7E7E;padding:0;width: 66%;}
+.wrap_tabela_meus_saldos .linha_saldos .tipo_saldo strong{display: block;font-size:13px;color: #333 !important}
+.wrap_tabela_meus_saldos .linha_saldos .valor_saldo{font-family:robotoregular;;font-size:13px;color: #99cc33;text-align: right}
+.wrap_tabela_meus_saldos .total_saldo{border:none;}
+.wrap_tabela_meus_saldos .total_saldo .tipo_saldo{font-size: 13px;color: #333;margin-left: 32px}
+.wrap_tabela_meus_saldos .total_saldo .valor_saldo{font-size: 13px;font-weight: bold}
+
+/*ul*/
+.wrap_tabela_meus_saldos .conten_tabela_saldo .lista_tabela{padding:0;margin:0;display: block}
+
+
+.wrap_tabela_meus_saldos .ver_extrato{text-align:center;font-family:ITCOfficinaSerifBold;	font-size:12px;color: #FFF;padding:10px 15px;display: block;clear:both;width: 29%;margin:0 auto;background-color: #660099;border-radius: 3px;border-bottom: solid 2px #461e5f;}
+.btn_recarregue_agora{text-align:center;padding:10px 0;display: block;margin:15px 0 5px;background-color: #99cc33;border-bottom: solid 2px #85bb1a;border-radius: 5px;font-family:ITCOfficinaSerifBold;font-size:12px!important;color: #FFF!important;}
+.btn_recarregue_agora span{font-size: 20px;margin-right: 5px;vertical-align: -4px}
+
+.wrap_tabela_titulo .titulo_tabela{font-family:ITCOfficinaSerifBold;font-size:18px;color: #660099;margin:45px 0 0;padding-left:10px;}
+.wrap_tabela_titulo .titulo_tabela i{margin-right: 5px;vertical-align: -1px	}
+.wrap_tabela_titulo .conten_tabela_saldo{margin-top: 5px}
+/*ul li sem linha*/
+.wrap_tabela_titulo .linha_saldos:last-child{border-bottom: 0 !important}
+
+.titulo_internet .linha_saldos{padding: 30px 0;border-bottom: 0 !important}
+.titulo_internet .linha_saldos .tipo_saldo{width:88%;}
+.titulo_internet .linha_saldos .emuso{font-family:robotoregular;;font-size:10px;font-weight:bold;color:#99cc33;padding-left:30px;float:left;padding:5px 0 5px 0;margin-left:2px;}
+.titulo_internet .linha_saldos .emuso .icon-65{margin-right: 6px;
+font-size: 14px;
+vertical-align: -2px;}
+
+.titulo_internet .linha_saldos{border:none;}
+
+.wrap_tabela_meus_saldos .content_barra_consumo{float: left;width: 100%;position: relative;padding-top:25px;font-family:robotoregular;;font-size:14px;}
+.wrap_tabela_meus_saldos .content_barra_consumo .barra_consumo_roxa{position: relative;background-color: #660099;height: 16px;border-radius: 4px 0 0 4px;float: left;}
+.wrap_tabela_meus_saldos .content_barra_consumo .barra_consumo_roxa .valor_consumido{position:absolute;color: #660099;bottom: -20px;right: -15px}
+.wrap_tabela_meus_saldos .content_barra_consumo .barra_consumo_cinza{position: relative;background-color: #dcddde;height: 16px;border-radius: 0 4px 4px 0;float: left}
+.wrap_tabela_meus_saldos .content_barra_consumo .barra_consumo_cinza .valor_consumo_total{position:absolute;color: #660099;top: -40px;right:0;text-align: right;}
+.wrap_tabela_meus_saldos .content_barra_consumo .barra_consumo_cinza .valor_consumo_total span{display:block;color:#666;width:130px;}
+
+.border-5555{border-radius: 4px !important}
+
+.erro_bloq_recarga .img_saldo{color:#FF0000}
+.erro_bloq_recarga .tipo_saldo{width:auto;}
+.erro_bloq_recarga .tipo_saldo strong{color: #333!important}
+.erro_bloq_recarga .valor_saldo{color: #c7c8ca!important}
+.erro_bloq_recarga .tipo_saldo a{text-decoration: underline!important;color: #660099;font-size: 10px}
+
+.titulo_internet .linha_saldos .tipo_saldo strong{font-weight: normal !important}
+.titulo_minutos .linha_saldos .tipo_saldo strong{font-weight: normal !important}
+.titulo_sms .linha_saldos .tipo_saldo strong{font-weight: normal !important}
+.titulo_bonus_reais .linha_saldos .tipo_saldo strong{font-weight: normal !important}
+/*NOVO LAYOUT MEUS SALDOS - FIM*/
+
+/*[1817168] - APP Meu Vivo - Extrato Detalhado para clientes Pre-pago e Controle - INICIO*/
+.colcenter_web_view{display:block;padding:15px;margin:0}
+/*[1817168] - APP Meu Vivo - Extrato Detalhado para clientes Pre-pago e Controle - FIM*/
+
+/*[1818413]* Pagamento Digital da Fatura - INICIO*/
+.btn_padrao_2{border-radius: 5px;border-bottom:solid 2px #85bb1a;font-family:ITCOfficinaSerifBookRegular;font-weight: bold;font-size:14px !important;color: #FFF!important;padding: 10px 15px 9px 48px;background-color: #99cc33;display: block}
+
+/*2ª via conta*/
+.btn_voltar_pag{display: block;margin: 15px 0 20px 0;font-family: robotoregular;font-size: 12px;font-weight: bold;color: #333;}
+.btn_voltar_pag span{border-radius:100%;background-color: #FFF;border:solid 1px #e3e3e3;color: #660099;font-size: 10px;padding:9px;margin-right: 5px}
+.container1818413 {text-align: center}
+.container1818413 .wrap_banner_saldo {margin-top: 15px}
+.container1818413 .wrap_banner_saldo .header_saldo{padding-top:10px;text-align: center}
+.container1818413 .wrap_banner_saldo .cituacao{margin-bottom: 5px;font-family:ITCOfficinaSerifBold;font-size:12px;}
+.container1818413 .wrap_banner_saldo .data{font-family:robotoregular;font-size:14px;color: #FFF;font-weight: bold}
+.container1818413 .wrap_banner_saldo .vencimento{font-family:robotoregular;font-size:12px;color: #FFF;}
+.container1818413 .wrap_banner_saldo .img_concava_left, .container1818413 .wrap_banner_saldo .img_concava_right{bottom: -70px;width: 100%}
+.container1818413 .wrap_banner_saldo .img_concava_left{-ms-transform:rotate(10deg)!important;-webkit-transform:rotate(10deg)!important;transform:rotate(10deg)!important;left: -24%}
+.container1818413 .wrap_banner_saldo .img_concava_right{-ms-transform:rotate(350deg)!important;-webkit-transform:rotate(350deg)!important;transform:rotate(350deg)!important;right: -25%}
+.container1818413 .wrap_banner_saldo .conteudo_saldo p{margin-bottom: 5px}
+.container1818413 .wrap_banner_saldo .pagar_agora{text-align: center;margin:25px auto;width:90%;font-size: 12px;padding:10px 0;}
+.container1818413 .wrap_banner_saldo .pagar_agora .icon-cifra_rounded{vertical-align:-4px;margin-right:15px;font-size:20px;}
+.container1818413 .wrap_banner_saldo .box_links{text-align:center;width:93%;margin:0 auto 15px;}
+.container1818413 .wrap_banner_saldo .box_links .links{display:inline-block;width: 65px;text-align: center;font-weight: bold;color: #660099;font-size: 12px}
+.container1818413 .wrap_banner_saldo .box_links .links .icon-06{margin-top: 10px}
+
+
+/*tipos de banner*/
+.banner_pendente .header_saldo{background-color: #fab437}
+.banner_pendente  .cituacao{color: #fa6423}
+.banner_pendente .desc_saldo{color: #fab437!important}
+.banner_atrasada .header_saldo{background-color: #f73c29}
+.banner_atrasada .cituacao{color: #880602}
+.banner_atrasada .desc_saldo{color: #f73c29!important}
+
+.banner_paga .header_saldo{background-color: #99cc33}
+.banner_paga .cituacao{color: #35a14a}
+.banner_paga .desc_saldo{color: #99cc33!important}
+.banner_paga .links{margin:0 15px;}
+.banner_paga .pagar_agora{color: #b9d25a!important;background-color: #FFF;border:dotted 2px #b9d25a;}
+
+.container1818413 .ver_historico_pagamento{font-family:robotoregular;font-size:14px;color: #660099;font-weight: bold}
+.container1818413 .ver_historico_pagamento .icon-06{font-size: 10px;vertical-align: middle;}
+
+/*1818413- pagamento*/
+.modal1818413_pagamento .wrap_valor_total{background-color: #FFF;padding:6px 0 6px 20px;font-family:robotoregular;font-size:10px;color:#666;text-align: center;margin-top: 15px}
+.modal1818413_pagamento .wrap_valor_total .valor_total{font-size: 22px;font-weight: bold;color: #333}
+.modal1818413_pagamento h3{font-family:ITCOfficinaSerifBold;font-size:14px;color:#333;font-weight: bold;margin:25px 0 10px;text-align: center}
+.modal1818413_pagamento .wrap_codigo_barras{float: left;width: 100%;position: relative}
+.modal1818413_pagamento .wrap_codigo_barras .numero_codigo_barras{background- color:#f6f6f6;border:solid 1px #efefef;text-align:center;font-family:robotoregular;font-size:13px;color:#666;padding:6px 0;margin-bottom: 20px}
+.modal1818413_pagamento .btn_padrao_2{background-color: #660099;padding:10px 0;text-align: center;border-color:#461e5f;border-radius: 2px;margin-bottom: 15px}
+
+.div_box_branco{height: 130px;border-radius: 6px;background: #ffffff;margin-top: 15px;text-align: center;padding-top: 108px;-moz-box-shadow: 0 0 3px #ccc;-webkit-box-shadow: 0 0 3px #ccc;box-shadow: 1px 1px 3px #ccc;}
+.div_box_branco p{font-weight: bold;font-size: 13px;}
+
+/*DEBITO AUTO E CONTA DIGITAL - home Mobile */
+.link_dig_acc_box{background: #fff; width: 100%; border-radius: 5px; float: left; margin-top: 15px; -webkit-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); -moz-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5);}
+.link_dig_acc_box i{color: #660099; height: 50px; float: left; padding: 0 20px; font-size: 22px;}
+.link_dig_acc_box .icon_link::before{line-height: 50px}
+.link_dig_acc_box .msgView span{font-size: 12px; color: #333; font-family: "Trebuchet MS"; font-weight: bold; padding-top: 12px; float: left; width: 78%;}
+.link_dig_acc_box p{float: left; font-size: 12px; font-family: "Trebuchet MS"; color: #888;}
+.link_dig_acc_box .icon-06{float: right; height: auto; font-size: 9px; font-weight: bold; padding: 0 12px;}
+.link_dig_acc_box:last-child{margin-bottom: 8px;}
+#boxDebitoAuto {margin-bottom: 15px;}
+/*DEBITO AUTO E CONTA DIGITAL - home Mobile - FIM*/
+
+@media all and (min-width: 480px){
+	.container1818413 .wrap_banner_saldo .img_concava_left, .container1818413 .wrap_banner_saldo .img_concava_right{bottom: -60px;}
+}
+
+@media all and (min-width: 400px){
+	.container1818413 .wrap_banner_saldo .img_concava_left, .container1818413 .wrap_banner_saldo .img_concava_right{bottom: -70px;}
+}
+
+@media all and (min-width: 380px){
+	.container1818413 .wrap_banner_saldo .img_concava_left, .container1818413 .wrap_banner_saldo .img_concava_right{bottom: -65px;}
+}
+/*[1818413]* Pagamento Digital da Fatura - FIM*/
+
+@-webkit-keyframes swiper-preloader-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes swiper-preloader-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*Fim Meu Consumo Internet-Fixo*/
+@media screen and (max-width: 660px) {
+	.bt_center_v{width:100%; margin-left:0px; box-sizing: border-box; float: none; display: inherit;}
+	#bt_c_2{display:block !important}
+	#bt_c_1{display:none !important}
+	#bt_c_3{float:none !important}
+}
+
+@media screen and ( min-width: 360px ) {
+	.topicItem {font-size: 12px !important;}
+	.footerLeft {font-size: 12px !important;}
+	.bt_confirmar {font-size: 15px !important;}
+	.box_via_alternativo  .ic_via_alternativo_contestada{width:70px;height:181px; padding:0px;display: block; float:right; border-left: solid 1px #b4b4b4; text-align:center}
+	.box_via_alternativo  .ic_via_alternativo_contestada .border_bottom_alternativo{border-bottom: solid 1px #b4b4b4; padding:26px 0px}
+	.box_via  .ic_via_alternativo2{width:70px;height:115px; padding:0px;display: block; float:right; border-left: solid 1px #b4b4b4; text-align:center}
+	.box_via  .ic_via_alternativo2 .border_bottom{border-bottom: solid 1px #b4b4b4; padding:25px 0px }
+	.box_via  .ic_via_alternativo2 a{display:block; font-size:20px; color: #660099; float: left; width:100%; padding:28px 0px}
+	.obsContestada{font-size: 12px;width: 239px; margin-top: 5px;}
+
+}
+
+@media screen and ( min-width: 375px ) {
+	.obsContestada{font-size: 11px;width: 250px; margin-top: 5px;}
+}
+
+@media screen and ( min-width: 400px ) {
+	.bloc_content_ajax{padding:10.5px 10px!important}
+	.ajax_span_ver_mais{padding-top: 1px!important; padding-bottom: 18px!important; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+	.span_detalhes{font-size: 11px!important; color:gray!important; padding-bottom: 1px;}
+	.bt_confirm_large {width: 89% !important;}
+	.obsContestada{font-size: 13px;width: 289px; margin-top: 5px;}
+}
+
+@media screen and ( min-width: 430px ) {
+	.bt_confirm_large {width: 90% !important;}
+}
+
+@media screen and ( min-width: 460px ) {
+	.bt_confirm_large {width: 91% !important;}
+}
+
+@media screen and ( min-width: 560px ) {
+	.bt_confirm_large {width: 93% !important;}
+}
+
+@media screen and ( min-width: 600px ) {
+	.bloc_home{width:49.7%;}
+	.full_width{width:100%;}
+	.colcenter{zoom:1.2}
+	.content_menu{zoom:1.2}
+	.box_via{zoom:0.9}
+	.box_via_alternativo{zoom:0.9}
+	.header{zoom:1.2}
+	.modal .content_modal .float_content{zoom:1.2}
+	.modal .content_modal {    width: 80%;  left: 10%;}
+	.ajax_erro_valor_retorno{margin-top:50px!important}
+	.bloc_content_ajax{padding:11.5px 10px!important}
+	.ajax_valor_retorno{margin-top: 32px!important;}
+	.bt_confirm_large {width: 93% !important;}
+}
+
+@media screen and ( min-width: 640px ) {
+	.bt_confirm_large {width: 92% !important;}
+}
+
+@media screen and ( min-width: 700px ) {
+	.bt_confirm_large {width: 93% !important;}
+}
+
+@media screen and ( min-width: 1000px ) {
+	.bt_confirm_large {width: 95% !important;}
+}
+
+@media screen and ( max-width: 320px ) {
+	.bt_confirm_large {width: 86% !important;}
+	.aberturaLarge {font-size: 15px !important;}
+	.topicItem {font-size: 11px !important;}
+	.footerLeft {font-size: 11px !important;}
+	.bt_confirmar {font-size: 14px !important;}
+	.telaErro{font-size: large;float:left;height: 100%;top: 0;width: 100%;left: 0;}
+	.telaErro p{margin: 0px;padding: 0px 20px;display: block;font-family: ITCOfficinaSerifBold;color: #660099;text-align: center;position: relative;top: 4%;}
+	.box_via_alternativo  .ic_via_alternativo_contestada{width:70px;height:181px; padding:0px;display: block; float:right; border-left: solid 1px #b4b4b4; text-align:center}
+	.box_via_alternativo  .ic_via_alternativo_contestada .border_bottom_alternativo{border-bottom: solid 1px #b4b4b4; padding:26px 0px}
+	.box_via  .ic_via_alternativo2{width:70px;height:124px; padding:0px;display: block; float:right; border-left: solid 1px #b4b4b4; text-align:center}
+	.box_via  .ic_via_alternativo2 .border_bottom{border-bottom: solid 1px #b4b4b4; padding:28px 0px }
+	.box_via  .ic_via_alternativo2 a{display:block; font-size:20px; color: #660099; float: left; width:100%; padding:28px 0px}
+	.obsContestada{font-size: 12px;width: 199px; margin-top: 5px;}
+}
+
+/* Para todos os dispositivos em landscape  */
+@media screen and (orientation : landscape){
+	.modal .content_modal{top:5%!important}
+}
+
+/*INICIO -  1815711 - Extrato Detalhado para clientes Pre-pago e Controle*/
+@media all and (min-width:700px) {
+    .wrap_banner_saldo .header_saldo .img_concava_right{-ms-transform: rotate(355deg);
+    -webkit-transform: rotate(355deg);
+    transform: rotate(355deg);}
+
+    .wrap_banner_saldo .header_saldo .img_concava_left{-ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);}
+}
+
+/*FIM -  1815711 - Extrato Detalhado para clientes Pre-pago e Controle*/
+
+/*conta digital 01*/
+.c883bb3{background-color: #883bb3 !important}
+.ca864c5{background-color: #a864c5 !important}
+.conteudo_conta_digital {padding-top: 40px;}
+.conteudo_conta_digital .titulo {padding-top: 20px;padding-left: 15px;}
+.conteudo_conta_digital .colheader{margin-top: 0}
+.conteudo_conta_digital .colcenter { display: block; padding: 15px; margin-top: 20px;}
+.conteudo_conta_digital .banner_box_ativar_conta{background:url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_BANNER_CONTA_DIGITAL) no-repeat;background-size: 100%}
+.conteudo_conta_digital .banner_box_ativar_conta .wrap_barra_exclamacao{border:none;margin-top: 70px;}
+.conteudo_conta_digital .banner_box_ativar_conta .wrap_barra_exclamacao p{padding:12px 0;}
+.conteudo_conta_digital .banner_box_ativar_conta .conteudo_aviso{background-color:#FFF;border-radius:5px;border:solid 2px #f0f0f0;text-align: center;padding:20px 0;margin-top: 15px}
+.conteudo_conta_digital .banner_box_ativar_conta h3{font-weight: bold;font-size: 20px;color: #333;margin-bottom: 15px; font-family:ITCOfficinaSerifBookRegular!important;}
+.conteudo_conta_digital .banner_box_ativar_conta h3 span{color:#660099; font-family:ITCOfficinaSerifBookRegular!important;}
+.conteudo_conta_digital .banner_box_ativar_conta p{margin-bottom:70px}
+.conteudo_conta_digital .banner_box_ativar_conta .btn_padrao_2{width:85%;margin:0 auto;padding:10px 0 9px;border-radius:3px}
+.conteudo_conta_digital .banner_box_ativar_conta .btn_padrao_2 .icon{font-size:18px;vertical-align:-3px;margin-right:10px;}
+.conteudo_conta_digital .wrap_vantagens{margin-top: 30px}
+.conteudo_conta_digital .wrap_vantagens h2{font-size: 18px}
+.conteudo_conta_digital .wrap_vantagens .box_vantagens{margin-top:30px;font-family:robotoregular;font-size:12px;color:#333;text-align:center;padding-top: 20px}
+.conteudo_conta_digital .wrap_vantagens .box_vantagens h3{font-family:ITCOfficinaSerifBookRegular!important;color:#660099;font-size:18px;margin-bottom:10px;margin-top:30px;}
+.conteudo_conta_digital .wrap_vantagens .box_vantagens span{font-size:39px;color:#FFF;background-color:#660099;border-radius:100%;padding:19px;}
+.conteudo_conta_digital .wrap_vantagens .box_vantagens p{font-size:12px;color:#333;padding:0;margin:0;}
+.conteudo_conta_digital .conta_ativada{margin-top: 55px}
+.conteudo_conta_digital .conta_ativada .icon-79{font-size:20px;color:#34a02e;text-align:center;vertical-align:middle;display:block;padding-top:25px;}
+.conteudo_conta_digital .conta_ativada .header_saldo {height: 85px;background-color: #a2cf2c}
+.conteudo_conta_digital .conta_ativada .header_saldo p{font-family:ITCOfficinaSerifBookRegular!important;font-size: 20px;color: #34a02e;font-weight: bold}
+.conteudo_conta_digital .conta_ativada .header_saldo .img_concava_left, .conteudo_conta_digital .conta_ativada .header_saldo .img_concava_right{bottom: -75px}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo{text-align: center}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo h3{font-family:ITCOfficinaSerifBookRegular!important;font-size: 15px;color: #333;font-weight: bold}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo h3 span{color: #660099}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo .conta{font-size: 12px;color: #666}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo .conta strong{display: block;}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo .desc_ativo{font-size: 10px;color: #666;margin-top: 15px;margin-bottom: 20px}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo .desativar_conta{text-align: center;padding:15px 0;font-size: 12px;color: #660099;border-top: solid 1px #f2f2f2;display: block;font-weight:bold}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo .desativar_conta span{font-size: 8px;margin-left: 10px;}
+.conteudo_conta_digital .header_modal{height: 55px;background-color: #660099;position: relative}
+.conteudo_conta_digital .header_modal h3{color:#FFF;line-height:55px;font-size: 16px;font-family:ITCOfficinaSerifBookRegular;font-weight: bold;}
+.conteudo_conta_digital .header_modal .icon-fechar22{position:absolute;color:#660099;background-color:#FFF;border-radius:100%;font-size:10px;top:17px;right:15px;padding:12px 6px 0;vertical-align:middle;height:11px;}
+
+.conteudo_conta_digital .modal_desativar{position: absolute; top: 40px; width: 100%; display:none;}
+.conteudo_conta_digital .modal_desativar span{font-family:ITCOfficinaSerifBookRegular;color: #666;font-size: 14px;display: block}
+.conteudo_conta_digital .modal_desativar .icon_modal{background:url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_HEADER_BLOQ);height: 55px;width: 52px;background-size: auto 55px;margin-right: 10px}
+.conteudo_conta_digital .modal_desativar span strong{display:block;color: #000;margin-bottom: 30px}
+.conteudo_conta_digital .modal_desativar .btn_padrao_2{width:30%;padding:10px 0 9px;text-align:center;border-radius:3px;float:left;margin-top: 20px}
+.conteudo_conta_digital .modal_desativar .btn_nao{background-color: #d5d5d5;color: #666!important;border-color: #bebebe;margin-right: 15px}
+.conteudo_conta_digital .modal_desativar .btn_sim{background-color: #660099;color: #FFF;border-color: #461e5f}
+/*modal termos*/
+.conteudo_conta_digital  .modal_termos {position: absolute;top: 40px; display:none; z-index: 10;}
+.conteudo_conta_digital  .modal_termos .icon_modal{background:url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_HEADER_EXTRATO);height: 55px;width: 52px;background-size: auto 55px;margin-right: 10px}
+.conteudo_conta_digital  .modal_termos p{font-size: 13px;margin-bottom: 30px}
+.conteudo_conta_digital  .modal_termos .conteudo_termo {display: block; padding: 15px; background:#f6f6f6;}
+
+
+.w38{width: 38%!important}
+.form_padrao_2{position:relative;border:solid 1px #d8d8d8;padding:5px 15px;margin-bottom: 15px;font-family:robotoregular; background-color: #fff;}
+.form_padrao_2 .span{font-size:10px;color:#666;display: block;}
+.form_padrao_2 .input{font-size:16px;color:#333;display: block;width: 100%;padding:0;font-weight: bold}
+.paddingtop5{padding-top:5px !important}
+
+ .conteudo_ativar_conta{float: left;width: 100%}
+ .conteudo_ativar_conta .descricao{font-family:robotoregular;font-size:12px;color: #666;line-height: 18px;margin-top: 18px;margin-bottom: 30px}
+ .conteudo_ativar_conta .colcenter { display: block; padding: 15px; margin-top: 0px;}
+
+/*checkbox buttom*/
+.wrap_checkbox_form{position:relative;display:inline-block;width:100%;margin:10px 0;}
+.wrap_campo_form .wrap_checkbox_form input[type="checkbox"]{opacity:0; z-index:9;position:relative;float:left;width:16px;height:16px;padding: 0;margin:0}
+.wrap_campo_form .wrap_checkbox_form input:checked ~ span{background-position:right !important }
+.wrap_campo_form .wrap_checkbox_form input:checked ~ p{font-weight: bold;}
+.wrap_campo_form .wrap_checkbox_form p{font-size: 12;padding-left:30px;color: #000}
+.wrap_checkbox_form span{background-position:left;width: 16px;height: 16px;position: absolute;left: 0;top: 0;}
+
+.conteudo_conta_digital .wrap_campo_form .li_termos span{background:url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_CHECK_TERMOS) left no-repeat;background-size:auto 16px}
+.conteudo_conta_digital .wrap_campo_form .li_termos a{color: #660099;text-decoration: underline;}
+.conteudo_conta_digital .wrap_campo_form .span_check{background:url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_CHECK_SMS) left no-repeat;background-size:auto 16px}
+
+.conteudo_conta_digital .btn_cadastrar_email{border-radius:3px;display: inline-block;width:44%;text-align: center;padding:12px 0px ;background:none;background-color: #660099;border-bottom-color: #461e5f;font-size: 12px !important}
+.conteudo_conta_digital .wrap_btn{border-top: solid 1px #d8d8d8;padding: 20px 0 25px;}
+.conteudo_conta_digital .wrap_btn .btn_cancelar{border-radius:3px;display: inline-block;width:33%;text-align: center;padding:12px 0;background:none;background-color: #d5d5d5;font-size: 12px !important;color: #666 !important;border-bottom-color: #bebebe;margin-right: 15px}
+.conteudo_conta_digital .wrap_btn .btn_ativar{border-radius:3px;display: inline-block;width:44%;text-align: center;padding:12px 0px ;background:none;background-color: #660099;border-bottom-color: #461e5f;font-size: 12px !important}
+
+.conteudo_conta_digital .wrap_campos_dados{display:inline-block;width: 100%;font-family:robotoregular;font-size:14px}
+.conteudo_conta_digital .wrap_campos_dados .dados_conta_digital{color:#666;margin-bottom: 25px}
+.conteudo_conta_digital .wrap_campos_dados .editar_endereco{font-weight:bold;color:#660099;background:url(../img/1818413/seta_roxa.png) right 6px no-repeat;padding-right:15px;padding-top:0px;float:left;line-height:18px;font-size:14px;}
+.conteudo_conta_digital .wrap_campos_dados .editar_endereco .icon-75{display:inline-block;margin-right:10px;font-size:18px;vertical-align:middle;padding-top:7px;height:11px;}
+.conteudo_conta_digital .wrap_campos_dados .editar_endereco .icon-06{display:inline-block;font-size:9px;vertical-align:middle;padding-top:8px;height:8px;}
+.conteudo_conta_digital .wrap_btn .btn_desativar{border-radius:3px;display: inline-block;width:49%;text-align: center;padding:12px 0px ;background:none;background-color: #660099;border-bottom-color: #461e5f;font-size: 12px !important}
+.conteudo_conta_digital .boxErro{ border-radius: 5px;  margin: 20px 20px 20px; background-color: #FFF; -webkit-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1); -moz-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);  box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5);}
+.conteudo_conta_digital .boxErro p{padding: 65px 60px 60px 65px; font-size: 14px; color: #FF0000; font-weight: bold; text-align:center;}
+/*DESTAVIAR CONTA 5B*/
+.select_1818413{position: relative;background:c 95% 50% no-repeat;cursor: pointer;}
+.select_1818413 div{font-size:16px;color:#333;display:block;width:100%;padding:0;}
+.select_1818413 .icon_select{position:absolute;top:24px;right:10px;}
+.select_1818413 ul{display:none;position:absolute;width:100%;left:-1px;border:solid 1px #d3d3d3;padding:0;margin:0;background-color:#FFF;top:100%;z-index: 99}
+.select_1818413 ul li{display: block;padding:10px 0 10px 10px;font-size: 13px;border-bottom: solid 1px #d3d3d3 }
+.select_1818413 ul li:hover{background-color: #f8f8f8}
+.select_1818413 ul li:last-child{border-bottom:0}
+.conteudo_conta_digital .opcional_1818413{position:absolute;right:-39%;top:35%;font-family:robotoregular;font-size:10px;color: #666;font-weight: bold}
+
+
+.box_msg_notification_success{height:90px;background-color:#99cc33;color:#FFF;font-size:15px;position:relative;}
+.box_msg_notification_success .icon-65{color:#32a04b;background-color:#FFF;border-radius:100%;font-size:28;margin-top:35px;margin-left:10px;height:8px;padding-top:10px;margin-right:10px;}
+.box_msg_notification_success h3{color:#FFF;margin-top:33px;font-family:ITCOfficinaSerifBookRegular!important;}
+.box_msg_notification_success .icon-fechar22{position:absolute;color:#99cc33;background-color:#FFF;border-radius:100%;font-size:10px;top:33px;right:15px;padding:12px 6px 0;vertical-align:middle;height:11px;}
+
+/* [1818800] Informacoes sobre Planos - INICIO */
+.ct_box_shadow{background: #fff; -webkit-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); -moz-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5); border-radius: 5px; margin-top: 10px;}
+.ct_plan_error{color: #ff0000; text-align: center; padding: 70px 30px;}
+
+.cont_per{width: 100%; float: left; font-size: 10px; color: #666;}
+.cont_per .line:last-child{margin-bottom: 4px;}
+
+.wrap_my_plan h2:first-child{margin-top: 0px;}
+.wrap_my_plan h3 {font-family: ITCOfficinaSerifBold; font-size: 18px; color: #333; font-weight: bold; margin-top: 10px; text-align: left;}
+.wrap_my_plan .cituacao{padding-top: 8px; font-size: 14px !important; margin-bottom: 1px !important;}
+
+.wrap_my_plan .valor_total{font-size: 18px;padding:0;margin-bottom: 5px}
+.wrap_my_plan .valor_total strong{color: #333}
+
+.wrap_my_plan .box_links{padding: 0 32px; width: auto !important; text-align: left !important; margin-bottom: 5px !important;}
+.wrap_my_plan .box_links ul{padding:0;color:#666;margin-bottom:0;padding-left: 17px;list-style: inherit;display: block;}
+.wrap_my_plan .box_links li{padding: 2px 0;}
+
+.wrap_my_plan .valor_total{text-align: center; width: 100%; margin-bottom: 15px;}
+.wrap_my_plan .valor{color: #99cc33; font-size: 40px; font-family: ITCOfficinaSerifBold; display: inline-block;}
+.wrap_my_plan .valor span{float: left; font-size: 38px !important;}
+.wrap_my_plan .valor .cents{font-size: 17px !important; text-align: left; margin-top: 10px;}
+.wrap_my_plan .valor .cents div{line-height: 15px;}
+.wrap_my_plan .valor .cents .month{font-size: 14px !important;}
+
+.box_regular{float: left; width: 100%; border-radius: 5px; background-color: #FFF; box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5); padding: 24px 20px; box-sizing: border-box; margin-bottom: 15px;}
+.box_contract{padding: 5px 30px; margin-bottom: 40px;}
+.box_contract .line_cont{width: 100%; border-bottom: 1px solid #e5e5e5; float: left;}
+.box_contract .line_cont:last-child{border-bottom: 0;}
+.box_contract .line_cont .links_top_fatura .fatura_link{font-size: 12px !important;}
+
+.box_change_plan{font-size: 14px; color: #333; font-weight: bold; margin-bottom: 22px;}
+.box_change_plan p{padding: 0; line-height: 15px; float: left; text-align: left; margin-bottom: 18px; font-size: 12.8px !important; color: #333; float: left; width: calc(100% - 30px);}
+.box_change_plan .icon-67{float: left; font-size: 20px; color: #660099; margin-top: 13px; margin-right: 10px;}
+
+.box_change_plan .btn_padrao_2{font-size: 16px !important; border-radius: 2px; width: 178px; box-sizing: border-box; display: inline-block; padding: 14px 0 13px 0; margin: 0 auto; width: 100%; font-size: 12px !important;}
+.box_change_plan .btn_padrao_2 i{font-size: 20px; margin-right: 12px; vertical-align: -5px;}
+
+.franc_title{width: 100%; float: left; border-bottom: 1px solid #e5e5e5;}
+.franc_title i{font-size: 20px; color: #660099; vertical-align: -3px; margin-right: 3px;}
+.franc_title h4{font-size: 15px; color: #660099; font-family:ITCOfficinaSerifBold; padding-bottom: 13px; display: inline-block; width: 80%;}
+.franc_txt{font-size: 13px; font-family:"Trebuchet MS"; color: #333; font-weight: bold; margin-top: 20px; display: inline-block; padding-bottom: 3px;}
+.franc_opt{font-size: 12px; font-family:"Trebuchet MS"; color: #666; padding: 0 4px 4px 4px;margin-left: 17px;list-style: inherit;display: list-item;}
+.see_consumption{font-size: 12px !important; color: #660099 !important; text-align: center; font-family:"Trebuchet MS"; font-weight: bold; padding-top: 18px; display: inherit; margin: 20px -20px -8px -20px; border-top: 1px solid #e5e5e5;}
+.see_consumption span{background: url(../img/1142568/fatura_arrow.png) 0 0 no-repeat; width: 6px; height: 9px; display: inline-block; margin-left: 10px;}
+.see_consumption i{margin-left: 6px; font-size: 8px;}
+
+.div_line_grey{height: 1px; width: 100%; float: left; background: #e5e5e5; margin-top: 20px;}
+
+.box_first{margin-top: 6px;}
+
+.contract_reg{font-size: 10px; color: #333;}
+.contract_reg p{font-weight: bold; margin-bottom: 10px;}
+.contract_reg .ct_cont{display: inline-flex; width: 100%;}
+.contract_reg .cont_line{border-right: 1px solid #999; flex: auto; margin-right: 3%; line-height: 8px; margin-bottom: 25px;}
+.contract_reg .cont_line:last-child{border: none; margin-right: 0;}
+.contract_reg .cont_line .strong{line-height: 18px; margin-bottom: -4px;}
+
+.drop{float: left; width: 100%; border-radius: 5px; background-color: #FFF; box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5); box-sizing: border-box; margin-bottom: 15px; color: #666;}
+.drop a{text-decoration: none; font-weight: bold;}
+.drop .first_lvl{font-size: 12px; padding: 0 20px; display: inline-block; height: 60px; box-sizing: border-box; float: left; width: 100%;}
+.drop .first_lvl span{float: left; width: 90%; padding: 22px 0;}
+.drop .itens{display: none; font-size: 10px; padding: 20px; float: left;}
+.drop .itens div{padding: 5px 0px;}
+.drop i{color: #660099; float: right; width: 10%; text-align: right; padding: 30px 0; font-size: 14px;}
+.drop .bg_grey{background: #e5e5e5;}
+.drop .two_lines{padding: 14px 0 !important;}
+.content_drop a{color:#888;}
+.data_atualizacao_plano{text-align: right;margin-bottom: 15px;}
+/* [1818800] Informacoes sobre Planos - FIM*/
+
+/* Correcao barra de aviso padrao - INICIO*/
+.bFF0000{background-color: #FF0000}
+.marginTop15{margin-top: 15px}
+
+.padrao_barra_avisos{display:inline-block;position: relative;padding:5px 5px 5px 80px;border-radius:5px;overflow:hidden;background-color:#FFF;-webkit-box-shadow:1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);-moz-box-shadow:1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);box-shadow:1px 2px 5px 1px rgba(181,181,181,0.5);}
+.padrao_barra_avisos .texto{font-family: robotoregular;font-size: 11px;color:#666;}
+.padrao_barra_avisos .icon_aviso{position:absolute;width: 60px;height: 100%;overflow: hidden;top: 0;left:0;}
+.padrao_barra_avisos .icon_aviso:before{content:'';position:absolute;width:60px;height:75%;overflow:hidden;top:-25%;right:-40px;background-color:#ffffff;-ms-transform:rotate(63deg);-webkit-transform:rotate(63deg);transform:rotate(63deg);}
+.padrao_barra_avisos .icon_aviso:after{content:'';position:absolute;width:60px;height:75%;overflow:hidden;bottom:-28%;right:-40px;background-color:#ffffff;-ms-transform:rotate(-63deg);-webkit-transform:rotate(-63deg);transform:rotate(-63deg);}
+.padrao_barra_avisos .icon_aviso .icon{color:#810804;font-size:21px;text-align:center;width:85%;position:absolute;left:0;bottom:0;top:0;margin:auto;height:12px;padding-top:12px;}
+
+.padrao_barra_avisos.aviso_bloq .icon-bloqueado{color:#810804;}
+.padrao_barra_avisos .texto_alert{color:#FF0000;margin-bottom: 3px;font-weight: bold}
+
+.wrap1815711 .content_valor_periodo {margin-bottom: 15px;}
+.padrao_box_avisos .close_aviso_extrato {background: url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_CLOSE_AVISO)no-repeat;width: 23px;height: 23px;position: absolute;top: 0;bottom: 0;right: 5px;background-size: 100%;margin: auto;}
+.padrao_box_avisos .aviso_extrato_consumo {width: 85%;float: left;padding: 7px 0;color: #666666;}	
+.padrao_box_avisos .icon_aviso {position: absolute;width: 70px;height: 100%;overflow: hidden;top: 0;left: 0;}
+.padrao_box_avisos .icon_aviso:after {content: '';position: absolute;width: 60px;height: 75%;overflow: hidden;bottom: -28%;right: -45px;background-color: #ffffff;-ms-transform: rotate(20deg);-webkit-transform: rotate(20deg);transform: rotate(20deg);}
+.padrao_box_avisos .icon_aviso:before {content: '';position: absolute;width: 60px;height: 75%;overflow: hidden;top: -25%;right: -45px;background-color: #ffffff;-ms-transform: rotate(-20deg);-webkit-transform: rotate(-20deg);transform: rotate(-20deg);}
+.padrao_box_avisos {display: inline-block;position: relative;padding: 0 0 0 80px;border-radius: 5px;overflow: hidden;background-color: #FFF;-webkit-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);-moz-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5);}
+.padrao_box_avisos .icon_aviso .icon {color: #810804;font-size: 21px;font-weight: 300;text-align: center;width: 85%;position: absolute;left: 0;bottom: 0;top: 0;margin: auto;height: 12px;padding-top: 12px;}
+
+.aviso_alert {padding-left:65px; !important;}
+.aviso_alert p {padding: 7px;width: 80%;}
+.aviso_alert .icon_aviso .icon {color: #ea5d20;font-size: 21px;text-align: center;width: 85%;position: absolute;left: 0;bottom: 0;top: 0;margin: auto;height: 12px;padding-top: 12px;}	
+.fab436{background-color: #fab436;}
+/* Correcao barra de aviso padrao - FIM*/
+
+/*1818798*/
+
+/*AJUSTES*/
+#ajuste_box_adicionais_Saldo {margin: -8px 0 28px 0 !important;}
+.ajusteDivConsumoInternet {margin-top: -30px !important;margin-bottom: -29px;}
+.ajuste_link_dig_acc_box {margin-bottom: 19px;}
+.wrap_plan h2 {display: inline-block;}
+h2.ajusteVivoValorizaMobile {margin-left: 6px;}
+
+/* 1818798 - Plano Home*/
+#planoAtivo {color: #666;display: inline-block;font-size: 10px; margin-bottom: 12px;font-family: robotoregular;margin-top: 16px;}
+.plan {text-align: left;}
+.ajuste_alert_saldo_bloc{color:#666 !important;background-color: #dfdfdf !important;text-align: center !important;font-size: 11px !important;}
+#ajusteTituloSaldo{margin-top: 0px !important;}
+
+/* 1818798 - consumo de internet */
+#incentivoAposAcabar{border-top: 1px solid #f2f2f2;display: inline-block;margin-bottom: -30px;margin-top: 30px;}
+.wrap_plan h2{font-size: 21px; margin-top: 16px;}
+.pre_title{font-size: 10px; margin-bottom: 5px; display: inline-block; color: #666;}
+.wrap_plan .container1818413 .wrap_banner_saldo {margin: 10px 0; width: 100%; display: inline-block;}
+
+.wrap_plan .box_links .ver_detalhe{padding: 0 20px;}
+
+.ver_detalhes2{width: 100% !important; box-sizing: border-box; margin-top: 10px;}
+.ver_detalhes2 .icon-06{display: inline; margin-left: 6px;}
+
+.strong{font-weight: bold;}
+
+.wrap_plan .titulo_internet .linha_saldos{padding: 0;}
+.wrap_plan .wrap_tabela_meus_saldos .content_barra_consumo .barra_consumo_cinza .valor_consumo_total span{font-size: 10px !important;}
+
+span.my_franchise{font-size: 10px; color: #a078b4; padding: 15px 10px 5px 36px; display: inline-block;}
+
+.wrap_plan .titulo_internet .box_links{border-top: 1px solid #f2f2f2; display: inline-block; width: 100%; margin-top: 30px; margin-bottom: 2px;}
+.wrap_plan .titulo_internet .box_links .links {display: inline-block; width: 65px; text-align: center; font-weight: bold; color: #660099; font-size: 12px;}
+.wrap_plan .titulo_internet .ver_detalhes2 .icon-06{font-size: 8px;}
+.wrap_plan .wrap_tabela_meus_saldos .conten_tabela_saldo{padding-left: 0; padding-right: 0; margin-bottom: 25px; -webkit-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); -moz-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5);}
+.wrap_plan .lista_tabela{padding: 0 12px !important;}
+
+.wrap_plan .wrap_banner_saldo .conteudo_saldo .entenda_caso:after{background: transparent;}
+
+.wrap_plan .entenda_caso .icon-06{font-size: 8px; display: inline; margin-left: 6px;}
+
+.infos_balance{padding: 15px 12px 0 12px;}
+.infos_balance .title{font-size: 12px !important; color: #a078b4 !important;}
+.infos_balance .info_line{border-bottom: 1px solid #eee; display: inline-block; width: 100%; font-size: 10px; color: #333; padding: 4px 0;}
+.infos_balance .info_line:last-child{border: 0;}
+.infos_balance .floatright{color: #ff0000 !important;}
+
+.wrap_plan .wrap_banner_saldo .conteudo_saldo .entenda_caso{margin-top: -5px; padding: 14px 0 17px;}
+
+.wrap_plan .wrap_banner_saldo{margin: 10px 0 25px 0;}
+
+.btn_reload_now{font-size: 12px !important; padding: 12px 0 11px 0 !important; text-align: center; border-radius: 3px; margin-top: -8px; margin-bottom: 8px;}
+.btn_reload_now i{font-size: 22px; vertical-align: -6px; margin-right: 12px;}
+
+.wrap_values{background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_FUNDO_CUPCAKE') top center no-repeat; margin: 0 0px; padding-top: 53px; margin-top: 8px; background-size: 100%;}
+.wrap_points{position: relative;}
+.wrap_values .title_points{background: #fff; font-family: ITCOfficinaSerifBold; border-radius: 20px; font-size: 13px; left: 0; right: 0; top: -5px; margin: auto; -webkit-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); -moz-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5); width: 125px; padding: 12px 0; height: 16px; text-align: center; color: #660099;}
+.wrap_values .title_points i{font-size: 24px; margin-right: 6px; vertical-align: -5px;}
+.md_points{background: #fff; margin: 15px 15px 0 15px; border-radius: 5px; min-height: 180px;padding-bottom:20px; text-align: center; padding-right: 25px; display: inline-block; width: calc(100% - 30px); -webkit-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); -moz-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5); box-sizing: border-box;}
+.md_points span{color: #660099;}
+.md_points p{padding-top: 40px; font-size: 12px; color: #666; font-family: "Trebuchet MS";}
+.md_points .value{font-size: 55px; font-family:ITCOfficinaSerifBold; color: #660099; line-height: 50px; margin-top: 5px;}
+.md_points .col52{width: 52%; float: left;}
+.md_points .point{font-family:ITCOfficinaSerifBold; font-size: 15px;}
+.md_points .categorie{border-top: 1px solid #c299d6; margin-top: 12px; font-size: 10px; font-family: "Trebuchet MS"; font-weight: bold; padding-top: 4px; width: 92%; display: inline-block;}
+.wrap_values .vivinho{background: url('ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_VIVINHO') center center no-repeat; height: 170px; width: 48%;	 box-sizing: border-box; margin-top: 18px;}
+
+.header_saldo .help_circle{background: #fff; border-radius: 50px; height: 10px; width: 10px; font-size: 8px; color: #660099; font-weight: bold; display: inline-block; margin-left: 5px; vertical-align: 2px;}
+.wrap_plan .wrap_banner_saldo .header_saldo p{font-family: ITCOfficinaSerifBold; font-size: 14px;}
+.wrap_saldo_consumo .img_concava_left{bottom: -60px !important;}
+.wrap_saldo_consumo .img_concava_right{bottom: -60px !important;}
+
+.wrap_plan .wrap_banner_saldo .data{font-family: ITCOfficinaSerifBold; font-size: 14px;}
+
+.wrap_plan .img_concava_left{bottom: -65px !important;}
+.wrap_plan .img_concava_right{bottom: -65px !important;}
+
+.red{color: #ff0000; font-weight: bold !important;}
+
+.balance_att{border-top: 1px solid #ebebeb; margin-top: 10px; padding-top: 8px; float: left;}
+.balance_att span{font-size: 11px;}
+.balance_att i{font-size: 18px; padding: 22px 8px 22px 0; float: left;}
+.balance_att .text{float: left; width: calc(100% - 50px);}
+.balance_att .close{float: right; color: #660099; font-size: 10px; background: #fff; padding: 3px; border-radius: 50px; width: 15px; height: 15px; margin-top: 13px;}
+.balance_att .icon-fechar22:before{padding: 2.5px; line-height: 16px;}
+.balance_att .faucet{color: #660099; text-decoration: underline;}
+
+.wrap_values_pos{text-align: left;}
+.wrap_values_pos p{text-align: left; padding-top: 0; font-size: 10px; line-height: 14px;}
+.wrap_values_pos h4{font-weight: bold; text-align: left; padding: 15px 0 10px 0; font-family: ITCOfficinaSerifBold; font-size: 12px;}
+.wrap_values_pos .md_points{margin-top: 28px;}
+
+.btn_register_free{padding: 12px 0 !important; font-size: 12px !important; background: #660099 !important; margin-top: 10px !important; border-radius: 3px !important; border-bottom: solid 2px #461e5f !important;}
+
+.ct_no_consum{padding: 22px 22px 26px 22px !important; text-align: center;}
+.ct_no_consum p{font-size: 13px; text-align: center; color: #333;}
+.ct_no_consum .btn_padrao_2{padding: 8px 0; font-size: 12px !important; background: #660099; margin-top: 12px; border-radius: 3px; border-bottom: solid 2px #461e5f; text-align: center; width: 95px; display: inline-block; float: none;}
+.ct_no_consum_erro p{color: #f73d29;}
+
+.franq_acabou{padding-bottom: 3px !important;}
+.franq_acabou .emuso{color: #ff9900 !important;}
+.franq_acabou .ct_no_consum{padding-bottom: 0 !important; padding-top: 10px !important;}
+.franq_acabou .box_links{margin-top: 15px !important; border-top: 0 !important; border-bottom: 1px solid #f2f2f2; padding-bottom: 20px;}
+
+.franq_acabou .barra_consumo_roxa{border-radius: 4px !important;}
+.franq_acabou .valor_consumido{right: 0 !important;}
+.franq_acabou .valor_consumo_total{width: 100px !important;}
+
+.emuso .icon-74{margin-right: 6px; font-size: 14px; vertical-align: -2px;}
+
+.wrap_tabela_meus_saldos .content_barra_consumo .barra_consumo_cinza .valor_consumo_total span {font-size: 10px !important;}
+
+.wrap_plan .titulo_internet .box_links {border-top: 1px solid #f2f2f2;display: inline-block;width: 100%;margin-top: 30px;margin-bottom: 2px;}
+
+div#id_box_links{border-top: 1px solid #f2f2f2;display: inline-block;width: 100%;margin-top: 30px;margin-bottom: 2px;}
+#id_links_ver_detalhe{display: inline-block;width: 65px;text-align: center;font-weight: bold;color: #660099;font-size: 12px;}
+.ajuste_alert_saldo_bloc{color:#666 !important;background-color: #dfdfdf !important;text-align: center !important;font-size: 11px !important;}
+#ajusteTituloSaldo{margin-top: 0px !important;}
+
+/* Minha Conta - home mobile */
+.containerSaldoHomeMobile {text-align: center}
+.containerSaldoHomeMobile .wrap_banner_saldo {margin-top: 15px; min-height: 50px;}
+.containerSaldoHomeMobile .wrap_banner_saldo .header_saldo{padding-top:10px;text-align: center}
+.containerSaldoHomeMobile .wrap_banner_saldo .cituacao{margin-bottom: 5px;font-family:ITCOfficinaSerifBold;font-size:14px;}
+.containerSaldoHomeMobile .wrap_banner_saldo .data{font-family:robotoregular;font-size:14px;color: #FFF;font-weight: bold}
+.containerSaldoHomeMobile .wrap_banner_saldo .vencimento{font-family:robotoregular;font-size:12px;color: #FFF;}
+.containerSaldoHomeMobile .wrap_banner_saldo .img_concava_left, .containerSaldoHomeMobile .wrap_banner_saldo .img_concava_right{bottom: -70px;width: 100%}
+.containerSaldoHomeMobile .wrap_banner_saldo .img_concava_left{-ms-transform:rotate(10deg)!important;-webkit-transform:rotate(10deg)!important;transform:rotate(10deg)!important;left: -24%}
+.containerSaldoHomeMobile .wrap_banner_saldo .img_concava_right{-ms-transform:rotate(350deg)!important;-webkit-transform:rotate(350deg)!important;transform:rotate(350deg)!important;right: -25%}
+.containerSaldoHomeMobile .wrap_banner_saldo .conteudo_saldo p{margin-bottom: 5px}
+.containerSaldoHomeMobile .wrap_banner_saldo .pagar_agora{text-align: center;margin:25px auto;width:90%;font-size: 12px;padding:10px 0;}
+.containerSaldoHomeMobile .wrap_banner_saldo .pagar_agora .icon-cifra_rounded{vertical-align:-4px;margin-right:15px;font-size:20px;}
+.containerSaldoHomeMobile .wrap_banner_saldo .box_links{text-align:center;width:93%;margin:0 auto 15px;}
+.containerSaldoHomeMobile .wrap_banner_saldo .box_links .links{display:inline-block;width: 65px;text-align: center;font-weight: bold;color: #660099;font-size: 12px}
+.containerSaldoHomeMobile .wrap_banner_saldo .box_links .links .icon-06{margin-top: 10px; font-size: 8px;}
+.containerSaldoHomeMobile .wrap_banner_saldo .box_links .ver_detalhe{padding: 0 20px;}
+.containerSaldoHomeMobile .btn_roxo_padrao{padding: 8px 0; font-size: 12px !important; background: #660099; margin-top: 12px; margin-bottom: 30px; border-radius: 3px; border-bottom: solid 2px #461e5f; text-align: center; width: 95px; display: inline-block; float: none;font-family: ITCOfficinaSerifBookRegular; font-weight: bold; color: #FFF!important;}
+.containerSaldoHomeMobile .avisoContaVazia{padding-top: 1em; padding-bottom: 1em;}
+/* FIM Minha Conta - home mobile*/
+
+/* Promocao - home mobile*/
+.link_dig_acc{background: #fff; width: 100%; border-radius: 5px; float: left; margin-top: 15px; -webkit-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); -moz-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5);}
+.link_dig_acc i{color: #660099; height: 50px; float: left; padding: 0 20px; font-size: 22px;}
+.link_dig_acc .icon_link::before{line-height: 50px}
+.link_dig_acc span{font-size: 12px; color: #333; font-family: "Trebuchet MS"; font-weight: bold; padding-top: 12px; float: left; width: 78%;}
+.link_dig_acc p{float: left; font-size: 12px; font-family: "Trebuchet MS"; color: #888;}
+.link_dig_acc .icon-06{float: right; height: auto; font-size: 9px; font-weight: bold; padding: 0 12px;}
+.link_dig_acc:last-child{margin-bottom: 8px;}
+/* FIM promocao - home mobile*/
+
+/*FIM - 1818798*/
+
+/*DEBITO AUTO E CONTA DIGITAL - home Mobile */
+.link_dig_acc_box{background: #fff; width: 100%; border-radius: 5px; float: left; margin-top: 15px; -webkit-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); -moz-box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5)rgba(181,181,181,1); box-shadow: 1px 1px 2px 0px rgba(181,181,181,0.5);}
+.link_dig_acc_box i{color: #660099; height: 50px; float: left; padding: 0 20px; font-size: 22px;}
+.link_dig_acc_box .icon_link::before{line-height: 50px}
+.link_dig_acc_box .msgView span{font-size: 12px; color: #333; font-family: "Trebuchet MS"; font-weight: bold; padding-top: 12px; float: left; width: 78%;}
+.link_dig_acc_box p{float: left; font-size: 12px; font-family: "Trebuchet MS"; color: #888;}
+.link_dig_acc_box .icon-06{float: right; height: auto; font-size: 9px; font-weight: bold; padding: 0 12px;}
+.link_dig_acc_box:last-child{margin-bottom: 8px;}
+.msgViewErroDefault{padding: 13px 0px 11px 59px;clear: both;color: #ff0000;font-family: "Trebuchet MS";font-size: 12px;background: #fff;width: 84%;border-radius: 5px;float: left;display: inline-block;position: relative;overflow: hidden;margin-bottom: 2px;margin-top: 11px;-webkit-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);-moz-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5);}
+.msgViewErroDefault .icon .icon-bloqueado{font-size: 21px;text-align: center;width: 85%;position: absolute;left: 0;bottom: 0;top: 0;margin: auto;height: 12px;padding-top: 12px;}
+.icon-bloqueado:before {font-size: 22px;margin-left: -40px;margin-right: 20px;line-height: 0;left: 0px;top: 11px;position: relative;}
+#boldErrorDefault {margin-left: 6px;}
+/*DEBITO AUTO E CONTA DIGITAL - home Mobile - FIM*/
+
+
+
+/*[1818413]* Pagamento Digital da Fatura - INICIO*/
+.btn_padrao_2{border-radius: 5px;border-bottom:solid 2px #85bb1a;font-family:ITCOfficinaSerifBookRegular;font-weight: bold;font-size:14px !important;color: #FFF!important;padding: 10px 15px 9px 48px;background-color: #99cc33;display: block}
+
+/*2Âª via conta*/
+.btn_voltar_pag{display: block;margin: 15px 0 20px 0;font-family: robotoregular;font-size: 12px;font-weight: bold;color: #333;}
+.btn_voltar_pag span{border-radius:100%;background-color: #FFF;border:solid 1px #e3e3e3;color: #660099;font-size: 10px;padding:9px;margin-right: 5px}
+.container1818413 {text-align: center}
+.container1818413 .wrap_banner_saldo {margin-top: 15px}
+.container1818413 .wrap_banner_saldo .header_saldo{padding-top:10px;text-align: center}
+.container1818413 .wrap_banner_saldo .cituacao{margin-bottom: 5px;font-family:ITCOfficinaSerifBold;font-size:12px;}
+.container1818413 .wrap_banner_saldo .data{font-family:robotoregular;font-size:14px;color: #FFF;font-weight: bold}
+.container1818413 .wrap_banner_saldo .vencimento{font-family:robotoregular;font-size:12px;color: #FFF;}
+.container1818413 .wrap_banner_saldo .img_concava_left, .container1818413 .wrap_banner_saldo .img_concava_right{bottom: -70px;width: 100%}
+.container1818413 .wrap_banner_saldo .img_concava_left{-ms-transform:rotate(10deg)!important;-webkit-transform:rotate(10deg)!important;transform:rotate(10deg)!important;left: -24%}
+.container1818413 .wrap_banner_saldo .img_concava_right{-ms-transform:rotate(350deg)!important;-webkit-transform:rotate(350deg)!important;transform:rotate(350deg)!important;right: -25%}
+.container1818413 .wrap_banner_saldo .conteudo_saldo p{margin-bottom: 5px}
+.container1818413 .wrap_banner_saldo .pagar_agora{text-align: center;margin:25px auto;width:90%;font-size: 12px;padding:10px 0;}
+.container1818413 .wrap_banner_saldo .pagar_agora .icon-cifra_rounded{vertical-align:-4px;margin-right:15px;font-size:20px;}
+.container1818413 .wrap_banner_saldo .box_links{text-align:center;width:93%;margin:0 auto 15px;}
+.container1818413 .wrap_banner_saldo .box_links .links{display:inline-block;width: 65px;text-align: center;font-weight: bold;color: #660099;font-size: 12px}
+.container1818413 .wrap_banner_saldo .box_links .links .icon-06{margin-top: 10px}
+
+
+/*tipos de banner*/
+.banner_pendente .header_saldo{background-color: #fab437}
+.banner_pendente  .cituacao{color: #fa6423}
+.banner_pendente .desc_saldo{color: #fab437!important}
+.banner_atrasada .header_saldo{background-color: #f73c29}
+.banner_atrasada .cituacao{color: #880602}
+.banner_atrasada .desc_saldo{color: #f73c29!important}
+
+.banner_paga .header_saldo{background-color: #99cc33}
+.banner_paga .cituacao{color: #35a14a}
+.banner_paga .desc_saldo{color: #99cc33!important}
+.banner_paga .links{margin:0 15px;}
+.banner_paga .pagar_agora{color: #b9d25a!important;background-color: #FFF;border:dotted 2px #b9d25a;}
+
+.container1818413 .ver_historico_pagamento{font-family:robotoregular;font-size:14px;color: #660099;font-weight: bold}
+.container1818413 .ver_historico_pagamento .icon-06{font-size: 10px;vertical-align: middle;}
+
+/*1818413- pagamento*/
+.modal1818413_pagamento .wrap_valor_total{background-color: #FFF;padding:6px 0 6px 20px;font-family:robotoregular;font-size:10px;color:#666;text-align: center;margin-top: 15px}
+.modal1818413_pagamento .wrap_valor_total .valor_total{font-size: 22px;font-weight: bold;color: #333}
+.modal1818413_pagamento h3{font-family:ITCOfficinaSerifBold;font-size:14px;color:#333;font-weight: bold;margin:25px 0 10px;text-align: center}
+.modal1818413_pagamento .wrap_codigo_barras{float: left;width: 100%;position: relative}
+.modal1818413_pagamento .wrap_codigo_barras .numero_codigo_barras{background- color:#f6f6f6;border:solid 1px #efefef;text-align:center;font-family:robotoregular;font-size:13px;color:#666;padding:6px 0;margin-bottom: 20px}
+.modal1818413_pagamento .btn_padrao_2{background-color: #660099;padding:10px 0;text-align: center;border-color:#461e5f;border-radius: 2px;margin-bottom: 15px}
+
+.div_box_branco{height: 130px;border-radius: 6px;background: #ffffff;margin-top: 15px;text-align: center;padding-top: 108px;-moz-box-shadow: 0 0 3px #ccc;-webkit-box-shadow: 0 0 3px #ccc;box-shadow: 1px 1px 3px #ccc;}
+.div_box_branco p{font-weight: bold;font-size: 13px;}
+
+/*conta digital 01*/
+.c883bb3{background-color: #883bb3 !important}
+.ca864c5{background-color: #a864c5 !important}
+.conteudo_conta_digital {padding-top: 40px;}
+.conteudo_conta_digital .titulo {padding-top: 20px;padding-left: 15px;}
+.conteudo_conta_digital .colheader{margin-top: 0}
+.conteudo_conta_digital .colcenter { display: block; padding: 15px; margin-top: 20px;}
+.conteudo_conta_digital .banner_box_ativar_conta{background:url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_BANNER_CONTA_DIGITAL) no-repeat;background-size: 100%}
+.conteudo_conta_digital .banner_box_ativar_conta .wrap_barra_exclamacao{border:none;margin-top: 70px;}
+.conteudo_conta_digital .banner_box_ativar_conta .wrap_barra_exclamacao p{padding:12px 0;}
+.conteudo_conta_digital .banner_box_ativar_conta .conteudo_aviso{background-color:#FFF;border-radius:5px;border:solid 2px #f0f0f0;text-align: center;padding:20px 0;margin-top: 15px}
+.conteudo_conta_digital .banner_box_ativar_conta h3{font-weight: bold;font-size: 20px;color: #333;margin-bottom: 15px; font-family:ITCOfficinaSerifBookRegular!important;}
+.conteudo_conta_digital .banner_box_ativar_conta h3 span{color:#660099; font-family:ITCOfficinaSerifBookRegular!important;}
+.conteudo_conta_digital .banner_box_ativar_conta p{margin-bottom:70px}
+.conteudo_conta_digital .banner_box_ativar_conta .btn_padrao_2{width:85%;margin:0 auto;padding:10px 0 9px;border-radius:3px}
+.conteudo_conta_digital .banner_box_ativar_conta .btn_padrao_2 .icon{font-size:18px;vertical-align:-3px;margin-right:10px;}
+.conteudo_conta_digital .wrap_vantagens{margin-top: 30px}
+.conteudo_conta_digital .wrap_vantagens h2{font-size: 18px}
+.conteudo_conta_digital .wrap_vantagens .box_vantagens{margin-top:30px;font-family:robotoregular;font-size:12px;color:#333;text-align:center;padding-top: 20px}
+.conteudo_conta_digital .wrap_vantagens .box_vantagens h3{font-family:ITCOfficinaSerifBookRegular!important;color:#660099;font-size:18px;margin-bottom:10px;margin-top:30px;}
+.conteudo_conta_digital .wrap_vantagens .box_vantagens span{font-size:39px;color:#FFF;background-color:#660099;border-radius:100%;padding:19px;}
+.conteudo_conta_digital .wrap_vantagens .box_vantagens p{font-size:12px;color:#333;padding:0;margin:0;}
+.conteudo_conta_digital .conta_ativada{margin-top: 55px}
+.conteudo_conta_digital .conta_ativada .icon-79{font-size:20px;color:#34a02e;text-align:center;vertical-align:middle;display:block;padding-top:25px;}
+.conteudo_conta_digital .conta_ativada .header_saldo {height: 85px;background-color: #a2cf2c}
+.conteudo_conta_digital .conta_ativada .header_saldo p{font-family:ITCOfficinaSerifBookRegular!important;font-size: 20px;color: #34a02e;font-weight: bold}
+.conteudo_conta_digital .conta_ativada .header_saldo .img_concava_left, .conteudo_conta_digital .conta_ativada .header_saldo .img_concava_right{bottom: -75px}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo{text-align: center}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo h3{font-family:ITCOfficinaSerifBookRegular!important;font-size: 15px;color: #333;font-weight: bold}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo h3 span{color: #660099}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo .conta{font-size: 12px;color: #666}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo .conta strong{display: block;}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo .desc_ativo{font-size: 10px;color: #666;margin-top: 15px;margin-bottom: 20px}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo .desativar_conta{text-align: center;padding:15px 0;font-size: 12px;color: #660099;border-top: solid 1px #f2f2f2;display: block;font-weight:bold}
+.conteudo_conta_digital .conta_ativada .conteudo_saldo .desativar_conta span{font-size: 8px;margin-left: 10px;}
+.conteudo_conta_digital .header_modal{height: 55px;background-color: #660099;position: relative}
+.conteudo_conta_digital .header_modal h3{color:#FFF;line-height:55px;font-size: 16px;font-family:ITCOfficinaSerifBookRegular;font-weight: bold;}
+.conteudo_conta_digital .header_modal .icon-fechar22{position:absolute;color:#660099;background-color:#FFF;border-radius:100%;font-size:10px;top:17px;right:15px;padding:12px 6px 0;vertical-align:middle;height:11px;}
+
+.conteudo_conta_digital .modal_desativar{position: absolute; top: 40px; width: 100%; display:none;}
+.conteudo_conta_digital .modal_desativar span{font-family:ITCOfficinaSerifBookRegular;color: #666;font-size: 14px;display: block}
+.conteudo_conta_digital .modal_desativar .icon_modal{background:url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_HEADER_BLOQ);height: 55px;width: 52px;background-size: auto 55px;margin-right: 10px}
+.conteudo_conta_digital .modal_desativar span strong{display:block;color: #000;margin-bottom: 30px}
+.conteudo_conta_digital .modal_desativar .btn_padrao_2{width:30%;padding:10px 0 9px;text-align:center;border-radius:3px;float:left;margin-top: 20px}
+.conteudo_conta_digital .modal_desativar .btn_nao{background-color: #d5d5d5;color: #666!important;border-color: #bebebe;margin-right: 15px}
+.conteudo_conta_digital .modal_desativar .btn_sim{background-color: #660099;color: #FFF;border-color: #461e5f}
+/*modal termos*/
+.conteudo_conta_digital  .modal_termos {position: absolute;top: 40px; display:none; z-index: 10;}
+.conteudo_conta_digital  .modal_termos .icon_modal{background:url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_HEADER_EXTRATO);height: 55px;width: 52px;background-size: auto 55px;margin-right: 10px}
+.conteudo_conta_digital  .modal_termos p{font-size: 13px;margin-bottom: 30px}
+.conteudo_conta_digital  .modal_termos .conteudo_termo {display: block; padding: 15px; background:#f6f6f6;}
+
+
+.w38{width: 38%!important}
+.form_padrao_2{position:relative;border:solid 1px #d8d8d8;padding:5px 15px;margin-bottom: 15px;font-family:robotoregular; background-color: #fff;}
+.form_padrao_2 .span{font-size:10px;color:#666;display: block;}
+.form_padrao_2 .input{font-size:16px;color:#333;display: block;width: 100%;padding:0;font-weight: bold}
+.paddingtop5{padding-top:5px !important}
+
+ .conteudo_ativar_conta{float: left;width: 100%}
+ .conteudo_ativar_conta .descricao{font-family:robotoregular;font-size:12px;color: #666;line-height: 18px;margin-top: 18px;margin-bottom: 30px}
+ .conteudo_ativar_conta .colcenter { display: block; padding: 15px; margin-top: 0px;}
+
+/*checkbox buttom*/
+.wrap_checkbox_form{position:relative;display:inline-block;width:100%;margin:10px 0;}
+.wrap_campo_form .wrap_checkbox_form input[type="checkbox"]{opacity:0; z-index:9;position:relative;float:left;width:16px;height:16px;padding: 0;margin:0}
+.wrap_campo_form .wrap_checkbox_form input:checked ~ span{background-position:right !important }
+.wrap_campo_form .wrap_checkbox_form input:checked ~ p{font-weight: bold;}
+.wrap_campo_form .wrap_checkbox_form p{font-size: 12;padding-left:30px;color: #000}
+.wrap_checkbox_form span{background-position:left;width: 16px;height: 16px;position: absolute;left: 0;top: 0;}
+
+.conteudo_conta_digital .wrap_campo_form .li_termos span{background:url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_CHECK_TERMOS) left no-repeat;background-size:auto 16px}
+.conteudo_conta_digital .wrap_campo_form .li_termos a{color: #660099;text-decoration: underline;}
+.conteudo_conta_digital .wrap_campo_form .span_check{background:url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_CHECK_SMS) left no-repeat;background-size:auto 16px}
+
+.conteudo_conta_digital .btn_cadastrar_email{border-radius:3px;display: inline-block;width:44%;text-align: center;padding:12px 0px ;background:none;background-color: #660099;border-bottom-color: #461e5f;font-size: 12px !important}
+.conteudo_conta_digital .wrap_btn{border-top: solid 1px #d8d8d8;padding: 20px 0 25px;}
+.conteudo_conta_digital .wrap_btn .btn_cancelar{border-radius:3px;display: inline-block;width:33%;text-align: center;padding:12px 0;background:none;background-color: #d5d5d5;font-size: 12px !important;color: #666 !important;border-bottom-color: #bebebe;margin-right: 15px}
+.conteudo_conta_digital .wrap_btn .btn_ativar{border-radius:3px;display: inline-block;width:44%;text-align: center;padding:12px 0px ;background:none;background-color: #660099;border-bottom-color: #461e5f;font-size: 12px !important}
+
+.conteudo_conta_digital .wrap_campos_dados{display:inline-block;width: 100%;font-family:robotoregular;font-size:14px}
+.conteudo_conta_digital .wrap_campos_dados .dados_conta_digital{color:#666;margin-bottom: 25px}
+.conteudo_conta_digital .wrap_campos_dados .editar_endereco{font-weight:bold;color:#660099;background:url(../img/1818413/seta_roxa.png) right 6px no-repeat;padding-right:15px;padding-top:0px;float:left;line-height:18px;font-size:14px;}
+.conteudo_conta_digital .wrap_campos_dados .editar_endereco .icon-75{display:inline-block;margin-right:10px;font-size:18px;vertical-align:middle;padding-top:7px;height:11px;}
+.conteudo_conta_digital .wrap_campos_dados .editar_endereco .icon-06{display:inline-block;font-size:9px;vertical-align:middle;padding-top:8px;height:8px;}
+.conteudo_conta_digital .wrap_btn .btn_desativar{border-radius:3px;display: inline-block;width:49%;text-align: center;padding:12px 0px ;background:none;background-color: #660099;border-bottom-color: #461e5f;font-size: 12px !important}
+.conteudo_conta_digital .boxErro{ border-radius: 5px;  margin: 20px 20px 20px; background-color: #FFF; -webkit-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1); -moz-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);  box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5);}
+.conteudo_conta_digital .boxErro p{padding: 65px 60px 60px 65px; font-size: 14px; color: #FF0000; font-weight: bold; text-align:center;}
+/*DESTAVIAR CONTA 5B*/
+.select_1818413{position: relative;background:c 95% 50% no-repeat;cursor: pointer;}
+.select_1818413 div{font-size:16px;color:#333;display:block;width:100%;padding:0;}
+.select_1818413 .icon_select{position:absolute;top:24px;right:10px;}
+.select_1818413 ul{display:none;position:absolute;width:100%;left:-1px;border:solid 1px #d3d3d3;padding:0;margin:0;background-color:#FFF;top:100%;z-index: 99}
+.select_1818413 ul li{display: block;padding:10px 0 10px 10px;font-size: 13px;border-bottom: solid 1px #d3d3d3 }
+.select_1818413 ul li:hover{background-color: #f8f8f8}
+.select_1818413 ul li:last-child{border-bottom:0}
+.conteudo_conta_digital .opcional_1818413{position:absolute;right:-39%;top:35%;font-family:robotoregular;font-size:10px;color: #666;font-weight: bold}
+
+
+.box_msg_notification_success{height:90px;background-color:#99cc33;color:#FFF;font-size:15px;position:relative;}
+.box_msg_notification_success .icon-65{color:#32a04b;background-color:#FFF;border-radius:100%;font-size:28;margin-top:35px;margin-left:10px;height:8px;padding-top:10px;margin-right:10px;}
+.box_msg_notification_success h3{color:#FFF;margin-top:33px;font-family:ITCOfficinaSerifBookRegular!important;}
+.box_msg_notification_success .icon-fechar22{position:absolute;color:#99cc33;background-color:#FFF;border-radius:100%;font-size:10px;top:33px;right:15px;padding:12px 6px 0;vertical-align:middle;height:11px;}
+
+@media all and (min-width: 480px){
+	.container1818413 .wrap_banner_saldo .img_concava_left, .container1818413 .wrap_banner_saldo .img_concava_right{bottom: -60px;}
+}
+
+@media all and (min-width: 400px){
+	.container1818413 .wrap_banner_saldo .img_concava_left, .container1818413 .wrap_banner_saldo .img_concava_right{bottom: -70px;}
+}
+
+@media all and (min-width: 380px){
+	.container1818413 .wrap_banner_saldo .img_concava_left, .container1818413 .wrap_banner_saldo .img_concava_right{bottom: -65px;}
+}
+/*[1818413]* Pagamento Digital da Fatura - FIM*/
+
+/*[1818798] - Adequação identidade visual Meu Vivo Web - Novo Layout Menu - INICIO*/
+.menulateralesquerdo_beatrix{position:fixed;} 
+.menulateralesquerdo_beatrix .wrap_menu_beatrix{overflow: inherit} /*retirar overflow desta classe*/
+.menulateralesquerdo_beatrix .content_menu_beatrix .header_menu{float:none;border-bottom:none;background-color: #670099;margin-bottom: 15px !important;}
+.menulateralesquerdo_beatrix{height: 100% !important}
+.wrap_menu_beatrix{position:relative;padding:0;width:270px;background:transparent;}
+.wrap_menu_beatrix .btn_fechar{position: absolute;width:50px;height:80px;top: 0;left:100%;color:#FFF;z-index: 99999;background: #310b45;
+	background: -moz-linear-gradient(left, #310b45 0%, #5b1c7b 65%, #642286 100%);background: -webkit-linear-gradient(left, #310b45 0%, #5b1c7b 65%, #642286 100%);background: linear-gradient(to right, #310b45 0%, #5b1c7b 65%, #642286 100%);}
+.wrap_menu_beatrix .content_menu_beatrix{width:100%;background-color:#FFF;position:absolute;height:100%;overflow-y: scroll}
+.wrap_menu_beatrix .btn_fechar .icon-82{font-size:18px;vertical-align:middle;position:absolute;bottom:0;top:0;left:0;right:0;margin:auto;width:18px;height:12px;padding-top:11px;}
+.wrap_menu_beatrix .menu_beatrix, .content_sub_menu_beatrix{padding:0;margin:0;}
+.wrap_menu_beatrix .list_menu_beatrix .link_menu{position:relative;font-size:16px;font-family:ITCOfficinaSerifBookRegular;color:#8e45b7;line-height:56px;display:block;padding-left:30px}
+.list_menu_beatrix .link_menu .icon_menu{font-size:24px;vertical-align:middle;margin-right:17px;}
+.list_menu_beatrix .link_menu .icon-06{position:absolute;right:10px;font-size:9px;top:0;bottom:0;margin:auto;padding-top:5px;height:5px;}
+.wrap_menu_beatrix .list_menu_active .link_menu{color: #FFF!important;background-color: #670099;} 
+.wrap_menu_beatrix .wrap_menu_principal{position: relative;height: 100%;right: 0} 
+.wrap_menu_beatrix .num_protocolo{position: absolute;width:100%;padding:10px 0 10px 20px;color: #666;background: #e2e2e2;font-size:12px;font-family: robotoregular;bottom:0;left:0;z-index:99999} 
+.wrap_menu_beatrix .num_protocolo strong{color: #000} 
+
+.wrap_sub_menu_beatrix{position: absolute;width: 100%;height: 100%;top: 0;left:100%;background-color: #A078B4;z-index: 9;display: none;overflow-y: scroll;}
+.wrap_sub_menu_beatrix .header_sub_menu{background-color:#79509F;color:#FFF;padding:31px 0 30px 10px;font-size:14px;font-family: robotoregular}
+.wrap_sub_menu_beatrix .header_sub_menu .icon-05{margin-right: 5px}
+.wrap_sub_menu_beatrix .link_submenu{font:normal normal normal 16px ITCOfficinaSerifBookRegular;line-height:56px;color:#FFF;display:block;padding-left:51px;position: relative;}
+.wrap_sub_menu_beatrix .link_submenu.header_links{padding-left: 20px}
+.wrap_sub_menu_beatrix .link_submenu.header_links .icon_header_link{margin-right:10px;font-size: 20px;vertical-align: -1px }
+.bbd7cd1{background-color:#bd7cd1 !important;}
+.b7619a5{color: #FFF!important;background-color: #7619a5 !important;}
+.icon_menu_selected{font-size: 25px;position: absolute;margin: auto 0;left: -12px;top: 0;bottom: 0;height: 6px;padding-top: 6px;width: 14px;}
+.content_menu_beatrix .header_menu span {float: left;width: auto;font-size: 9px;margin-top: 18px;margin-left: 8px;}
+span.my_pacote {font-size: 10px;padding: 15px 10px 5px 36px;color: #a078b4;}
+/*[1818798] - Adequação identidade visual Meu Vivo Web - Novo Layout Menu - INICIO*/
+
+/* [1132718] Multi Cotas - INICIO */
+
+@media all{.wrap_banner_saldo .header_saldo .img_concava_right{-ms-transform:rotate(355deg);-webkit-transform:rotate(355deg);transform:rotate(355deg)}.wrap_banner_saldo .header_saldo .img_concava_left{-ms-transform:rotate(5deg);-webkit-transform:rotate(5deg);transform:rotate(5deg)}}</style><style type="text/css">@media all{.container1818413 .wrap_banner_saldo .img_concava_left,.container1818413 .wrap_banner_saldo .img_concava_right{bottom:-60px}}</style><style type="text/css">@media all{.container1818413 .wrap_banner_saldo .img_concava_left,.container1818413 .wrap_banner_saldo .img_concava_right{bottom:-60px}}
+
+ul{margin:0;padding:0;list-style: none}
+.no-m-tp{margin-top: 0 !important;}
+.no-m-l{margin-left: 0 !important;}
+.no-m-r{margin-right: 0 !important;}
+.no-pdd-tp{margin-top: 0 !important;}
+.m-t-10{margin-top: 10px}
+.m-t-15{margin-top: 15px !important}
+.m-t-25{margin-top: 25px}
+.m-t-30{margin-top: 30px}
+.m-t-20-neg{margin-top: -20px;}
+.m-b-15{margin-bottom: 15px !important}
+.pdd-b-20{padding-bottom: 20px !important;}
+.m-b-35{margin-bottom: 35px}
+.m-b-5{margin-bottom: 5px}
+.c-000{color:#000;}
+.fs-9{font-size: 9px}
+.fs-10{font-size: 10px}
+.fs-12{font-size: 12px}
+.fs-13{font-size: 13px !important;}
+.b-660099{background-color: #660099}
+.b-eb3c7d{background-color: #eb3c7d}
+.b-e5e5e5{background-color: #e5e5e5}
+.b-0066cc{background-color: #0066cc;}
+.b-fadc50{background-color: #fadc50;}
+.b-0063cf{background-color: #0063cf;}
+.b-b2d0f1{background-color: #b2d0f1;}
+.b-f4b4c8{background-color: #f4b4c8;}
+.b-fbeca7{background-color: #fbeca7;}
+.c-7b27a6{color:#7b27a6;}
+.c-333{color:#333;}
+.m-tb-10{margin:10px 0;}
+.box_padrao{box-sizing:border-box;float:left;width:100%;border-radius:5px;padding:20px 15px 0;background-color:#FFF;-webkit-box-shadow:1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);-moz-box-shadow:1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);box-shadow:1px 2px 5px 1px rgba(181,181,181,1)}
+.align_lf{text-align: left;}
+.align_rg{text-align: right;}
+.relative{position: relative;}
+.wd-35{width: 35%; float: left;}
+
+.wrap_1132718_barra_consumo .wrap_select{ width: 100% !important;}
+.wrap_1132718_barra_consumo .ul_select_style li{width: 90% !important;}
+
+.border-50{border-radius: 50px 50px 50px 50px !important;}
+.border-50-inicio{border-radius: 50px 0 0 50px;}
+.border-50-fim{border-radius: 0 50px 50px 0;}
+
+.border-100-redonda{overflow: hidden; background-color: #e5e5e5; border-radius: 100px !important;}
+
+/*content barra*/
+.wrap_1132718_multicotas{float: left; width: 100%;}
+.wrap_1132718_multicotas .box_padrao > h3{font-size: 19px}
+.wrap_1132718_barra_consumo .consumido{float: left;height: 20px; position: relative;}
+.wrap_1132718_barra_consumo .consumido:first-child{border-radius: 50px 0 0 50px}
+.wrap_1132718_barra_consumo .consumido:last-child{border-radius: 0 50px 50px 0}
+/*lista desc barra*/
+.wrap_1132718_barra_consumo .wrap.list_1132718_desc_cons_barra{margin-top: 35px}
+.wrap_1132718_barra_consumo .list_1132718_desc_cons_barra .item_desc_cons_barra{padding:16px 0 20px 0;border-top: solid 1px #ebebeb;position: relative;font-family:robotoregular;}
+.wrap_1132718_barra_consumo .list_1132718_desc_cons_barra .cmp_cor{border-radius:100%;width:12px;height:12px;margin-right:10px;display:inline-block;vertical-align:-1px;}
+.wrap_1132718_barra_consumo .list_1132718_desc_cons_barra .cmp_quantidade{;font-size:13px;width:45px;text-align:right;margin-left:20px;}
+.wrap_1132718_barra_consumo .list_1132718_desc_cons_barra  .icon-seta{font-size:14px;display:inherit;color:#4b0086;}
+
+.cons_barra{position:absolute;width:100%;height:100%;left:0;top:0;opacity: 0.5;}
+
+.wrap_1132718_barra_distribuicao{margin-top: 35px;}
+
+.p_consumo{margin-left: 24px; font-size: 11px;}
+
+.wrap_btn_bigger .colcenter{padding: 0 15px; margin-top: 30px;}
+.btn_bigger{font-size: 13px !important; border-bottom: solid 4px #85bb1a; padding: 18px 0 16px 0; font-family: robotoregular !important; margin-bottom: 0px;}
+
+.info_bottom{font-size: 12px; margin: 20px 15px 30px 15px; display: inline-block; color: #666; font-family: robotoregular;}
+
+.no-pdd-tp{padding-top: 0 !important;}
+.no-pdd-bt{padding-bottom: 0 !important;}
+.no-margin-tp{margin-top: 0 !important;}
+.no-margin-bt{margin-bottom: 0 !important;}
+.no-border-tp{border-top: 0 !important; margin-top: 0;}
+
+.pdd-20{padding: 20px 0 !important;border-top: solid 1px #ebebeb;}
+
+.wrap_1132718_multicotas_titular{}
+.wrap_1132718_multicotas_titular p{color: #333333; font-family: robotoregular; font-size: 14px;}
+.wrap_1132718_multicotas_titular a{margin: 30px 0 20px 0;}
+
+.margin-30-tp{margin-top: 30px;}
+.border-rd-10{border-radius: 10px;}
+.border-rd-0{border-radius: 0px !important;}
+
+.border-rd-rg{border-radius: 10px; width:20px; height: 20px; position: absolute; right: -10px; z-index: 0;}
+
+.wrap_1132718_multicotas h4{color: #333; font-family: robotoregular !important;}
+
+.cons_limit{height: 40px; width: 3px; position: absolute; right: 0; top: -10px;}
+.cons_circle{width: 24px; height: 24px; border-radius: 50px; right: -15px; position: absolute; z-index: 6; border: 3px solid #fff; top: -6px; box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.29);}
+
+.line_infos{margin-top: 15px; font-size: 11px;}
+.line_infos p{font-family: robotoregular;}
+.line_infos h3{color: #333; font-size: 16px; font-weight: bold; font-family: robotoregular;}
+.line_infos a{border: 1px solid #dbdbdb; border-radius: 100px; color: #660099; width: 50px; height: 50px; display: inline-block; padding: 25px 0; box-sizing: border-box; font-weight: bold; font-size: 16px; text-align: center; margin: 24px 0 18px 0;}
+
+.form_buy_pack{border-top: 1px solid #ebebeb; color: #333; padding: 16px 0 12px 0;}
+.form_buy_pack p{font-size: 13px !important; line-height: 15px;}
+
+
+.nav_mob{box-sizing: border-box; float: left; width: 100%;}
+.nav_mob a{font-size: 12px; color: #660099; font-weight: bold;}
+.nav_mob i{margin-right: 8px; vertical-align: -1px;}
+.nav_help{width: 25px; height: 25px; background-color: #fff; border: 1px solid #e9e9e9; border-radius: 50px; text-align: center; line-height: 25px; margin-top: -3px;}
+
+
+.error_alert{margin-top: 41px; background-color: #ee4646; padding: 15px; color: #fff; position: relative;}
+.error_alert p{font-family: robotoregular; width: 85%; font-size: 13px; font-weight: bold;}
+.error_alert .close_alert_error{position: absolute; color: #fff; right: 15px; top: 28px; display: block; font-size: 15px;}
+
+.use_tag{background-color: #99cc33; position: absolute; right: 15px; top: 20px; border-radius: 2px; color: 2px; padding: 1px 5px 3px 5px; color: #fff; font-weight: bold; font-size: 11px;}
+.border-rd{border-radius: 50px !important;}
+
+.cmp_porcent{font-family: robotoregular;}
+
+/* Historico de consumo */
+.cons_history{border-top: solid 1px #ebebeb; position: relative;}
+.cons_history i{position: absolute; color: #660099; right: 0; top: 27px;}
+.cons_history p{color: #660099; font-family: robotoregular; font-size: 12px; font-weight: bold; padding: 18px 0 24px 0;}
+.cons_history .content_historico {height: 150px; margin-bottom: 0; position: relative;}
+.cons_history span{font-family: robotoregular; font-size: 11px !important;}
+.cons_history .roxo_claro{background-color: #eb3c7d; border-bottom: 1px solid #fff;}
+.cons_history .wrap_barra_consumo{width: 45px;}
+.cons_history .wrap_barra_consumo .barra{width: 100%; z-index: 1; height: 150px;}
+.cons_history .wrap_barra_consumo .mes{width: 45px; text-transform: capitalize;}
+.cons_history .content_historico{border-top: 1px dashed #e5e5e5;}
+.cons_history .wrap_scroll{padding-top: 0; margin-top: 0; height: 180px;padding-top: 10px;}
+.cons_history .dashed_line{width: 100%; height: 1px; border-top: 1px dashed #e5e5e5; position: absolute; top: 20%; z-index: 0;}
+.tp_40{top: 40% !important;}
+.tp_60{top: 60% !important;}
+.tp_80{top: 80% !important;}
+.subtt_min{font-size: 10px;}
+.subtt_min .cmp_cor{width: 8px !important; height: 8px !important; margin-right: 6px !important; vertical-align: 0px !important;}
+
+.trans_arrow{transform: rotate(180deg); top: 21px !important;}
+
+/* Modal tutorial */
+.modal_tutorial{background: #fff;margin-top: 15%;}
+.wrap_star_modal > .btn_iniciar {text-align: center;padding: 25px 0; color: #FFF; background-color: #660099; font-size: 11px;margin: -1px;font-family:robotoregular}
+.slider_hd{padding: 0 18px 65px 18px; width: 100%; box-sizing: border-box; float: left;}
+.slider_hd h2{text-align: center; margin-top: 18px; margin-bottom: 8px;font-size: 22px;}
+.slider_hd p{float: left; font-family: robotoregular; font-size: 12px; color: #333; text-align: center; padding: 0 10%;}
+.modal_tutorial .swiper-pagination-bullet-active{background: #660099 !important;}
+.modal_tutorial .swiper-pagination-bullet{background: #ddd; margin: 0 4px !important;}
+.close_modal_tutorial{width: 30px; height: 30px; background-color: #660099; position: absolute; border-radius: 100px; right: 10px; top: 63px; color: #fff; text-align: center; line-height: 30px !important;z-index: 99;}
+.close_modal_tutorial.icon-82:before{line-height: 30px; font-size: 12px;}
+.swiper_tutorial img{width: 100%;margin-top: 20px;} 
+.swiper_tutorial .init_tutorial{background: #660099; width: 100%; height: 60px; line-height: 60px; float: left; color: #fff; font-family: robotoregular; font-size: 13px; text-align: center; font-weight: bold;}
+.swiper_tutorial .swiper-pagination{bottom: initial !important; top: 155px; z-index: -1;}
+.abs_bt{position: absolute; bottom: 0; right: 0; left: 0;}
+ .slider_hd_inicial{padding: 0px 18px 14px 18px;} 
+
+/* Padroes */
+.marginbottom5{margin-bottom: 5px}
+.marginbottom20{margin-bottom: 20px}
+.wrap_colors{margin: 20px 0;}
+.wrap_colors div{display: inline-block;width:100%;margin-bottom: 5px}
+.box-colors{float:left;width:20px;height: 20px;margin-right: 10px}
+.wrap_links{display: inline-block;width: 100%;margin:10px 0 5px;}
+.marginright15{margin-right:15px;}
+.link_lupa{background:url(assets/images/lupa_link.png) left;width: 16px;height: 15px;}
+.wrap_button{float: left;width: 100%;margin: 15px 0 0 ;}
+.img_cifra24{background:url(assets/images/24.png) no-repeat}
+.img_cifra18{background:url(assets/images/18.png) no-repeat}
+.wrap_select{display: inline-block;width:123px;margin:20px 0;    height: 116px;}
+.wrap_tabs, .wrap_check, .wrap_radio, .wrap_banner_text, .wrap_btns_fechar, .wrap_bancos{display: inline-block;width: 100%}
+.wrap_btns_fechar{background-color: #ecebe4;padding: 12px;}
+.wrap_bancos{background-color: #ecebe4;width: 100%;padding:12px;}
+.w145{width: 145px!important}
+
+/*cores*/
+	/*LINKS*/
+ /*roxo normal links*/
+.b660099{background-color:#660099!important}
+.f660099{color:#660099!important}
+ /*rosa claro hover links*/
+.ba3238e{background-color:#a3238e!important}
+.bce19b0{background-color:#ce19b0!important}/*.ba3238e{background-color:#a3238e!important} --cor original da agencia, nÃ£o ficou igual na web*/
+.fce19b0{color:#ce19b0!important}/*.fa3238e{color:#a3238e!important} --cor original da agencia, nÃ£o ficou igual na web*/
+ /*roxo escuro pressed links*/
+.b461e5f{background-color:#461e5f!important}
+.f461e5f{color:#461e5f!important}
+ /*roxo hover links*/
+.b551f7a{background-color:#551f7a!important}
+.f551f7a{color:#551f7a!important}
+
+	/*BUTTONS*/
+ /*verde buttons*/
+.b99cc33{background-color:#99cc33!important}
+.f99cc33{color:#99cc33!important}
+ /*verde hover buttons*/
+.b8ebc37{background-color:#8ebc37!important}
+.f8ebc37{color:#8ebc37!important}
+ /*verde escuro pressed buttons*/
+.b7ea831{background-color:#7ea831!important}
+.f7ea831{color:#7ea831!important}
+
+ /*cinza buttons*/
+.bd5d5d5{background-color:#d5d5d5!important}
+.fd5d5d5{color:#d5d5d5!important}
+ /*cinza hover buttons*/
+.bbababb{background-color:#bababb!important}
+.fbababb{color:#bababb!important}
+ /*cinza escuro pressed buttons*/
+.b999999{background-color:#999999}
+.f999999{color:#999999}
+
+/*elementos*/
+ul li{list-style: none}
+a{text-decoration: none;}
+h2, h3, h4, h5, h6{font-family:ITCOfficinaSerifBold;}
+.marginright5{margin-right: 5px;}
+.fontsize12{font-size: 12px !important}
+.fontsize14{font-size: 14px !important}
+.fontsize16{font-size: 16px !important}
+/*links*/
+.link_padrao{position: relative;float: left;color: #660099;font-weight: bold;text-decoration: none;font-family:trebuchet_msregular;font-size: 14px;padding-right: 14px}
+.link_padrao .icon{position:absolute;width:6px;height:100%;background:url(../images/seta_link.png) left 65% no-repeat;top:0;right:0;}
+.link_padrao:hover, .text_link:hover{color:#ce19b0!important;}
+.link_padrao:hover .icon{background-position: center 65%}
+.link_padrao:active,.text_link:active{color: #461e5f!important;}
+.link_padrao:active .icon{background-position: right 65%}
+.link_canto_mais{padding:15px 41px 10px 0;}
+.link_canto_mais .icon{width:41px;height:41px;background:url(../images/canto_mais.png) left}
+/*links com imagens*/
+.img_link{background-position: left center}
+.img_link:hover{background-position: center center}
+.img_link:active{background-position: right center}
+/*textos link em frases*/
+.text_link{float: left;color: #660099!important;text-decoration: underline !important;font-family:trebuchet_msregular;font-size: 14px}
+/*class padrao de botoes - independente de cores e tamanhos*/
+.buttons{font-family:ITCOfficinaSerifBookRegular;font-weight: bold;text-align: center;border-radius: 3px;color: #FFF!important;border-bottom: solid 2px;text-decoration: none}
+	/*tipo botoes*/
+.btn_small{width: 96px;font-size: 16px !important;padding:14px 0 13px;}
+.btn_32h{font-size: 14px;padding:7px 16px 6px;}
+.btn_48h{font-size: 16px;padding:14px 16px 13px;}
+.btn_64h{font-size: 28px;padding:15px 32px 13px;}
+.btn_small64h{font-size: 28px;padding:15px 0 13px;width: 214px}
+.btn_96h{font-size: 28px;padding:29px 32px 29px;border-bottom: solid 4px}
+	/*img button*/
+.btn_img_32h{padding-left: 50px;background-position: 16px center !important}
+.btn_img_48h{padding-left: 56px;background-position: 16px center !important}
+	
+.btn_exibir_mais{display:block;font-size:14px;padding:7px 16px 6px;}
+.btn_exibir_mais span{background:url(../images/exibir_mais.png) left center no-repeat;padding-left: 26px;font-family:ITCOfficinaSerifBookRegular;font-size: 14px;font-weight: normal}
+
+	/*cores botoes*/
+.purple_button{background-color: #660099!important;border-color: #461e5f}
+.purple_button:hover{background-color: #551f7a!important;}
+.purple_button:active{background-color: #461E5F!important;border-color: #461E5F!important}
+.green_button{background-color: #99cc33!important;border-color: #85bb1b;}
+.green_button:hover{background-color: #8ebc37!important}
+.green_button:active{background-color: #7ea831!important;border-color:#7ea831!important}
+.gray_button{background-color: #d5d5d5!important;border-color: #bebebe;color:#67656a!important;}
+.gray_button:hover{background-color: #bababb!important}
+.gray_button:active{background-color: #999!important;color: #FFF;border-color: #999!important}
+
+/*select;*/
+	/*new select*/
+.wrap_padrao_select{float:left;width:100%;position:relative;cursor:pointer}
+.wrap_padrao_select .select_item{display:block;background-color:#FFF;line-height:13px;color:#666;border:solid 1px #dbdbdb;padding:10px 20px 10px 10px;position:relative;z-index:100;font-family:trebuchet_msregular;font-size:12px}
+.wrap_padrao_select .select_item:hover{background-color:#ededef}
+.wrap_padrao_select .icone_canto{position:absolute;width:9px;height:6px;right:8px;top:42%;background:url(../images/seta.png) left;z-index:101}
+.wrap_padrao_select .select_list_content{;display:none;position:absolute;width:100%;height:auto;background-color:#FFF;z-index:101;top: 100%;}
+.wrap_padrao_select .select_list_content .select_list{display:block;border:solid 1px #dedede;border-top:none;font-family:trebuchet_msregular;font-size:12px}
+.wrap_padrao_select .select_list .item{padding: 7px 0 7px 10px;cursor: pointer;color: #334}
+.wrap_padrao_select .select_list .item:hover{background-color: #ededef}
+.wrap_padrao_select .select{display: none;}
+
+.wrap_padrao_select_active{-webkit-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);
+	-moz-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);
+	box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5);}
+.wrap_padrao_select_active .select_list_content{-webkit-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);
+	-moz-box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5)rgba(181,181,181,1);
+	box-shadow: 1px 2px 5px 1px rgba(181,181,181,0.5);}
+.wrap_padrao_select_active .select_item{background-color: #dedfe0!important }
+.wrap_padrao_select_active .icone_canto{background-position: right}
+		/*fim --select*/
+/*select 2 linhas*/
+.select_2_lines .select_item{padding:7px 20px 10px 10px;}
+.select_2_lines .select_item div{margin-bottom: 3px;font-size: 10px}
+.select_2_lines .select_item span{color: #000}
+
+/*buttons tab*/
+.padrao_tab{width:160px;float:left;border-radius:45px;background-color: #fff;padding: 6px 0;text-align: center;cursor:pointer;border: solid 1px #dedede;webkit-box-shadow: 0px 2px 7px 0px rgba(181,181,181,0.5)rgba(181,181,181,1);-moz-box-shadow: 0px 2px 7px 0px  rgba(181,181,181,0.5)rgba(181,181,181,1);box-shadow: 0px 2px 7px 0px rgba(181,181,181,0.5);}
+.padrao_tab .desc_tab{color:#660099;font-family:ITCOfficinaSerifBookRegular;font-size:18px;font-weight: bold;height: 35px;padding-top: 1px;padding-left: 34px;line-height: 36px;}
+.padrao_tab:hover{background-color: #ededef }
+.padrao_tab:hover .desc_tab{background-position: left center;color: #ce19b0;}
+.active_tab{background-color:#660099!important;}
+.active_tab .desc_tab{color:#FFF !important;background-position:left bottom !important}
+
+.tab_estrela .desc_tab{background: url(../images/estrela.png) left top  no-repeat;padding-left: 34px;}
+.tab_card .desc_tab{background: url(../images/card.png) left top  no-repeat;padding-left: 38px;}
+.tab_beneficios .desc_tab{background: url(../images/presente.png) left top  no-repeat;padding-left: 38px;}
+
+.padrao_check, .padrao_radio{clear:left;width:100%;position: relative;}
+.padrao_check input[type='checkbox'], .padrao_radio input[type='radio']{width:16px;height:16px;opacity:0;z-index:9;position:relative;float:left;padding:0;margin:0;}
+.padrao_check .icon, .padrao_radio .icon{width:16px;height:16px;float:left;position:absolute;left:0;top:0;}
+.padrao_check .icon{background: url(ShowPropertyServlet?nodeId=/UCMRepository/WM_MV_IMG_ICON_CHECK)}
+.padrao_radio .icon{background: url(../images/icon_radio.png)}
+.padrao_check .desc, .padrao_radio .desc{font-family:robotoregular;font-size:14px;color: #666;padding-left: 25px}
+.padrao_check .link{color: #660099;text-decoration: underline!important;}
+.padrao_check input:checked ~ span, .padrao_radio input:checked ~ span{background-position:right!important;}
+.padrao_check input:checked ~ p, .padrao_radio input:checked ~ p{font-weight: bold;color:#333;}
+
+.padrao_banner_text{position: relative;float:left;width:238px;padding:17px 35px 14px 80px;font-family:trebuchet_msregular;font-size:14px;color: #666;border:solid 1px #ededee;border-radius: 3px;webkit-box-shadow: 0px 2px 7px 0px rgba(181,181,181,0.5)rgba(181,181,181,1);-moz-box-shadow: 0px 2px 7px 0px  rgba(181,181,181,0.5)rgba(181,181,181,1);box-shadow: 0px 2px 7px 0px rgba(181,181,181,0.5)}
+.padrao_banner_text:hover{background-position: left center;background-color: #ededee}
+.padrao_banner_text:active{background-position: left bottom;background-color: #dedfe0}
+.padrao_banner_text .icon{position: absolute;width: 8px;height: 12px;right:23px;top:27px;background: url(../images/seta_banner.png)}
+.padrao_banner_text strong{display: block}
+.padrao_banner_text:hover .icon{background-position: center}
+.padrao_banner_text:active .icon{background-position:right}
+
+.banner_conta_digital{background: url(../images/banner_conta_digital.png) left top no-repeat}
+/*btn fechar roxo*/
+.btn_fechar_wp{width: 21px;height: 21px;background: url(../images/btn_fechar_wp.png) left}
+.btn_fechar_wp:hover{background-position: center}
+.btn_fechar_wp:active{background-position: right}
+/*btn fechar verde*/
+.btn_fechar_wg{width: 21px;height: 21px;background: url(../images/btn_fechar_wg.png) left}
+.btn_fechar_wg:hover{background-position: center}
+.btn_fechar_wg:active{background-position: right}
+/*btn fechar cinza e roxo*/
+.btn_fechar_gp{width: 21px;height: 21px;background: url(../images/btn_fechar_gp.png) left}
+.btn_fechar_gp:hover{background-position: center}
+.btn_fechar_gp:active{background-position: right}
+/*box bancos*/
+.box_banco_brasil{background: url(../images/banco_brasil.png) no-repeat}
+.box_banco_bradesco{background: url(../images/banco_bradesco.png) no-repeat}
+.box_banco_itau{background: url(../images/banco_itau.png) no-repeat}
+.box_banco_santander{background: url(../images/banco_santander.png) no-repeat}
+.padrao_box_banco{float:left;width: 150px;height: 127px;border-bottom: solid 1px #dedfe0;background-position: center;background-color: #FFF;cursor: pointer}
+.padrao_box_banco:hover{background-color: #ededee}
+.padrao_box_banco:active{background-color: #dedfe0}
+
+.labelMb{margin-top: -9px;}
+
+.no-pdd-lr{padding-left:0;padding-right:0;}
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra{display: inline-block;width:100%;padding:0!important; }
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra:last-child{border-bottom:none }
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra .item_header{float:left;width:100%;position: relative;padding:17px 15px 17px;box-sizing: border-box;;}
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra .icon-seta{position:absolute;padding-top:7px;height:7px;right:20px;top:0;bottom:0;margin:auto;}
+
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra .content_item_cons{display: inline-block;width: 100%;box-sizing: border-box;padding:0 15px;}
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra .list_content{display:none }
+.wrap.meus_pacotes_1132718_desc_cons_barra .content_item_cons > .desc_content{font-size: 11px;color: #333;font-family: robotoregular;padding: 0 4px 20px;}
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens .second_list_top{padding-left:7px;}
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens > li {border-top: solid 1px #ebebeb;display: inline-block;width: 100%}
+
+/*situação do pacote*/
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens .second_list_top .situacao_pacote{ width:70px;;position: absolute;height: 25px;text-align: center;right: 35px;top: 0;bottom: 0;margin: auto;}
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens .second_list_top .situacao_pacote .emuso{font-family: robotoregular;display:inline-block;color:#FFF;background-color:#99cc33;padding:5px;border-radius:6px;display:inline-block;font-size: 12px}
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens .second_list_top .situacao_pacote .contcons{font-family: robotoregular;display:inline-block;color: #333;padding:5px;font-size: 12px}
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens .second_list_top > .icon-seta{right: 5px}
+/*barra com o consumo borda redona*/
+.wrap.meus_pacotes_1132718_desc_cons_barra .visao-unica-consumido{overflow: hidden;background-color: #e5e5e5;border-radius: 100px}
+.wrap.meus_pacotes_1132718_desc_cons_barra .visao-unica-consumido > .consumido{border-radius: 100px}
+
+.d-inline-block{display: inline-block;}
+.p-b-20{padding-bottom: 20px}
+.w100p{width:100%;}
+.fs-14{font-size: 14px}
+.border-none{border:none;}
+.no-pdd-lr{padding-left:0!important;padding-right:0!important;}
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra{display: inline-block;width:100%;padding:0!important; }
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra:last-child{border-bottom:none }
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra .item_header{float:left;width:100%;position: relative;padding:17px 15px 17px;box-sizing: border-box;;}
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra .icon-seta{position:absolute;padding-top:7px;height:7px;right:20px;top:0;bottom:0;margin:auto;}
+
+.wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra .content_item_cons{display: inline-block;width: 100%;box-sizing: border-box;padding:0 15px;}
+ .wrap.meus_pacotes_1132718_desc_cons_barra > .item_desc_cons_barra .list_content{display:none }
+.wrap.meus_pacotes_1132718_desc_cons_barra .content_item_cons > .desc_content{font-size: 11px;color: #333;font-family: robotoregular;padding: 0 4px 20px;}
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens .second_list_top{padding-left:7px;}
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens > li {border-top: solid 1px #ebebeb;display: inline-block;width: 100%}
+
+/*situação do pacote*/
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens .second_list_top .situacao_pacote{ width:70px;;position: absolute;height: 25px;text-align: center;right: 35px;top: 0;bottom: 0;margin: auto;}
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens .second_list_top .situacao_pacote .emuso{font-family: robotoregular;display:inline-block;color:#FFF;background-color:#99cc33;padding:5px;border-radius:6px;display:inline-block;font-size: 12px}
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens .second_list_top .situacao_pacote .contcons{font-family: robotoregular;display:inline-block;color: #333;padding:3px 5px 5px 20px;font-size: 12px}
+.wrap.meus_pacotes_1132718_desc_cons_barra .second_list_itens .second_list_top > .icon-seta{right: 5px}
+/*barra com o consumo borda redona*/
+.wrap.meus_pacotes_1132718_desc_cons_barra .visao-unica-consumido{overflow: hidden;background-color: #e5e5e5;border-radius: 100px}
+.wrap.meus_pacotes_1132718_desc_cons_barra .visao-unica-consumido > .consumido{border-radius: 100px}
+/*barra de consumo unica cor*/
+.content_vivo_bis.barra_unica .wrap_barra_consumo .barra .cmp_usado{position: absolute!important}
+.wrap.list_1132718_desc_cons_barra.dist_linha .item_desc_cons_barra{padding: 0!important;display: inline-block;width:100%;}
+.wrap.list_1132718_desc_cons_barra.dist_linha .item_desc_cons_barra .content_item_cons{padding:0;}
+.wrap.list_1132718_desc_cons_barra.dist_linha .item_desc_cons_barra > .item_header{padding: 15px 0}
+.wrap.list_1132718_desc_cons_barra.dist_linha .item_desc_cons_barra .item_header .icon-seta{height:5px;padding-top:5px;right:0}
+.wrap_btn_bigger .contrata_pacote_adicional{margin-top: 40px;}
+.sem_historico{white-space: pre-line !important; overflow-x: hidden !important; }
+.sem_historico p{font-size: 11px;color: #333;font-family: robotoregular;padding: 0 4px 20px;text-align:center;}
+
+.lowercase{text-transform:lowercase;}
+
+.border-100-redonda{overflow: hidden; background-color: #e5e5e5; border-radius: 100px !important;}
+
+/* [1132718] Multi Cotas - FIM*/
+
+/* AJUSTES VIVO VALORIZA */
+.vv_plano {
+	display:block;
+	position:relative;
+	padding-top:0!important;
+	background:none!important;
+}
+
+.vv_plano img {
+	width:100%;
+}
+
+.vv_plano .point{
+	position: absolute;
+	width: 60%;
+	height: 50px;
+	right: 0;
+	bottom: 19%;
+}
+
+.vv_plano .point .title{
+	margin-bottom:5px;
+}
+
+.vv_plano .point .value{
+	color:#660099;
+	font-weight:bold;
+}
+
+.vv_plano .redirect{
+	position: absolute;
+	width: 92%;
+	height: 37px;
+	left: 4%;
+	bottom: 5%;
+	padding-top: 13px;
+}
+
+.vv_plano .redirect a{
+	display: block;
+	font-size: 15px;
+	color: #660099;
+	font-weight: bold;
+	padding: 0 25px;
+}
+.vv_plano .redirect .icon{
+	float: right;
+	height: 9px;
+	padding-top: 10px;
+}
+
+.content .colcenter {
+	min-height: calc(100% - 135px) !important;
+}
+
