@@ -1,4 +1,4 @@
-
+var modalRenovacao = null;
 $(document).ready(function(){
     $(".carrossel").slick({
         slidesToShow: 2,
@@ -8,7 +8,26 @@ $(document).ready(function(){
         nextArrow:'<div class="box-slick-btn box-slick-btn-right"><div class="box-slick-btn-content"><div class="slick-btn"><span class="slick-text"><i class="atom-icon icon-arrow_down down down-left rotate-270" ></i></span></div></div></div>'  
     });
     $("#accordion").accordions();   
-    
+    modalRenovacao = $("#modal-renocao").modalBeatrix({
+        title:"Antecipar renovação",
+        bottons:[
+                    {
+                        text:"Cancelar",
+                        classCss:"white",
+                        onClick:function(){
+                            modalRenovacao.close()
+                        }
+                    },
+                    {
+                        text:"Confirmar antecipação",
+                        classCss:"",
+                        onClick:function () {
+                            alert("Renovado");
+                            modalRenovacao.close();
+                        }
+                    }
+                ]
+    });
      
 });
 

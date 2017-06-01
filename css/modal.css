@@ -1,14 +1,12 @@
-.window{
+#modal{
     display:none;
-    width:300px;
-    height:300px;
+    width:80%;
+    height:auto;
     position:absolute;
     left:0;
     top:0;
     background:#FFF;
     z-index:9900;
-    padding:10px;
-    border-radius:10px;
 }
  
 #mascara{
@@ -17,7 +15,95 @@
     left:0;
     top:0;
     z-index:9000;
-    background-color:#000;
+    background-color: rgba(51, 51, 51, 0.85);
+    border: solid 1px #979797;
 }
  
 .fechar{display:block; text-align:right;}
+
+.modal-header{
+  height: 64px;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+  background-image: linear-gradient(to right, #660099, #ad73ca 81%, #a078b4);
+}
+
+.modal-header-triangle{
+    border-style: solid;
+border-width: 32px 0 32px 15px;
+border-color: transparent transparent transparent #461e5f;
+  width: 20px;
+  height: 64px;
+  left: 57px;
+}
+
+.modal-header-icon{
+    width: 57px;
+  height: 64px;
+  background-color: #461e5f;
+}
+.btn-modal-close{
+  width: 21px;
+  height: 21px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  right: 20px;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    font-family: robotoregular;
+    font-size: 14px;
+}
+.modal-title{
+    font-family: ITCOfficinaSerifBold;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 17px;
+  margin-top: 16px;
+
+}
+
+.modal-body{
+    padding-left: 93px;
+    padding-right: 93px;
+}
+.scroll{
+    overflow-y: scroll;
+}
+
+.scroll:-webkit-scrollbar {
+    width: 8px;
+}
+ 
+.scroll:-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+.scroll:-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.modal-actions-btns {
+        position: relative;
+    min-height: 1px;
+    float: left;
+    height: auto;
+    overflow: hidden;
+    padding-left: 93px;
+    padding-right: 93px;
+    padding-bottom: 47px;
+    padding-top: 23px;;
+}
+
+.modal-actions-btns .btn{
+        min-width: 96px;
+    position: relative;
+    min-height: 1px;
+    float: left;
+    margin-right: 16px;
+}

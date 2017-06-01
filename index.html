@@ -54,7 +54,7 @@
                               <div class="row-middle">
                                 <h1>R$ 39,99/mês</h1>
                                 <a href="#janela1" rel="modal">Janela modal</a>
-                                <div class="btn">Antecipar Renovação</div>
+                                <div class="btn" onclick='modalRenovacao.open()'>Antecipar Renovação</div>
                               </div>
                               
                             </div>
@@ -281,13 +281,56 @@
                 </div>
             </div>
         </div>
-        <div class="window" id="janela1">
-            <a href="#" class="fechar">X Fechar</a>
-            <h4>Primeira janela moda</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis auctor tempus. Lorem ipsum dolor sit amet,</p>
-            <p>Morbi dui lacus, placerat eget pretium vehicula, mollis id ligula. Nulla facilisi. </p>
+        <div id="modal-renocao">
+            <h5>Antecipar renovação da Vivo Turbo R$39,90</h5>
+            <h6>Renove agora por R$39,99 e comece a usar. A validade da promoção será contada a partir de hoje.</h6>
+            <div class="space line-horizontal"></div>
+            <div class="scroll enable">
+                <h5>Termos e condições de uso</h5>
+                <p>Autorizo a VIVO a enviar, apenas por e-mail, o aviso de disponibilidade da minha conta, obrigando-me a quitá-la até sua data de vencimento, sob pena de sujeitar-me às sanções decorrentes da inadimplência perante a VIVO.</p>
+            </div>
+            <div class="space"></div>
+            <div>
+                <div><input type="checkbox">Declaro que li e aceito os termos de ativação da promoção.</div>
+            </div>
+        </div>
+        <!--<div id="modal">
+            <div class="modal-header">
+                <div class="col-1 ">
+                    <div class="modal-header-icon"> 
+
+                    
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div class="modal-title">
+                        Antecipar renovação
+                    </div>                     
+                </div>
+                <div class="col-1">
+                    <div class="btn-modal-close">
+                        X
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <h5>Antecipar renovação da Vivo Turbo R$39,90</h5>
+                <h6>Renove agora por R$39,99 e comece a usar. A validade da promoção será contada a partir de hoje.</h6>
+                <div class="space line-horizontal"></div>
+                <div class="scroll enable">
+                    <h5>Termos e condições de uso</h5>
+                    <p>Autorizo a VIVO a enviar, apenas por e-mail, o aviso de disponibilidade da minha conta, obrigando-me a quitá-la até sua data de vencimento, sob pena de sujeitar-me às sanções decorrentes da inadimplência perante a VIVO.</p>
+                </div>
+                <div class="space"></div>
+                <div>
+                    <div><input type="checkbox">Declaro que li e aceito os termos de ativação da promoção.</div>
+                </div>
+            </div>
+            <div class="modal-actions-btns">
+                <div class="btn white">Cancelar</div>
+                <div class="btn">Confirmar antecipação</div>
+            </div>            
         </div> 
-        <!-- mascara para cobrir o site -->  
-        <div id="mascara"></div>
+        <div id="mascara"></div>-->
     </body>
 </html>
